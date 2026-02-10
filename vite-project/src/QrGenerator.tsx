@@ -30,17 +30,18 @@
 // };
 
 // export default QrGenerator;
-
 import React, { useRef, useState } from "react";
 import QRCode from "react-qr-code";
 
 const QrGenerator: React.FC = () => {
-  const [input, setInput] = useState("");
-  const [link, setLink] = useState("");
+  const [input, setInput] = useState<string>("");
+  const [link, setLink] = useState<string>("");
+
+  // Use ref for the SVG element
   const qrRef = useRef<SVGSVGElement | null>(null);
 
   const generateQR = () => {
-    setLink(input); // No validation, just generate QR
+    setLink(input);
   };
 
   const downloadQR = () => {
@@ -95,7 +96,7 @@ const QrGenerator: React.FC = () => {
 
       {link && (
         <div style={styles.qrBox}>
-          <QRCode value={link} size={200} ref={qrRef} />
+          <QRCode value={link} size={200} ref={qrRef as any} />
 
           <button
             onClick={downloadQR}
