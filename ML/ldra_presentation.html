@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDRA Software - Interactive Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            color: #fff;
+        }
+
+        .presentation-container {
+            width: 100%;
+            height: 100vh;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .slide-container {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 60px 80px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            opacity: 1;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            color: #4da6ff;
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #4da6ff;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #4da6ff;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #66b3ff;
+            font-size: 1.8em;
+            margin: 25px 0 15px 0;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: 20px;
+        }
+
+        ul li {
+            padding: 12px 0;
+            font-size: 1.4em;
+            color: #fff;
+            position: relative;
+            padding-left: 35px;
+        }
+
+        ul li:before {
+            content: "▸";
+            color: #4da6ff;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 60px;
+            background: #111;
+            border-top: 2px solid #333;
+        }
+
+        .nav-button {
+            background: linear-gradient(135deg, #4da6ff 0%, #0066cc 100%);
+            color: white;
+            border: none;
+            padding: 15px 35px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(77, 166, 255, 0.4);
+        }
+
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(77, 166, 255, 0.6);
+        }
+
+        .nav-button:active {
+            transform: translateY(0);
+        }
+
+        .nav-button:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .slide-counter {
+            font-size: 1.3em;
+            color: #4da6ff;
+            font-weight: bold;
+        }
+
+        .step-box {
+            background: #1a1a1a;
+            border-left: 5px solid #4da6ff;
+            padding: 25px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .step-box h3 {
+            margin-top: 0;
+            color: #66b3ff;
+        }
+
+        .highlight {
+            background: #2d5016;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #8fdf3f;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid #4da6ff;
+        }
+
+        .content-scroll {
+            overflow-y: auto;
+            flex: 1;
+            padding-right: 10px;
+        }
+
+        .content-scroll::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .content-scroll::-webkit-scrollbar-track {
+            background: #1a1a1a;
+            border-radius: 10px;
+        }
+
+        .content-scroll::-webkit-scrollbar-thumb {
+            background: #4da6ff;
+            border-radius: 10px;
+        }
+
+        .intro-subtitle {
+            text-align: center;
+            font-size: 1.6em;
+            color: #bbb;
+            margin-top: -10px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="slide-container">
+            <!-- Slide 1: Title -->
+            <div class="slide active">
+                <h1>LDRA Software</h1>
+                <p class="intro-subtitle">Quality Assurance for Mission-Critical Software</p>
+                <div style="text-align: center; margin-top: 80px;">
+                    <p style="font-size: 2em; color: #fff; max-width: 900px; margin: 0 auto; line-height: 1.8; font-weight: 500;">
+                        A comprehensive software testing and verification tool for safety-critical systems
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 2: What is LDRA -->
+            <div class="slide">
+                <h2>What is LDRA Software?</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.5em; margin-bottom: 30px; color: #ddd;">
+                        LDRA is a software tool that checks other software.
+                    </p>
+                    <h3>It helps developers make sure their programs are:</h3>
+                    <ul>
+                        <li>Correct</li>
+                        <li>Safe</li>
+                        <li>Secure</li>
+                        <li>Well-tested</li>
+                    </ul>
+                    <div class="card" style="margin-top: 40px;">
+                        <h3 style="margin-top: 0;">Primary Use Case</h3>
+                        <p style="font-size: 1.3em; color: #ddd;">
+                            LDRA is mostly used for important systems where a small mistake can cause big problems 
+                            (like airplanes, cars, medical machines, trains).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Why LDRA -->
+            <div class="slide">
+                <h2>Why Do We Need LDRA?</h2>
+                <div class="content-scroll">
+                    <h3>Common Software Mistakes:</h3>
+                    <ul>
+                        <li>Wrong logic</li>
+                        <li>Unused code</li>
+                        <li>Risky instructions</li>
+                        <li>Security problems</li>
+                        <li>Code that is never tested</li>
+                    </ul>
+                    <div class="grid-2" style="margin-top: 40px;">
+                        <div class="card">
+                            <h3 style="margin-top: 0;">Normal Apps</h3>
+                            <p style="font-size: 1.3em;">Small bugs are acceptable</p>
+                        </div>
+                        <div class="card">
+                            <h3 style="margin-top: 0;">Critical Systems</h3>
+                            <p style="font-size: 1.3em;">Bugs can cause serious accidents</p>
+                        </div>
+                    </div>
+                    <div class="highlight" style="display: block; margin-top: 40px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        LDRA finds these problems early, before the software is used.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: What LDRA Does -->
+            <div class="slide">
+                <h2>What Does LDRA Actually Do?</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 30px; color: #ddd;">
+                        LDRA mainly does three things:
+                    </p>
+                    
+                    <div class="step-box">
+                        <h3>1. Static Analysis</h3>
+                        <p style="font-size: 1.3em; margin-top: 10px; color: #ddd;">Checks the code without running it</p>
+                    </div>
+
+                    <div class="step-box">
+                        <h3>2. Dynamic Analysis</h3>
+                        <p style="font-size: 1.3em; margin-top: 10px; color: #ddd;">Tests the code by running it</p>
+                    </div>
+
+                    <div class="step-box">
+                        <h3>3. Traceability</h3>
+                        <p style="font-size: 1.3em; margin-top: 10px; color: #ddd;">Connects requirements to code</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Static Analysis -->
+            <div class="slide">
+                <h2>1. Static Analysis</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 20px; color: #ddd;">
+                        Checks the code <span class="highlight">without running it</span>
+                    </p>
+                    
+                    <h3>How it works:</h3>
+                    <ul>
+                        <li>LDRA reads the program line by line</li>
+                        <li>Finds errors</li>
+                        <li>Detects bad coding style</li>
+                        <li>Identifies unsafe instructions</li>
+                        <li>Checks if code follows rules and standards</li>
+                    </ul>
+
+                    <div class="card" style="margin-top: 30px;">
+                        <h3 style="margin-top: 0;">Example</h3>
+                        <p style="font-size: 1.3em;">
+                            If a rule says <em>"don't use dangerous memory access"</em>, 
+                            LDRA will warn you immediately.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Dynamic Analysis -->
+            <div class="slide">
+                <h2>2. Dynamic Analysis</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 20px; color: #ddd;">
+                        Tests the code <span class="highlight">by running it</span>
+                    </p>
+                    
+                    <h3>What LDRA checks:</h3>
+                    <ul>
+                        <li>LDRA runs the program with test cases</li>
+                        <li>Which parts of code were executed</li>
+                        <li>Which parts were never tested</li>
+                    </ul>
+
+                    <div class="step-box" style="margin-top: 30px;">
+                        <h3>This is called: Code Coverage</h3>
+                        <p style="font-size: 1.4em; margin-top: 15px; color: #ddd;">
+                            It answers: <strong>"Did we test everything or not?"</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Traceability -->
+            <div class="slide">
+                <h2>3. Requirements Traceability</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 20px; color: #ddd;">
+                        Connects requirements to code
+                    </p>
+                    
+                    <h3>Every project has requirements</h3>
+                    <p style="font-size: 1.3em; color: #ddd; margin-bottom: 20px;">
+                        (what the software should do)
+                    </p>
+
+                    <div class="step-box">
+                        <h3>LDRA links:</h3>
+                        <p style="font-size: 1.5em; margin-top: 15px; text-align: center; color: #4da6ff; font-weight: bold;">
+                            Requirements → Code → Tests → Results
+                        </p>
+                    </div>
+
+                    <div class="card" style="margin-top: 30px;">
+                        <h3 style="margin-top: 0;">This proves that:</h3>
+                        <p style="font-size: 1.4em; text-align: center; font-style: italic; color: #ddd;">
+                            "Yes, this software really does what was required."
+                        </p>
+                        <p style="font-size: 1.3em; margin-top: 15px; text-align: center; color: #ddd;">
+                            Very important for certification
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Standards -->
+            <div class="slide">
+                <h2>What Rules Does LDRA Check?</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 30px; color: #ddd;">
+                        LDRA checks famous safety and security rules:
+                    </p>
+                    
+                    <div class="grid-2">
+                        <div class="card">
+                            <h3 style="margin-top: 0;">MISRA</h3>
+                            <p style="font-size: 1.3em;">For automotive software</p>
+                        </div>
+                        <div class="card">
+                            <h3 style="margin-top: 0;">CERT</h3>
+                            <p style="font-size: 1.3em;">Secure coding standards</p>
+                        </div>
+                        <div class="card">
+                            <h3 style="margin-top: 0;">Aviation Rules</h3>
+                            <p style="font-size: 1.3em;">DO-178C and more</p>
+                        </div>
+                        <div class="card">
+                            <h3 style="margin-top: 0;">ISO Standards</h3>
+                            <p style="font-size: 1.3em;">International standards</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight" style="display: block; margin-top: 40px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        This makes the software safe and trusted
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Where Used -->
+            <div class="slide">
+                <h2>Where is LDRA Used?</h2>
+                <div class="content-scroll">
+                    <h3>Industries:</h3>
+                    <ul style="font-size: 1.2em;">
+                        <li>Aircraft software</li>
+                        <li>Car control systems</li>
+                        <li>Medical devices</li>
+                        <li>Railway systems</li>
+                        <li>Industrial machines</li>
+                    </ul>
+
+                    <div class="card" style="margin-top: 50px;">
+                        <h3 style="margin-top: 0; text-align: center;">Key Principle</h3>
+                        <p style="font-size: 1.6em; text-align: center; color: #4da6ff; font-weight: bold;">
+                            Basically, where failure is NOT allowed
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Why Companies Use -->
+            <div class="slide">
+                <h2>Why Companies Use LDRA?</h2>
+                <div class="content-scroll">
+                    <h3>Benefits:</h3>
+                    <ul>
+                        <li>Finds errors early</li>
+                        <li>Saves time and money</li>
+                        <li>Improves software quality</li>
+                        <li>Helps pass safety audits</li>
+                        <li>Creates reports for certification</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 11: Types of Software -->
+            <div class="slide">
+                <h2>Types of Software LDRA Works With</h2>
+                <div class="content-scroll">
+                    <h3>Programming Languages:</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Ada</li>
+                    </ul>
+
+                    <div class="step-box" style="margin-top: 30px;">
+                        <h3>Embedded Software</h3>
+                        <p style="font-size: 1.3em; margin-top: 10px; color: #ddd;">
+                            Software inside machines
+                        </p>
+                    </div>
+
+                    <h3 style="margin-top: 30px;">Embedded software runs inside:</h3>
+                    <div class="grid-2">
+                        <div class="card"><p style="font-size: 1.3em;">Cars</p></div>
+                        <div class="card"><p style="font-size: 1.3em;">Airplanes</p></div>
+                        <div class="card"><p style="font-size: 1.3em;">Washing machines</p></div>
+                        <div class="card"><p style="font-size: 1.3em;">Medical equipment</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Steps Overview -->
+            <div class="slide">
+                <h2>Steps of LDRA Software</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 30px; color: #ddd;">
+                        LDRA follows a fixed process to check software quality:
+                    </p>
+                    
+                    <ul style="font-size: 1.2em;">
+                        <li>Step 1: Input the Source Code</li>
+                        <li>Step 2: Static Code Analysis</li>
+                        <li>Step 3: Code Structure Checking</li>
+                        <li>Step 4: Standards Compliance Checking</li>
+                        <li>Step 5: Test Case Generation</li>
+                        <li>Step 6: Dynamic Analysis</li>
+                        <li>Step 7: Code Coverage Checking</li>
+                        <li>Step 8: Requirements Traceability</li>
+                        <li>Step 9: Report Generation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 13: Step 1 -->
+            <div class="slide">
+                <h2>Step 1: Input the Source Code</h2>
+                <div class="content-scroll">
+                    <ul>
+                        <li>Developer writes the program (mostly in C / C++ / Ada)</li>
+                        <li>This code is given to LDRA tool</li>
+                    </ul>
+
+                    <div class="highlight" style="display: block; margin-top: 60px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: LDRA does not change the code, it only checks it.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Step 2 -->
+            <div class="slide">
+                <h2>Step 2: Static Code Analysis</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 20px; color: #ddd;">
+                        LDRA reads the code <span class="highlight">without running it</span>
+                    </p>
+                    
+                    <h3>It checks:</h3>
+                    <ul>
+                        <li>Syntax errors</li>
+                        <li>Unused variables</li>
+                        <li>Complex logic</li>
+                        <li>Unsafe instructions</li>
+                        <li>Rule violations (MISRA, CERT, etc.)</li>
+                    </ul>
+
+                    <div class="highlight" style="display: block; margin-top: 60px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: This step finds problems very early.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Step 3 -->
+            <div class="slide">
+                <h2>Step 3: Code Structure Checking</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 20px; color: #ddd;">
+                        This is where structure checking happens.
+                    </p>
+                    
+                    <div class="step-box">
+                        <h3>Control Flow</h3>
+                        <ul>
+                            <li>How the program flows</li>
+                            <li>if-else, loops, switches</li>
+                            <li>Detects unreachable code</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-box">
+                        <h3>Data Flow</h3>
+                        <ul>
+                            <li>How data is used</li>
+                            <li>Uninitialized variables</li>
+                            <li>Wrong data usage</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-box">
+                        <h3>Function Structure</h3>
+                        <ul>
+                            <li>Function length</li>
+                            <li>Nesting depth</li>
+                            <li>Complexity level</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight" style="display: block; margin-top: 30px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: This ensures code is clean and understandable.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 16: Step 4 -->
+            <div class="slide">
+                <h2>Step 4: Standards Compliance</h2>
+                <div class="content-scroll">
+                    <h3>LDRA compares the code with:</h3>
+                    <ul>
+                        <li>MISRA rules</li>
+                        <li>Safety standards</li>
+                        <li>Company coding rules</li>
+                    </ul>
+
+                    <div class="highlight" style="display: block; margin-top: 80px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: If any rule is broken → LDRA shows a warning or error.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 17: Step 5 -->
+            <div class="slide">
+                <h2>Step 5: Test Case Generation</h2>
+                <div class="content-scroll">
+                    <ul>
+                        <li>LDRA helps create test cases</li>
+                        <li>Tests are designed to run all important paths</li>
+                        <li>Check boundary values</li>
+                    </ul>
+
+                    <div class="highlight" style="display: block; margin-top: 80px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: This reduces manual testing effort.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 18: Step 6 -->
+            <div class="slide">
+                <h2>Step 6: Dynamic Analysis</h2>
+                <div class="content-scroll">
+                    <p style="font-size: 1.4em; margin-bottom: 20px; color: #ddd;">
+                        Run the Code
+                    </p>
+                    
+                    <ul>
+                        <li>Code is executed with test cases</li>
+                        <li>LDRA observes program behavior</li>
+                        <li>Runtime errors are detected</li>
+                    </ul>
+
+                    <div class="highlight" style="display: block; margin-top: 80px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: This shows how the code behaves in real conditions.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 19: Step 7 -->
+            <div class="slide">
+                <h2>Step 7: Code Coverage Checking</h2>
+                <div class="content-scroll">
+                    <h3>LDRA checks:</h3>
+                    <div class="step-box">
+                        <h3>Statement Coverage</h3>
+                        <p style="font-size: 1.3em; color: #ddd;">Lines executed</p>
+                    </div>
+
+                    <div class="step-box">
+                        <h3>Branch Coverage</h3>
+                        <p style="font-size: 1.3em; color: #ddd;">Decisions tested</p>
+                    </div>
+
+                    <div class="step-box">
+                        <h3>Path Coverage</h3>
+                        <p style="font-size: 1.3em; color: #ddd;">Logic paths</p>
+                    </div>
+
+                    <div class="highlight" style="display: block; margin-top: 30px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: Any untested code is highlighted.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 20: Step 8 -->
+            <div class="slide">
+                <h2>Step 8: Requirements Traceability</h2>
+                <div class="content-scroll">
+                    <h3>LDRA links:</h3>
+                    <div class="step-box">
+                        <p style="font-size: 1.6em; text-align: center; color: #4da6ff; font-weight: bold;">
+                            Requirements → Code → Test → Result
+                        </p>
+                    </div>
+
+                    <div class="highlight" style="display: block; margin-top: 80px; padding: 20px; font-size: 1.4em; text-align: center;">
+                        Note: This proves that every requirement is tested.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 21: Step 9 -->
+            <div class="slide">
+                <h2>Step 9: Report Generation</h2>
+                <div class="content-scroll">
+                    <h3>LDRA creates:</h3>
+                    <ul>
+                        <li>Error reports</li>
+                        <li>Coverage reports</li>
+                        <li>Compliance reports</li>
+                    </ul>
+
+                    <div class="step-box" style="margin-top: 50px;">
+                        <h3>Used for:</h3>
+                        <ul>
+                            <li>Audits</li>
+                            <li>Certification</li>
+                            <li>Project review</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 22: Thank You -->
+            <div class="slide">
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+                    <h1 style="font-size: 4.5em;">Thank You</h1>
+                    <p style="font-size: 2em; color: #ddd; margin-top: 30px;">
+                        LDRA: Making Software Safer
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="nav-button" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+            <div class="slide-counter">
+                <span id="currentSlide">1</span> / <span id="totalSlides">22</span>
+            </div>
+            <button class="nav-button" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = document.querySelectorAll('.slide').length;
+
+        document.getElementById('totalSlides').textContent = totalSlides;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            if (n > totalSlides) currentSlide = totalSlides;
+            if (n < 1) currentSlide = 1;
+
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+
+            slides[currentSlide - 1].classList.add('active');
+            document.getElementById('currentSlide').textContent = currentSlide;
+
+            // Disable/enable buttons
+            prevBtn.disabled = currentSlide === 1;
+            nextBtn.disabled = currentSlide === totalSlides;
+        }
+
+        function changeSlide(direction) {
+            currentSlide += direction;
+            showSlide(currentSlide);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowLeft') {
+                changeSlide(-1);
+            } else if (event.key === 'ArrowRight') {
+                changeSlide(1);
+            }
+        });
+
+        // Initialize
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
