@@ -1,0 +1,33 @@
+<h1>event works!</h1>
+
+<!-- click event -->
+<button 
+    name="clickevent" 
+    class="clicking" 
+    (click)="handleClick($event)">click event</button>
+
+
+<!-- mouseenter event -->
+<div 
+    style="height: 50px; background: #000;" 
+    (mouseenter)="handleMouseEnter($event)">mouse event</div>
+
+
+<!-- input event -->
+<input 
+    type="text" 
+    (input)="handleInput($event.target.value)" 
+    placeholder="Enter text here"
+>
+
+<!-- get user input -->
+<p>You entered: {{name}}</p>
+<input 
+    type="text" 
+    (input)="handleGetInput($event.target.value)" 
+    placeholder="Enter text here"
+>
+
+<p>You entered: {{displayName}}</p>
+<button (click)="handleSetInput()">show name</button>
+
