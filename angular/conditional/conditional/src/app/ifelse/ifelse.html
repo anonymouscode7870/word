@@ -1,0 +1,45 @@
+<p>ifelse works!</p>
+
+<!-- if -->
+@if(condition){
+    <div style="height: 200px; width: 200px; background-color: lightblue;"></div>
+}
+<button (click)="toggle()">toggle</button>
+
+
+
+<!-- if else -->
+
+@if(colrr){
+    <div style="height: 200px; width: 200px; background-color: red;"></div>
+
+} @else{
+    <div style="height: 200px; width: 200px; background-color: green;"></div>
+
+}
+<button (click) = "changeColorbg()">{{colrr ? 'Red' : 'Green'}}</button>
+
+<!-- else if -->
+<br><br>
+<button (click)="changeColor(1)">Red</button>
+<button (click)="changeColor(2)">Green</button>
+<button (click)="changeColor(3)">Blue</button>
+
+<input type=number
+    (input)="changeColor(+$event.target.value)"
+    placeholder="Enter a number between 1 and 3" />
+
+
+@if(colr === 1) {
+    <div style="height: 200px; width: 200px; background-color: red;"></div>
+
+} @else if(colr === 2){
+    <div style="height: 200px; width: 200px; background-color: green;"></div>
+
+} @else if(colr === 3){
+    <div style="height: 200px; width: 200px; background-color: blue;"></div>
+
+} @else{
+    <div style="height: 200px; width: 200px; background-color: lightgray;"></div>
+
+}

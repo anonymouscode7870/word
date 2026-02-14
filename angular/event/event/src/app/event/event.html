@@ -18,6 +18,7 @@
     type="text" 
     (input)="handleInput($event.target.value)" 
     placeholder="Enter text here"
+    
 >
 
 <!-- get user input -->
@@ -26,8 +27,24 @@
     type="text" 
     (input)="handleGetInput($event.target.value)" 
     placeholder="Enter text here"
+   
 >
 
+<!-- set user input -->
 <p>You entered: {{displayName}}</p>
 <button (click)="handleSetInput()">show name</button>
+
+<br><br>
+
+<!-- (input)="handleEmailInput($event.target.value)"  i m not using this -->
+<input 
+    type="email"
+    placeholder="Enter your email"
+    value="{{email}}"
+     #emailInput
+    >
+
+<button (click)="getEmail(emailInput.value)">get Email</button>
+<button (click)="setEmail()">set Email</button>
+<p>Your email: {{email}}</p>
 

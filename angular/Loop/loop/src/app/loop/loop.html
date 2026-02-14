@@ -1,0 +1,10 @@
+<p>loop works!</p>
+
+@for(user of users; track user) {
+  <p>{{user}}</p>
+}
+
+@for(student of students; track student; let id = $index) {
+    <p>ID: {{id}} - {{student.name}} - {{student.age}}</p>
+}
+

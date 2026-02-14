@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class Event {
   name = "";
   displayName = "";
-
+  email="";
   // click event handler
   handleClick(event: MouseEvent){
     console.log(event);
@@ -43,5 +43,21 @@ export class Event {
     this.displayName = this.name;
   }
 
+
+  // handleEmailInput(value: string){ // no need as i m using template reference variable
+  //   console.log(value);
+  //   this.email = value;
+
+  // }
+
+    getEmail(val: string){
+       console.log(val);
+       this.email = val;
+
+    }
+
+    setEmail(){
+      this.email="abc@gmail.com";
+    }
 }
 
