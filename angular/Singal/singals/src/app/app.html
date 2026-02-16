@@ -1,0 +1,29 @@
+<h1>Signal</h1>
+<p>
+  {{ count() }}
+</p>
+
+<!-- <button (click)="count.set(count() + 1)">Increment</button> -->
+
+<button (click)="count.set(50)">Set to 50</button>
+
+<!-- Angular does not allow arrow functions inside templates. -->
+<!-- <button (click)="count.update(c => c + 1)">Increment</button> -->
+ 
+<button (click)="counter()">Set to 50</button>
+
+<button (click)="update()">Update</button>
+
+<hr>
+<h1>Without Computed Signals</h1>
+<br>
+<app-without-computed-signal></app-without-computed-signal>
+<hr>
+<h1>With Computed Signals</h1><br>
+<app-computed-signals></app-computed-signals>
+<hr>
+<br>
+<h1>Effect signal</h1>
+<app-effect-signal></app-effect-signal>
+
+
