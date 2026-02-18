@@ -1,14 +1,15 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FormsModule } from '@angular/forms';
-import { TodoApp } from './todo-app/todo-app';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FormsModule, TodoApp],
+  imports: [RouterOutlet, NgIf],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  name="john";
+  protected readonly title = signal('directives');
+
+  show = false;
 }

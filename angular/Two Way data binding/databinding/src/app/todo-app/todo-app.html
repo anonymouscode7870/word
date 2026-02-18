@@ -1,0 +1,15 @@
+<input type="text" [(ngModel)]="task" required>
+<button (click)="addTask()" >Add Task</button>
+
+@for(tasks of listOfItems; track tasks)
+  {
+    <div>
+        <span>{{tasks.id}}</span>
+        <input type="text" [(ngModel)]="tasks.task" disabled = "{{tasks.isdisabled}}"  >
+        <button (click) = "tasks.isdisabled ? editTask(tasks.id) : saveTask(tasks.id)" [disabled]="!tasks.isDone">{{tasks.isdisabled ? 'Edit' : 'Save'}}</button>
+        <button (click) = "removetTask(tasks.id)">remove</button>
+        <button (click) = "done(tasks.id)">Done</button>
+    </div>
+  }
+
+
