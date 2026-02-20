@@ -1,34 +1,11 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+int main(){
+    int arr[] = {4, 3, 8, 1, 2, 8, 7};
 
-class Animal {
-public:
-    virtual void sound() {   // virtual function
-        cout << "Animal makes a sound" << endl;
+    int size = sizeof(arr)/ sizeof(arr[0]);
+
+    for(int i = 0;i<size-1;i++){
+        
     }
-};
-
-class Dog : public Animal {
-public:
-    void sound()  {
-        cout << "Dog barks" << endl;
-    }
-};
-
-class Cat : public Animal {
-public:
-    void sound()  {
-        cout << "Cat meows" << endl;
-    }
-};
-
-int main() {
-    Animal* a;
-    a = new Dog();
-    a->sound();   // "Dog barks" (decided at runtime)
-
-    a = new Cat();
-    a->sound();   // "Cat meows" (decided at runtime)
-    return 0;
 }
-
