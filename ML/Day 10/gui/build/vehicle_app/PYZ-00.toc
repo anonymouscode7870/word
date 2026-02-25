@@ -1,0 +1,3943 @@
+('C:\\Vehicle recognition\\gui\\build\\vehicle_app\\PYZ-00.pyz',
+ [('__future__', 'C:\\Python314\\Lib\\__future__.py', 'PYMODULE'),
+  ('_aix_support', 'C:\\Python314\\Lib\\_aix_support.py', 'PYMODULE'),
+  ('_ast_unparse', 'C:\\Python314\\Lib\\_ast_unparse.py', 'PYMODULE'),
+  ('_colorize', 'C:\\Python314\\Lib\\_colorize.py', 'PYMODULE'),
+  ('_compat_pickle', 'C:\\Python314\\Lib\\_compat_pickle.py', 'PYMODULE'),
+  ('_ios_support', 'C:\\Python314\\Lib\\_ios_support.py', 'PYMODULE'),
+  ('_opcode_metadata', 'C:\\Python314\\Lib\\_opcode_metadata.py', 'PYMODULE'),
+  ('_py_abc', 'C:\\Python314\\Lib\\_py_abc.py', 'PYMODULE'),
+  ('_py_warnings', 'C:\\Python314\\Lib\\_py_warnings.py', 'PYMODULE'),
+  ('_pydatetime', 'C:\\Python314\\Lib\\_pydatetime.py', 'PYMODULE'),
+  ('_pydecimal', 'C:\\Python314\\Lib\\_pydecimal.py', 'PYMODULE'),
+  ('_pyrepl', 'C:\\Python314\\Lib\\_pyrepl\\__init__.py', 'PYMODULE'),
+  ('_pyrepl.pager', 'C:\\Python314\\Lib\\_pyrepl\\pager.py', 'PYMODULE'),
+  ('_pyrepl.trace', 'C:\\Python314\\Lib\\_pyrepl\\trace.py', 'PYMODULE'),
+  ('_pyrepl.types', 'C:\\Python314\\Lib\\_pyrepl\\types.py', 'PYMODULE'),
+  ('_pyrepl.utils', 'C:\\Python314\\Lib\\_pyrepl\\utils.py', 'PYMODULE'),
+  ('_strptime', 'C:\\Python314\\Lib\\_strptime.py', 'PYMODULE'),
+  ('_threading_local', 'C:\\Python314\\Lib\\_threading_local.py', 'PYMODULE'),
+  ('annotationlib', 'C:\\Python314\\Lib\\annotationlib.py', 'PYMODULE'),
+  ('argparse', 'C:\\Python314\\Lib\\argparse.py', 'PYMODULE'),
+  ('ast', 'C:\\Python314\\Lib\\ast.py', 'PYMODULE'),
+  ('asyncio', 'C:\\Python314\\Lib\\asyncio\\__init__.py', 'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Python314\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Python314\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Python314\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Python314\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Python314\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Python314\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events', 'C:\\Python314\\Lib\\asyncio\\events.py', 'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Python314\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Python314\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures', 'C:\\Python314\\Lib\\asyncio\\futures.py', 'PYMODULE'),
+  ('asyncio.graph', 'C:\\Python314\\Lib\\asyncio\\graph.py', 'PYMODULE'),
+  ('asyncio.locks', 'C:\\Python314\\Lib\\asyncio\\locks.py', 'PYMODULE'),
+  ('asyncio.log', 'C:\\Python314\\Lib\\asyncio\\log.py', 'PYMODULE'),
+  ('asyncio.mixins', 'C:\\Python314\\Lib\\asyncio\\mixins.py', 'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Python314\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Python314\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues', 'C:\\Python314\\Lib\\asyncio\\queues.py', 'PYMODULE'),
+  ('asyncio.runners', 'C:\\Python314\\Lib\\asyncio\\runners.py', 'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Python314\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto', 'C:\\Python314\\Lib\\asyncio\\sslproto.py', 'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Python314\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams', 'C:\\Python314\\Lib\\asyncio\\streams.py', 'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Python314\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Python314\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks', 'C:\\Python314\\Lib\\asyncio\\tasks.py', 'PYMODULE'),
+  ('asyncio.threads', 'C:\\Python314\\Lib\\asyncio\\threads.py', 'PYMODULE'),
+  ('asyncio.timeouts', 'C:\\Python314\\Lib\\asyncio\\timeouts.py', 'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Python314\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock', 'C:\\Python314\\Lib\\asyncio\\trsock.py', 'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Python314\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Python314\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Python314\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('base64', 'C:\\Python314\\Lib\\base64.py', 'PYMODULE'),
+  ('bdb', 'C:\\Python314\\Lib\\bdb.py', 'PYMODULE'),
+  ('bisect', 'C:\\Python314\\Lib\\bisect.py', 'PYMODULE'),
+  ('bz2', 'C:\\Python314\\Lib\\bz2.py', 'PYMODULE'),
+  ('calendar', 'C:\\Python314\\Lib\\calendar.py', 'PYMODULE'),
+  ('cmd', 'C:\\Python314\\Lib\\cmd.py', 'PYMODULE'),
+  ('code', 'C:\\Python314\\Lib\\code.py', 'PYMODULE'),
+  ('codeop', 'C:\\Python314\\Lib\\codeop.py', 'PYMODULE'),
+  ('compression', 'C:\\Python314\\Lib\\compression\\__init__.py', 'PYMODULE'),
+  ('compression._common',
+   'C:\\Python314\\Lib\\compression\\_common\\__init__.py',
+   'PYMODULE'),
+  ('compression._common._streams',
+   'C:\\Python314\\Lib\\compression\\_common\\_streams.py',
+   'PYMODULE'),
+  ('compression.zstd',
+   'C:\\Python314\\Lib\\compression\\zstd\\__init__.py',
+   'PYMODULE'),
+  ('compression.zstd._zstdfile',
+   'C:\\Python314\\Lib\\compression\\zstd\\_zstdfile.py',
+   'PYMODULE'),
+  ('concurrent', 'C:\\Python314\\Lib\\concurrent\\__init__.py', 'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Python314\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Python314\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.interpreter',
+   'C:\\Python314\\Lib\\concurrent\\futures\\interpreter.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Python314\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Python314\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.interpreters',
+   'C:\\Python314\\Lib\\concurrent\\interpreters\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.interpreters._crossinterp',
+   'C:\\Python314\\Lib\\concurrent\\interpreters\\_crossinterp.py',
+   'PYMODULE'),
+  ('concurrent.interpreters._queues',
+   'C:\\Python314\\Lib\\concurrent\\interpreters\\_queues.py',
+   'PYMODULE'),
+  ('contextlib', 'C:\\Python314\\Lib\\contextlib.py', 'PYMODULE'),
+  ('contextvars', 'C:\\Python314\\Lib\\contextvars.py', 'PYMODULE'),
+  ('copy', 'C:\\Python314\\Lib\\copy.py', 'PYMODULE'),
+  ('csv', 'C:\\Python314\\Lib\\csv.py', 'PYMODULE'),
+  ('ctypes', 'C:\\Python314\\Lib\\ctypes\\__init__.py', 'PYMODULE'),
+  ('ctypes._aix', 'C:\\Python314\\Lib\\ctypes\\_aix.py', 'PYMODULE'),
+  ('ctypes._endian', 'C:\\Python314\\Lib\\ctypes\\_endian.py', 'PYMODULE'),
+  ('ctypes._layout', 'C:\\Python314\\Lib\\ctypes\\_layout.py', 'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Python314\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Python314\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Python314\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Python314\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util', 'C:\\Python314\\Lib\\ctypes\\util.py', 'PYMODULE'),
+  ('ctypes.wintypes', 'C:\\Python314\\Lib\\ctypes\\wintypes.py', 'PYMODULE'),
+  ('dataclasses', 'C:\\Python314\\Lib\\dataclasses.py', 'PYMODULE'),
+  ('datetime', 'C:\\Python314\\Lib\\datetime.py', 'PYMODULE'),
+  ('decimal', 'C:\\Python314\\Lib\\decimal.py', 'PYMODULE'),
+  ('difflib', 'C:\\Python314\\Lib\\difflib.py', 'PYMODULE'),
+  ('dis', 'C:\\Python314\\Lib\\dis.py', 'PYMODULE'),
+  ('doctest', 'C:\\Python314\\Lib\\doctest.py', 'PYMODULE'),
+  ('email', 'C:\\Python314\\Lib\\email\\__init__.py', 'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Python314\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Python314\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr', 'C:\\Python314\\Lib\\email\\_parseaddr.py', 'PYMODULE'),
+  ('email._policybase',
+   'C:\\Python314\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime', 'C:\\Python314\\Lib\\email\\base64mime.py', 'PYMODULE'),
+  ('email.charset', 'C:\\Python314\\Lib\\email\\charset.py', 'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Python314\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders', 'C:\\Python314\\Lib\\email\\encoders.py', 'PYMODULE'),
+  ('email.errors', 'C:\\Python314\\Lib\\email\\errors.py', 'PYMODULE'),
+  ('email.feedparser', 'C:\\Python314\\Lib\\email\\feedparser.py', 'PYMODULE'),
+  ('email.generator', 'C:\\Python314\\Lib\\email\\generator.py', 'PYMODULE'),
+  ('email.header', 'C:\\Python314\\Lib\\email\\header.py', 'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Python314\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators', 'C:\\Python314\\Lib\\email\\iterators.py', 'PYMODULE'),
+  ('email.message', 'C:\\Python314\\Lib\\email\\message.py', 'PYMODULE'),
+  ('email.parser', 'C:\\Python314\\Lib\\email\\parser.py', 'PYMODULE'),
+  ('email.policy', 'C:\\Python314\\Lib\\email\\policy.py', 'PYMODULE'),
+  ('email.quoprimime', 'C:\\Python314\\Lib\\email\\quoprimime.py', 'PYMODULE'),
+  ('email.utils', 'C:\\Python314\\Lib\\email\\utils.py', 'PYMODULE'),
+  ('fileinput', 'C:\\Python314\\Lib\\fileinput.py', 'PYMODULE'),
+  ('fnmatch', 'C:\\Python314\\Lib\\fnmatch.py', 'PYMODULE'),
+  ('fractions', 'C:\\Python314\\Lib\\fractions.py', 'PYMODULE'),
+  ('ftplib', 'C:\\Python314\\Lib\\ftplib.py', 'PYMODULE'),
+  ('getopt', 'C:\\Python314\\Lib\\getopt.py', 'PYMODULE'),
+  ('gettext', 'C:\\Python314\\Lib\\gettext.py', 'PYMODULE'),
+  ('glob', 'C:\\Python314\\Lib\\glob.py', 'PYMODULE'),
+  ('gzip', 'C:\\Python314\\Lib\\gzip.py', 'PYMODULE'),
+  ('hashlib', 'C:\\Python314\\Lib\\hashlib.py', 'PYMODULE'),
+  ('hmac', 'C:\\Python314\\Lib\\hmac.py', 'PYMODULE'),
+  ('html', 'C:\\Python314\\Lib\\html\\__init__.py', 'PYMODULE'),
+  ('html.entities', 'C:\\Python314\\Lib\\html\\entities.py', 'PYMODULE'),
+  ('http', 'C:\\Python314\\Lib\\http\\__init__.py', 'PYMODULE'),
+  ('http.client', 'C:\\Python314\\Lib\\http\\client.py', 'PYMODULE'),
+  ('http.cookiejar', 'C:\\Python314\\Lib\\http\\cookiejar.py', 'PYMODULE'),
+  ('http.server', 'C:\\Python314\\Lib\\http\\server.py', 'PYMODULE'),
+  ('importlib', 'C:\\Python314\\Lib\\importlib\\__init__.py', 'PYMODULE'),
+  ('importlib._abc', 'C:\\Python314\\Lib\\importlib\\_abc.py', 'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Python314\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Python314\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc', 'C:\\Python314\\Lib\\importlib\\abc.py', 'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Python314\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Python314\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Python314\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Python314\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Python314\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Python314\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Python314\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Python314\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Python314\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Python314\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Python314\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Python314\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Python314\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Python314\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Python314\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Python314\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util', 'C:\\Python314\\Lib\\importlib\\util.py', 'PYMODULE'),
+  ('inspect', 'C:\\Python314\\Lib\\inspect.py', 'PYMODULE'),
+  ('ipaddress', 'C:\\Python314\\Lib\\ipaddress.py', 'PYMODULE'),
+  ('joblib',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\__init__.py',
+   'PYMODULE'),
+  ('joblib._cloudpickle_wrapper',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\_cloudpickle_wrapper.py',
+   'PYMODULE'),
+  ('joblib._dask',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\_dask.py',
+   'PYMODULE'),
+  ('joblib._memmapping_reducer',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\_memmapping_reducer.py',
+   'PYMODULE'),
+  ('joblib._multiprocessing_helpers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\_multiprocessing_helpers.py',
+   'PYMODULE'),
+  ('joblib._parallel_backends',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\_parallel_backends.py',
+   'PYMODULE'),
+  ('joblib._store_backends',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\_store_backends.py',
+   'PYMODULE'),
+  ('joblib._utils',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\_utils.py',
+   'PYMODULE'),
+  ('joblib.backports',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\backports.py',
+   'PYMODULE'),
+  ('joblib.compressor',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\compressor.py',
+   'PYMODULE'),
+  ('joblib.disk',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\disk.py',
+   'PYMODULE'),
+  ('joblib.executor',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\executor.py',
+   'PYMODULE'),
+  ('joblib.externals',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.cloudpickle',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\cloudpickle\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.cloudpickle.cloudpickle',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\cloudpickle\\cloudpickle.py',
+   'PYMODULE'),
+  ('joblib.externals.loky',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.loky._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\_base.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend._posix_reduction',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\_posix_reduction.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend._win_reduction',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\_win_reduction.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.context',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\context.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.fork_exec',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\fork_exec.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.popen_loky_posix',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\popen_loky_posix.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.popen_loky_win32',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\popen_loky_win32.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.process',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\process.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.queues',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\queues.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.reduction',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\reduction.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.resource_tracker',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\resource_tracker.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.spawn',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\spawn.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.synchronize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\synchronize.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\utils.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.cloudpickle_wrapper',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\cloudpickle_wrapper.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.initializers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\initializers.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.process_executor',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\process_executor.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.reusable_executor',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\reusable_executor.py',
+   'PYMODULE'),
+  ('joblib.func_inspect',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\func_inspect.py',
+   'PYMODULE'),
+  ('joblib.hashing',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\hashing.py',
+   'PYMODULE'),
+  ('joblib.logger',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\logger.py',
+   'PYMODULE'),
+  ('joblib.memory',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\memory.py',
+   'PYMODULE'),
+  ('joblib.numpy_pickle',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\numpy_pickle.py',
+   'PYMODULE'),
+  ('joblib.numpy_pickle_compat',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\numpy_pickle_compat.py',
+   'PYMODULE'),
+  ('joblib.numpy_pickle_utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\joblib\\numpy_pickle_utils.py',
+   'PYMODULE'),
+  ('joblib.parallel',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\parallel.py',
+   'PYMODULE'),
+  ('joblib.pool',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\joblib\\pool.py',
+   'PYMODULE'),
+  ('json', 'C:\\Python314\\Lib\\json\\__init__.py', 'PYMODULE'),
+  ('json.decoder', 'C:\\Python314\\Lib\\json\\decoder.py', 'PYMODULE'),
+  ('json.encoder', 'C:\\Python314\\Lib\\json\\encoder.py', 'PYMODULE'),
+  ('json.scanner', 'C:\\Python314\\Lib\\json\\scanner.py', 'PYMODULE'),
+  ('logging', 'C:\\Python314\\Lib\\logging\\__init__.py', 'PYMODULE'),
+  ('lzma', 'C:\\Python314\\Lib\\lzma.py', 'PYMODULE'),
+  ('mimetypes', 'C:\\Python314\\Lib\\mimetypes.py', 'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Python314\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Python314\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Python314\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Python314\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Python314\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Python314\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Python314\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Python314\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Python314\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Python314\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Python314\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Python314\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Python314\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Python314\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Python314\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Python314\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Python314\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Python314\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Python314\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Python314\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Python314\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Python314\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Python314\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc', 'C:\\Python314\\Lib\\netrc.py', 'PYMODULE'),
+  ('numbers', 'C:\\Python314\\Lib\\numbers.py', 'PYMODULE'),
+  ('numpy',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._array_api_info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'PYMODULE'),
+  ('numpy._core',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs_scalars',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy._core._asarray',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy._core._dtype',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy._core._dtype_ctypes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._core._exceptions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy._core._internal',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'PYMODULE'),
+  ('numpy._core._methods',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._core._string_helpers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy._core._type_aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy._core._ufunc_config',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy._core.arrayprint',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy._core.defchararray',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._core.einsumfunc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy._core.fromnumeric',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy._core.function_base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'PYMODULE'),
+  ('numpy._core.getlimits',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy._core.memmap',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'PYMODULE'),
+  ('numpy._core.multiarray',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy._core.numeric',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'PYMODULE'),
+  ('numpy._core.numerictypes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy._core.overrides',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'PYMODULE'),
+  ('numpy._core.printoptions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'PYMODULE'),
+  ('numpy._core.records',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'PYMODULE'),
+  ('numpy._core.shape_base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy._core.strings',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'PYMODULE'),
+  ('numpy._core.umath',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._expired_attrs_2_0',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit_base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._ufunc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'PYMODULE'),
+  ('numpy._utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('numpy._utils._convertions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'PYMODULE'),
+  ('numpy._utils._inspect',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.char',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._utils',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\ctypeslib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib._ctypeslib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\ctypeslib\\_ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.dtypes',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE'),
+  ('numpy.exceptions',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__main__',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\__main__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._distutils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._meson',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE'),
+  ('numpy.f2py._isocbind',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE'),
+  ('numpy.f2py._src_pyf',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\_src_pyf.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.symbolic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft._helper',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._array_utils_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraypad_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraysetops_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arrayterator_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib._format_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_format_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._function_base_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._histograms_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._index_tricks_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._nanfunctions_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._npyio_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._polynomial_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._scimath_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._shape_base_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._stride_tricks_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._twodim_base_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._type_check_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._ufunclike_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._utils_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.array_utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.introspect',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib.recfunctions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg._linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.matlib',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\matlib.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.rec',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'PYMODULE'),
+  ('numpy.strings',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.testing.overrides',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('opcode', 'C:\\Python314\\Lib\\opcode.py', 'PYMODULE'),
+  ('pathlib', 'C:\\Python314\\Lib\\pathlib\\__init__.py', 'PYMODULE'),
+  ('pathlib._os', 'C:\\Python314\\Lib\\pathlib\\_os.py', 'PYMODULE'),
+  ('pdb', 'C:\\Python314\\Lib\\pdb.py', 'PYMODULE'),
+  ('pickle', 'C:\\Python314\\Lib\\pickle.py', 'PYMODULE'),
+  ('pkgutil', 'C:\\Python314\\Lib\\pkgutil.py', 'PYMODULE'),
+  ('platform', 'C:\\Python314\\Lib\\platform.py', 'PYMODULE'),
+  ('pprint', 'C:\\Python314\\Lib\\pprint.py', 'PYMODULE'),
+  ('py_compile', 'C:\\Python314\\Lib\\py_compile.py', 'PYMODULE'),
+  ('pydoc', 'C:\\Python314\\Lib\\pydoc.py', 'PYMODULE'),
+  ('pydoc_data', 'C:\\Python314\\Lib\\pydoc_data\\__init__.py', 'PYMODULE'),
+  ('pydoc_data.module_docs',
+   'C:\\Python314\\Lib\\pydoc_data\\module_docs.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Python314\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('queue', 'C:\\Python314\\Lib\\queue.py', 'PYMODULE'),
+  ('quopri', 'C:\\Python314\\Lib\\quopri.py', 'PYMODULE'),
+  ('random', 'C:\\Python314\\Lib\\random.py', 'PYMODULE'),
+  ('rlcompleter', 'C:\\Python314\\Lib\\rlcompleter.py', 'PYMODULE'),
+  ('runpy', 'C:\\Python314\\Lib\\runpy.py', 'PYMODULE'),
+  ('scipy',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\__init__.py',
+   'PYMODULE'),
+  ('scipy.__config__',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\__config__.py',
+   'PYMODULE'),
+  ('scipy._distributor_init',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_distributor_init.py',
+   'PYMODULE'),
+  ('scipy._lib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib._array_api',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_array_api.py',
+   'PYMODULE'),
+  ('scipy._lib._array_api_compat_vendor',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_array_api_compat_vendor.py',
+   'PYMODULE'),
+  ('scipy._lib._array_api_override',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_array_api_override.py',
+   'PYMODULE'),
+  ('scipy._lib._bunch',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_bunch.py',
+   'PYMODULE'),
+  ('scipy._lib._ccallback',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_ccallback.py',
+   'PYMODULE'),
+  ('scipy._lib._disjoint_set',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_disjoint_set.py',
+   'PYMODULE'),
+  ('scipy._lib._docscrape',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_docscrape.py',
+   'PYMODULE'),
+  ('scipy._lib._elementwise_iterative_method',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_elementwise_iterative_method.py',
+   'PYMODULE'),
+  ('scipy._lib._pep440',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_pep440.py',
+   'PYMODULE'),
+  ('scipy._lib._sparse',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_sparse.py',
+   'PYMODULE'),
+  ('scipy._lib._testutils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_testutils.py',
+   'PYMODULE'),
+  ('scipy._lib._uarray',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_uarray\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib._uarray._backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_uarray\\_backend.py',
+   'PYMODULE'),
+  ('scipy._lib._util',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\_util.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat._internal',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\_internal.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.common._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\_aliases.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.common._fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\_fft.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.common._helpers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\_helpers.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.common._linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\_linalg.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.common._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\_typing.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.cupy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\cupy\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.cupy._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\cupy\\_aliases.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.cupy._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\cupy\\_info.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.cupy._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\cupy\\_typing.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.dask',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\dask\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.dask.array',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\dask\\array\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.dask.array._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\dask\\array\\_aliases.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.dask.array._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\dask\\array\\_info.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.numpy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.numpy._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\_aliases.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.numpy._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\_info.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.numpy._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\_typing.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.numpy.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\fft.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.numpy.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\linalg.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.torch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\torch\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.torch._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\torch\\_aliases.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.torch._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\torch\\_info.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_compat.torch._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\torch\\_typing.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._delegation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_delegation.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._at',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_at.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._funcs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_funcs.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._lazy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_lazy.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._utils._compat',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_utils\\_compat.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._utils._helpers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_utils\\_helpers.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra._lib._utils._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\_lib\\_utils\\_typing.py',
+   'PYMODULE'),
+  ('scipy._lib.array_api_extra.testing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\array_api_extra\\testing.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.framework',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\framework.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.main',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\main.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.models',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\models.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.problem',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\problem.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.settings',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\settings.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.subsolvers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\subsolvers\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.subsolvers.geometry',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\subsolvers\\geometry.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.subsolvers.optim',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\subsolvers\\optim.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\utils\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.utils.exceptions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.utils.math',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\utils\\math.py',
+   'PYMODULE'),
+  ('scipy._lib.cobyqa.utils.versions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\cobyqa\\utils\\versions.py',
+   'PYMODULE'),
+  ('scipy._lib.deprecation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\deprecation.py',
+   'PYMODULE'),
+  ('scipy._lib.doccer',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\doccer.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla.cobyla',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\cobyla.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla.cobylb',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\cobylb.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla.geometry',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\geometry.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla.initialize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\initialize.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla.trustregion',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\trustregion.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.cobyla.update',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\update.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common._bounds',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_bounds.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common._linear_constraints',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_linear_constraints.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common._nonlinear_constraints',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_nonlinear_constraints.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common._project',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_project.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.checkbreak',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\checkbreak.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.consts',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\consts.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.evaluate',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\evaluate.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.history',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\history.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.infos',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\infos.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\linalg.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.message',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\message.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.powalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\powalg.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.preproc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\preproc.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.present',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\present.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.ratio',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\ratio.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.redrho',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\redrho.py',
+   'PYMODULE'),
+  ('scipy._lib.pyprima.common.selectx',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\selectx.py',
+   'PYMODULE'),
+  ('scipy._lib.uarray',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\_lib\\uarray.py',
+   'PYMODULE'),
+  ('scipy.cluster',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\cluster\\__init__.py',
+   'PYMODULE'),
+  ('scipy.cluster.hierarchy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\cluster\\hierarchy.py',
+   'PYMODULE'),
+  ('scipy.cluster.vq',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\cluster\\vq.py',
+   'PYMODULE'),
+  ('scipy.constants',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\constants\\__init__.py',
+   'PYMODULE'),
+  ('scipy.constants._codata',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\constants\\_codata.py',
+   'PYMODULE'),
+  ('scipy.constants._constants',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\constants\\_constants.py',
+   'PYMODULE'),
+  ('scipy.constants.codata',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\constants\\codata.py',
+   'PYMODULE'),
+  ('scipy.constants.constants',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\constants\\constants.py',
+   'PYMODULE'),
+  ('scipy.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('scipy.fft._backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_backend.py',
+   'PYMODULE'),
+  ('scipy.fft._basic',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_basic.py',
+   'PYMODULE'),
+  ('scipy.fft._basic_backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_basic_backend.py',
+   'PYMODULE'),
+  ('scipy.fft._fftlog',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_fftlog.py',
+   'PYMODULE'),
+  ('scipy.fft._fftlog_backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_fftlog_backend.py',
+   'PYMODULE'),
+  ('scipy.fft._helper',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_pocketfft\\__init__.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_pocketfft\\basic.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.helper',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_pocketfft\\helper.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.realtransforms',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_pocketfft\\realtransforms.py',
+   'PYMODULE'),
+  ('scipy.fft._realtransforms',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_realtransforms.py',
+   'PYMODULE'),
+  ('scipy.fft._realtransforms_backend',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\fft\\_realtransforms_backend.py',
+   'PYMODULE'),
+  ('scipy.integrate',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\__init__.py',
+   'PYMODULE'),
+  ('scipy.integrate._bvp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_bvp.py',
+   'PYMODULE'),
+  ('scipy.integrate._cubature',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_cubature.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\__init__.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\base.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.bdf',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\bdf.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\common.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.dop853_coefficients',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\dop853_coefficients.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.ivp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\ivp.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.lsoda',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\lsoda.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.radau',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\radau.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.rk',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ivp\\rk.py',
+   'PYMODULE'),
+  ('scipy.integrate._lebedev',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_lebedev.py',
+   'PYMODULE'),
+  ('scipy.integrate._ode',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_ode.py',
+   'PYMODULE'),
+  ('scipy.integrate._odepack_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_odepack_py.py',
+   'PYMODULE'),
+  ('scipy.integrate._quad_vec',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_quad_vec.py',
+   'PYMODULE'),
+  ('scipy.integrate._quadpack_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_quadpack_py.py',
+   'PYMODULE'),
+  ('scipy.integrate._quadrature',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_quadrature.py',
+   'PYMODULE'),
+  ('scipy.integrate._rules',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_rules\\__init__.py',
+   'PYMODULE'),
+  ('scipy.integrate._rules._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_rules\\_base.py',
+   'PYMODULE'),
+  ('scipy.integrate._rules._gauss_kronrod',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_rules\\_gauss_kronrod.py',
+   'PYMODULE'),
+  ('scipy.integrate._rules._gauss_legendre',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_rules\\_gauss_legendre.py',
+   'PYMODULE'),
+  ('scipy.integrate._rules._genz_malik',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_rules\\_genz_malik.py',
+   'PYMODULE'),
+  ('scipy.integrate._tanhsinh',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\_tanhsinh.py',
+   'PYMODULE'),
+  ('scipy.integrate.dop',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\dop.py',
+   'PYMODULE'),
+  ('scipy.integrate.lsoda',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\lsoda.py',
+   'PYMODULE'),
+  ('scipy.integrate.odepack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\odepack.py',
+   'PYMODULE'),
+  ('scipy.integrate.quadpack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\quadpack.py',
+   'PYMODULE'),
+  ('scipy.integrate.vode',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\integrate\\vode.py',
+   'PYMODULE'),
+  ('scipy.interpolate',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\__init__.py',
+   'PYMODULE'),
+  ('scipy.interpolate._bary_rational',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_bary_rational.py',
+   'PYMODULE'),
+  ('scipy.interpolate._bsplines',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_bsplines.py',
+   'PYMODULE'),
+  ('scipy.interpolate._cubic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_cubic.py',
+   'PYMODULE'),
+  ('scipy.interpolate._fitpack2',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_fitpack2.py',
+   'PYMODULE'),
+  ('scipy.interpolate._fitpack_impl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_impl.py',
+   'PYMODULE'),
+  ('scipy.interpolate._fitpack_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_py.py',
+   'PYMODULE'),
+  ('scipy.interpolate._fitpack_repro',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_repro.py',
+   'PYMODULE'),
+  ('scipy.interpolate._interpolate',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_interpolate.py',
+   'PYMODULE'),
+  ('scipy.interpolate._ndbspline',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_ndbspline.py',
+   'PYMODULE'),
+  ('scipy.interpolate._ndgriddata',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_ndgriddata.py',
+   'PYMODULE'),
+  ('scipy.interpolate._pade',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_pade.py',
+   'PYMODULE'),
+  ('scipy.interpolate._polyint',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_polyint.py',
+   'PYMODULE'),
+  ('scipy.interpolate._rbf',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_rbf.py',
+   'PYMODULE'),
+  ('scipy.interpolate._rbfinterp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_rbfinterp.py',
+   'PYMODULE'),
+  ('scipy.interpolate._rbfinterp_common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_rbfinterp_common.py',
+   'PYMODULE'),
+  ('scipy.interpolate._rbfinterp_np',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_rbfinterp_np.py',
+   'PYMODULE'),
+  ('scipy.interpolate._rbfinterp_xp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_rbfinterp_xp.py',
+   'PYMODULE'),
+  ('scipy.interpolate._rgi',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\_rgi.py',
+   'PYMODULE'),
+  ('scipy.interpolate.fitpack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\fitpack.py',
+   'PYMODULE'),
+  ('scipy.interpolate.fitpack2',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\fitpack2.py',
+   'PYMODULE'),
+  ('scipy.interpolate.interpnd',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\interpnd.py',
+   'PYMODULE'),
+  ('scipy.interpolate.interpolate',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\interpolate.py',
+   'PYMODULE'),
+  ('scipy.interpolate.ndgriddata',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\ndgriddata.py',
+   'PYMODULE'),
+  ('scipy.interpolate.polyint',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\polyint.py',
+   'PYMODULE'),
+  ('scipy.interpolate.rbf',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\interpolate\\rbf.py',
+   'PYMODULE'),
+  ('scipy.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.linalg._basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_basic.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_cholesky',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_cholesky.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_cossin',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_cossin.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_ldl',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_ldl.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_lu',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_lu.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_polar',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_polar.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_qr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_qr.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_qz',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_qz.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_schur',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_schur.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_svd',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_decomp_svd.py',
+   'PYMODULE'),
+  ('scipy.linalg._expm_frechet',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_expm_frechet.py',
+   'PYMODULE'),
+  ('scipy.linalg._matfuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_matfuncs.py',
+   'PYMODULE'),
+  ('scipy.linalg._matfuncs_inv_ssq',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_matfuncs_inv_ssq.py',
+   'PYMODULE'),
+  ('scipy.linalg._matfuncs_sqrtm',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_matfuncs_sqrtm.py',
+   'PYMODULE'),
+  ('scipy.linalg._misc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_misc.py',
+   'PYMODULE'),
+  ('scipy.linalg._procrustes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_procrustes.py',
+   'PYMODULE'),
+  ('scipy.linalg._sketches',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_sketches.py',
+   'PYMODULE'),
+  ('scipy.linalg._solvers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_solvers.py',
+   'PYMODULE'),
+  ('scipy.linalg._special_matrices',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\_special_matrices.py',
+   'PYMODULE'),
+  ('scipy.linalg.basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\basic.py',
+   'PYMODULE'),
+  ('scipy.linalg.blas',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\blas.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\decomp.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_cholesky',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\decomp_cholesky.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_lu',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\decomp_lu.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_qr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\decomp_qr.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_schur',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\decomp_schur.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_svd',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\decomp_svd.py',
+   'PYMODULE'),
+  ('scipy.linalg.interpolative',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\interpolative.py',
+   'PYMODULE'),
+  ('scipy.linalg.lapack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\lapack.py',
+   'PYMODULE'),
+  ('scipy.linalg.matfuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\matfuncs.py',
+   'PYMODULE'),
+  ('scipy.linalg.misc',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\misc.py',
+   'PYMODULE'),
+  ('scipy.linalg.special_matrices',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\linalg\\special_matrices.py',
+   'PYMODULE'),
+  ('scipy.ndimage',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\__init__.py',
+   'PYMODULE'),
+  ('scipy.ndimage._delegators',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_delegators.py',
+   'PYMODULE'),
+  ('scipy.ndimage._filters',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_filters.py',
+   'PYMODULE'),
+  ('scipy.ndimage._fourier',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_fourier.py',
+   'PYMODULE'),
+  ('scipy.ndimage._interpolation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_interpolation.py',
+   'PYMODULE'),
+  ('scipy.ndimage._measurements',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_measurements.py',
+   'PYMODULE'),
+  ('scipy.ndimage._morphology',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_morphology.py',
+   'PYMODULE'),
+  ('scipy.ndimage._ndimage_api',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_ndimage_api.py',
+   'PYMODULE'),
+  ('scipy.ndimage._ni_docstrings',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_ni_docstrings.py',
+   'PYMODULE'),
+  ('scipy.ndimage._ni_support',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_ni_support.py',
+   'PYMODULE'),
+  ('scipy.ndimage._support_alternative_backends',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\_support_alternative_backends.py',
+   'PYMODULE'),
+  ('scipy.ndimage.filters',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\filters.py',
+   'PYMODULE'),
+  ('scipy.ndimage.fourier',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\fourier.py',
+   'PYMODULE'),
+  ('scipy.ndimage.interpolation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\interpolation.py',
+   'PYMODULE'),
+  ('scipy.ndimage.measurements',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\measurements.py',
+   'PYMODULE'),
+  ('scipy.ndimage.morphology',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\ndimage\\morphology.py',
+   'PYMODULE'),
+  ('scipy.optimize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._basinhopping',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_basinhopping.py',
+   'PYMODULE'),
+  ('scipy.optimize._bracket',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_bracket.py',
+   'PYMODULE'),
+  ('scipy.optimize._chandrupatla',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_chandrupatla.py',
+   'PYMODULE'),
+  ('scipy.optimize._cobyla_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_cobyla_py.py',
+   'PYMODULE'),
+  ('scipy.optimize._cobyqa_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_cobyqa_py.py',
+   'PYMODULE'),
+  ('scipy.optimize._constraints',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_constraints.py',
+   'PYMODULE'),
+  ('scipy.optimize._dcsrch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_dcsrch.py',
+   'PYMODULE'),
+  ('scipy.optimize._differentiable_functions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_differentiable_functions.py',
+   'PYMODULE'),
+  ('scipy.optimize._differentialevolution',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_differentialevolution.py',
+   'PYMODULE'),
+  ('scipy.optimize._direct_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_direct_py.py',
+   'PYMODULE'),
+  ('scipy.optimize._dual_annealing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_dual_annealing.py',
+   'PYMODULE'),
+  ('scipy.optimize._elementwise',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_elementwise.py',
+   'PYMODULE'),
+  ('scipy.optimize._hessian_update_strategy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_hessian_update_strategy.py',
+   'PYMODULE'),
+  ('scipy.optimize._highspy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_highspy\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._highspy._highs_wrapper',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_highspy\\_highs_wrapper.py',
+   'PYMODULE'),
+  ('scipy.optimize._isotonic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_isotonic.py',
+   'PYMODULE'),
+  ('scipy.optimize._lbfgsb_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lbfgsb_py.py',
+   'PYMODULE'),
+  ('scipy.optimize._linesearch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linesearch.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_doc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_doc.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_highs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_highs.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_ip',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_ip.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_rs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_rs.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_simplex',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_simplex.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_util',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_util.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.bvls',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\bvls.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\common.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.dogbox',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\dogbox.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.least_squares',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\least_squares.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.lsq_linear',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\lsq_linear.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.trf',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\trf.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.trf_linear',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_lsq\\trf_linear.py',
+   'PYMODULE'),
+  ('scipy.optimize._milp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_milp.py',
+   'PYMODULE'),
+  ('scipy.optimize._minimize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_minimize.py',
+   'PYMODULE'),
+  ('scipy.optimize._minpack_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_minpack_py.py',
+   'PYMODULE'),
+  ('scipy.optimize._nnls',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_nnls.py',
+   'PYMODULE'),
+  ('scipy.optimize._nonlin',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_nonlin.py',
+   'PYMODULE'),
+  ('scipy.optimize._numdiff',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_numdiff.py',
+   'PYMODULE'),
+  ('scipy.optimize._optimize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_optimize.py',
+   'PYMODULE'),
+  ('scipy.optimize._qap',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_qap.py',
+   'PYMODULE'),
+  ('scipy.optimize._remove_redundancy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_remove_redundancy.py',
+   'PYMODULE'),
+  ('scipy.optimize._root',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_root.py',
+   'PYMODULE'),
+  ('scipy.optimize._root_scalar',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_root_scalar.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_shgo.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo_lib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_shgo_lib\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo_lib._complex',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_shgo_lib\\_complex.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo_lib._vertex',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_shgo_lib\\_vertex.py',
+   'PYMODULE'),
+  ('scipy.optimize._slsqp_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_slsqp_py.py',
+   'PYMODULE'),
+  ('scipy.optimize._spectral',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_spectral.py',
+   'PYMODULE'),
+  ('scipy.optimize._tnc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_tnc.py',
+   'PYMODULE'),
+  ('scipy.optimize._trlib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trlib\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.canonical_constraint',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\canonical_constraint.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.equality_constrained_sqp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\equality_constrained_sqp.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.minimize_trustregion_constr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\minimize_trustregion_constr.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.projections',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\projections.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.qp_subproblem',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\qp_subproblem.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.report',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\report.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.tr_interior_point',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\tr_interior_point.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_dogleg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_dogleg.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_exact',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_exact.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_krylov',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_krylov.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_ncg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_ncg.py',
+   'PYMODULE'),
+  ('scipy.optimize._zeros_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\_zeros_py.py',
+   'PYMODULE'),
+  ('scipy.optimize.cobyla',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\cobyla.py',
+   'PYMODULE'),
+  ('scipy.optimize.elementwise',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\elementwise.py',
+   'PYMODULE'),
+  ('scipy.optimize.lbfgsb',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\lbfgsb.py',
+   'PYMODULE'),
+  ('scipy.optimize.linesearch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\linesearch.py',
+   'PYMODULE'),
+  ('scipy.optimize.minpack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\minpack.py',
+   'PYMODULE'),
+  ('scipy.optimize.minpack2',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\minpack2.py',
+   'PYMODULE'),
+  ('scipy.optimize.moduleTNC',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\moduleTNC.py',
+   'PYMODULE'),
+  ('scipy.optimize.nonlin',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\nonlin.py',
+   'PYMODULE'),
+  ('scipy.optimize.optimize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\optimize.py',
+   'PYMODULE'),
+  ('scipy.optimize.slsqp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\slsqp.py',
+   'PYMODULE'),
+  ('scipy.optimize.tnc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\tnc.py',
+   'PYMODULE'),
+  ('scipy.optimize.zeros',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\optimize\\zeros.py',
+   'PYMODULE'),
+  ('scipy.sparse',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_base.py',
+   'PYMODULE'),
+  ('scipy.sparse._bsr',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_bsr.py',
+   'PYMODULE'),
+  ('scipy.sparse._compressed',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_compressed.py',
+   'PYMODULE'),
+  ('scipy.sparse._construct',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_construct.py',
+   'PYMODULE'),
+  ('scipy.sparse._coo',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_coo.py',
+   'PYMODULE'),
+  ('scipy.sparse._csc',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_csc.py',
+   'PYMODULE'),
+  ('scipy.sparse._csr',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_csr.py',
+   'PYMODULE'),
+  ('scipy.sparse._data',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_data.py',
+   'PYMODULE'),
+  ('scipy.sparse._dia',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_dia.py',
+   'PYMODULE'),
+  ('scipy.sparse._dok',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_dok.py',
+   'PYMODULE'),
+  ('scipy.sparse._extract',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_extract.py',
+   'PYMODULE'),
+  ('scipy.sparse._index',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_index.py',
+   'PYMODULE'),
+  ('scipy.sparse._lil',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_lil.py',
+   'PYMODULE'),
+  ('scipy.sparse._matrix',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_matrix.py',
+   'PYMODULE'),
+  ('scipy.sparse._matrix_io',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_matrix_io.py',
+   'PYMODULE'),
+  ('scipy.sparse._spfuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_spfuncs.py',
+   'PYMODULE'),
+  ('scipy.sparse._sputils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\_sputils.py',
+   'PYMODULE'),
+  ('scipy.sparse.base',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\base.py',
+   'PYMODULE'),
+  ('scipy.sparse.bsr',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\bsr.py',
+   'PYMODULE'),
+  ('scipy.sparse.compressed',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\compressed.py',
+   'PYMODULE'),
+  ('scipy.sparse.construct',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\construct.py',
+   'PYMODULE'),
+  ('scipy.sparse.coo',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\coo.py',
+   'PYMODULE'),
+  ('scipy.sparse.csc',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\csc.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\csgraph\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph._laplacian',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\csgraph\\_laplacian.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph._validation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\csgraph\\_validation.py',
+   'PYMODULE'),
+  ('scipy.sparse.csr',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\csr.py',
+   'PYMODULE'),
+  ('scipy.sparse.data',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\data.py',
+   'PYMODULE'),
+  ('scipy.sparse.dia',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\dia.py',
+   'PYMODULE'),
+  ('scipy.sparse.dok',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\dok.py',
+   'PYMODULE'),
+  ('scipy.sparse.extract',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\extract.py',
+   'PYMODULE'),
+  ('scipy.sparse.lil',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\lil.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._dsolve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_dsolve\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._dsolve._add_newdocs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_dsolve\\_add_newdocs.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._dsolve.linsolve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_dsolve\\linsolve.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._eigen',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._eigen._svds',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\_svds.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._eigen.arpack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\arpack\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._eigen.arpack.arpack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\arpack\\arpack.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._eigen.lobpcg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\lobpcg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._eigen.lobpcg.lobpcg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\lobpcg\\lobpcg.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._expm_multiply',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_expm_multiply.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._funm_multiply_krylov',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_funm_multiply_krylov.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._interface',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_interface.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve._gcrotmk',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\_gcrotmk.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.iterative',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\iterative.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.lgmres',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\lgmres.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.lsmr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\lsmr.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.lsqr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\lsqr.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.minres',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\minres.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.tfqmr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\tfqmr.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._isolve.utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\utils.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._matfuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_matfuncs.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._norm',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_norm.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._onenormest',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_onenormest.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._special_sparse_arrays',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_special_sparse_arrays.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._svdp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\_svdp.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.dsolve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\dsolve.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.eigen',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\eigen.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.interface',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\interface.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\isolve.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.matfuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\linalg\\matfuncs.py',
+   'PYMODULE'),
+  ('scipy.sparse.sparsetools',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\sparsetools.py',
+   'PYMODULE'),
+  ('scipy.sparse.sputils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\sparse\\sputils.py',
+   'PYMODULE'),
+  ('scipy.spatial',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\__init__.py',
+   'PYMODULE'),
+  ('scipy.spatial._geometric_slerp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\_geometric_slerp.py',
+   'PYMODULE'),
+  ('scipy.spatial._kdtree',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\_kdtree.py',
+   'PYMODULE'),
+  ('scipy.spatial._plotutils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\_plotutils.py',
+   'PYMODULE'),
+  ('scipy.spatial._procrustes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\_procrustes.py',
+   'PYMODULE'),
+  ('scipy.spatial._spherical_voronoi',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\_spherical_voronoi.py',
+   'PYMODULE'),
+  ('scipy.spatial.ckdtree',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\ckdtree.py',
+   'PYMODULE'),
+  ('scipy.spatial.distance',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\distance.py',
+   'PYMODULE'),
+  ('scipy.spatial.kdtree',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\kdtree.py',
+   'PYMODULE'),
+  ('scipy.spatial.qhull',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\qhull.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\__init__.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rigid_transform',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\_rigid_transform.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rigid_transform_xp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\_rigid_transform_xp.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rotation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\_rotation.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rotation_groups',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\_rotation_groups.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rotation_spline',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\_rotation_spline.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rotation_xp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\_rotation_xp.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform.rotation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\spatial\\transform\\rotation.py',
+   'PYMODULE'),
+  ('scipy.special',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\__init__.py',
+   'PYMODULE'),
+  ('scipy.special._basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_basic.py',
+   'PYMODULE'),
+  ('scipy.special._ellip_harm',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_ellip_harm.py',
+   'PYMODULE'),
+  ('scipy.special._input_validation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_input_validation.py',
+   'PYMODULE'),
+  ('scipy.special._lambertw',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_lambertw.py',
+   'PYMODULE'),
+  ('scipy.special._logsumexp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_logsumexp.py',
+   'PYMODULE'),
+  ('scipy.special._multiufuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_multiufuncs.py',
+   'PYMODULE'),
+  ('scipy.special._orthogonal',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_orthogonal.py',
+   'PYMODULE'),
+  ('scipy.special._sf_error',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_sf_error.py',
+   'PYMODULE'),
+  ('scipy.special._spfun_stats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_spfun_stats.py',
+   'PYMODULE'),
+  ('scipy.special._spherical_bessel',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_spherical_bessel.py',
+   'PYMODULE'),
+  ('scipy.special._support_alternative_backends',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\_support_alternative_backends.py',
+   'PYMODULE'),
+  ('scipy.special.add_newdocs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\add_newdocs.py',
+   'PYMODULE'),
+  ('scipy.special.basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\basic.py',
+   'PYMODULE'),
+  ('scipy.special.orthogonal',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\orthogonal.py',
+   'PYMODULE'),
+  ('scipy.special.sf_error',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\sf_error.py',
+   'PYMODULE'),
+  ('scipy.special.specfun',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\specfun.py',
+   'PYMODULE'),
+  ('scipy.special.spfun_stats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\special\\spfun_stats.py',
+   'PYMODULE'),
+  ('scipy.stats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\__init__.py',
+   'PYMODULE'),
+  ('scipy.stats._axis_nan_policy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_axis_nan_policy.py',
+   'PYMODULE'),
+  ('scipy.stats._binned_statistic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_binned_statistic.py',
+   'PYMODULE'),
+  ('scipy.stats._binomtest',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_binomtest.py',
+   'PYMODULE'),
+  ('scipy.stats._bws_test',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_bws_test.py',
+   'PYMODULE'),
+  ('scipy.stats._censored_data',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_censored_data.py',
+   'PYMODULE'),
+  ('scipy.stats._common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_common.py',
+   'PYMODULE'),
+  ('scipy.stats._constants',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_constants.py',
+   'PYMODULE'),
+  ('scipy.stats._continuous_distns',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_continuous_distns.py',
+   'PYMODULE'),
+  ('scipy.stats._correlation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_correlation.py',
+   'PYMODULE'),
+  ('scipy.stats._covariance',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_covariance.py',
+   'PYMODULE'),
+  ('scipy.stats._crosstab',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_crosstab.py',
+   'PYMODULE'),
+  ('scipy.stats._discrete_distns',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_discrete_distns.py',
+   'PYMODULE'),
+  ('scipy.stats._distn_infrastructure',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_distn_infrastructure.py',
+   'PYMODULE'),
+  ('scipy.stats._distr_params',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_distr_params.py',
+   'PYMODULE'),
+  ('scipy.stats._distribution_infrastructure',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_distribution_infrastructure.py',
+   'PYMODULE'),
+  ('scipy.stats._entropy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_entropy.py',
+   'PYMODULE'),
+  ('scipy.stats._finite_differences',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_finite_differences.py',
+   'PYMODULE'),
+  ('scipy.stats._fit',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_fit.py',
+   'PYMODULE'),
+  ('scipy.stats._hypotests',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_hypotests.py',
+   'PYMODULE'),
+  ('scipy.stats._kde',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_kde.py',
+   'PYMODULE'),
+  ('scipy.stats._ksstats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_ksstats.py',
+   'PYMODULE'),
+  ('scipy.stats._levy_stable',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_levy_stable\\__init__.py',
+   'PYMODULE'),
+  ('scipy.stats._mannwhitneyu',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_mannwhitneyu.py',
+   'PYMODULE'),
+  ('scipy.stats._mgc',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_mgc.py',
+   'PYMODULE'),
+  ('scipy.stats._morestats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_morestats.py',
+   'PYMODULE'),
+  ('scipy.stats._mstats_basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_mstats_basic.py',
+   'PYMODULE'),
+  ('scipy.stats._mstats_extras',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_mstats_extras.py',
+   'PYMODULE'),
+  ('scipy.stats._multicomp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_multicomp.py',
+   'PYMODULE'),
+  ('scipy.stats._multivariate',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_multivariate.py',
+   'PYMODULE'),
+  ('scipy.stats._new_distributions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_new_distributions.py',
+   'PYMODULE'),
+  ('scipy.stats._odds_ratio',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_odds_ratio.py',
+   'PYMODULE'),
+  ('scipy.stats._page_trend_test',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_page_trend_test.py',
+   'PYMODULE'),
+  ('scipy.stats._probability_distribution',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_probability_distribution.py',
+   'PYMODULE'),
+  ('scipy.stats._qmc',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_qmc.py',
+   'PYMODULE'),
+  ('scipy.stats._qmvnt',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_qmvnt.py',
+   'PYMODULE'),
+  ('scipy.stats._quantile',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_quantile.py',
+   'PYMODULE'),
+  ('scipy.stats._rcont',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_rcont\\__init__.py',
+   'PYMODULE'),
+  ('scipy.stats._relative_risk',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_relative_risk.py',
+   'PYMODULE'),
+  ('scipy.stats._resampling',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_resampling.py',
+   'PYMODULE'),
+  ('scipy.stats._sensitivity_analysis',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_sensitivity_analysis.py',
+   'PYMODULE'),
+  ('scipy.stats._stats_mstats_common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_stats_mstats_common.py',
+   'PYMODULE'),
+  ('scipy.stats._stats_py',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_stats_py.py',
+   'PYMODULE'),
+  ('scipy.stats._survival',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_survival.py',
+   'PYMODULE'),
+  ('scipy.stats._tukeylambda_stats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_tukeylambda_stats.py',
+   'PYMODULE'),
+  ('scipy.stats._variation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_variation.py',
+   'PYMODULE'),
+  ('scipy.stats._warnings_errors',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_warnings_errors.py',
+   'PYMODULE'),
+  ('scipy.stats._wilcoxon',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\_wilcoxon.py',
+   'PYMODULE'),
+  ('scipy.stats.biasedurn',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\biasedurn.py',
+   'PYMODULE'),
+  ('scipy.stats.contingency',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\contingency.py',
+   'PYMODULE'),
+  ('scipy.stats.distributions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\distributions.py',
+   'PYMODULE'),
+  ('scipy.stats.kde',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\kde.py',
+   'PYMODULE'),
+  ('scipy.stats.morestats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\morestats.py',
+   'PYMODULE'),
+  ('scipy.stats.mstats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\mstats.py',
+   'PYMODULE'),
+  ('scipy.stats.mstats_basic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\mstats_basic.py',
+   'PYMODULE'),
+  ('scipy.stats.mstats_extras',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\mstats_extras.py',
+   'PYMODULE'),
+  ('scipy.stats.mvn',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\mvn.py',
+   'PYMODULE'),
+  ('scipy.stats.qmc',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\qmc.py',
+   'PYMODULE'),
+  ('scipy.stats.stats',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\stats\\stats.py',
+   'PYMODULE'),
+  ('scipy.version',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\scipy\\version.py',
+   'PYMODULE'),
+  ('secrets', 'C:\\Python314\\Lib\\secrets.py', 'PYMODULE'),
+  ('selectors', 'C:\\Python314\\Lib\\selectors.py', 'PYMODULE'),
+  ('shlex', 'C:\\Python314\\Lib\\shlex.py', 'PYMODULE'),
+  ('shutil', 'C:\\Python314\\Lib\\shutil.py', 'PYMODULE'),
+  ('signal', 'C:\\Python314\\Lib\\signal.py', 'PYMODULE'),
+  ('sklearn',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.__check_build',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\__check_build\\__init__.py',
+   'PYMODULE'),
+  ('sklearn._built_with_meson',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\_built_with_meson.py',
+   'PYMODULE'),
+  ('sklearn._config',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\_config.py',
+   'PYMODULE'),
+  ('sklearn._distributor_init',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\_distributor_init.py',
+   'PYMODULE'),
+  ('sklearn._loss',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\_loss\\__init__.py',
+   'PYMODULE'),
+  ('sklearn._loss.link',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\_loss\\link.py',
+   'PYMODULE'),
+  ('sklearn._loss.loss',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\_loss\\loss.py',
+   'PYMODULE'),
+  ('sklearn.base',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\base.py',
+   'PYMODULE'),
+  ('sklearn.cluster',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.cluster._affinity_propagation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_affinity_propagation.py',
+   'PYMODULE'),
+  ('sklearn.cluster._agglomerative',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_agglomerative.py',
+   'PYMODULE'),
+  ('sklearn.cluster._bicluster',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_bicluster.py',
+   'PYMODULE'),
+  ('sklearn.cluster._birch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_birch.py',
+   'PYMODULE'),
+  ('sklearn.cluster._bisect_k_means',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_bisect_k_means.py',
+   'PYMODULE'),
+  ('sklearn.cluster._dbscan',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_dbscan.py',
+   'PYMODULE'),
+  ('sklearn.cluster._feature_agglomeration',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_feature_agglomeration.py',
+   'PYMODULE'),
+  ('sklearn.cluster._hdbscan',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_hdbscan\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.cluster._hdbscan.hdbscan',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_hdbscan\\hdbscan.py',
+   'PYMODULE'),
+  ('sklearn.cluster._kmeans',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_kmeans.py',
+   'PYMODULE'),
+  ('sklearn.cluster._mean_shift',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_mean_shift.py',
+   'PYMODULE'),
+  ('sklearn.cluster._optics',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_optics.py',
+   'PYMODULE'),
+  ('sklearn.cluster._spectral',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_spectral.py',
+   'PYMODULE'),
+  ('sklearn.compose',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\compose\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.compose._column_transformer',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\compose\\_column_transformer.py',
+   'PYMODULE'),
+  ('sklearn.compose._target',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\compose\\_target.py',
+   'PYMODULE'),
+  ('sklearn.covariance',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\covariance\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.covariance._elliptic_envelope',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\covariance\\_elliptic_envelope.py',
+   'PYMODULE'),
+  ('sklearn.covariance._empirical_covariance',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\covariance\\_empirical_covariance.py',
+   'PYMODULE'),
+  ('sklearn.covariance._graph_lasso',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\covariance\\_graph_lasso.py',
+   'PYMODULE'),
+  ('sklearn.covariance._robust_covariance',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\covariance\\_robust_covariance.py',
+   'PYMODULE'),
+  ('sklearn.covariance._shrunk_covariance',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\covariance\\_shrunk_covariance.py',
+   'PYMODULE'),
+  ('sklearn.decomposition',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_base.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._dict_learning',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_dict_learning.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._factor_analysis',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_factor_analysis.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._fastica',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_fastica.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._incremental_pca',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_incremental_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._kernel_pca',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_kernel_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._lda',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_lda.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._nmf',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_nmf.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._pca',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._sparse_pca',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_sparse_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._truncated_svd',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\_truncated_svd.py',
+   'PYMODULE'),
+  ('sklearn.discriminant_analysis',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\discriminant_analysis.py',
+   'PYMODULE'),
+  ('sklearn.dummy',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\dummy.py',
+   'PYMODULE'),
+  ('sklearn.ensemble',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._bagging',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_bagging.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_base.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._forest',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_forest.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._gb',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_gb.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._hist_gradient_boosting',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_hist_gradient_boosting\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._hist_gradient_boosting.binning',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_hist_gradient_boosting\\binning.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._hist_gradient_boosting.gradient_boosting',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_hist_gradient_boosting\\gradient_boosting.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._hist_gradient_boosting.grower',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_hist_gradient_boosting\\grower.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._hist_gradient_boosting.predictor',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_hist_gradient_boosting\\predictor.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._iforest',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_iforest.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._stacking',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_stacking.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._voting',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_voting.py',
+   'PYMODULE'),
+  ('sklearn.ensemble._weight_boosting',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_weight_boosting.py',
+   'PYMODULE'),
+  ('sklearn.exceptions',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\exceptions.py',
+   'PYMODULE'),
+  ('sklearn.externals',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._array_api_compat_vendor',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_array_api_compat_vendor.py',
+   'PYMODULE'),
+  ('sklearn.externals._packaging',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_packaging\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._packaging._structures',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_packaging\\_structures.py',
+   'PYMODULE'),
+  ('sklearn.externals._packaging.version',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_packaging\\version.py',
+   'PYMODULE'),
+  ('sklearn.externals._scipy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_scipy\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._scipy.sparse',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_scipy\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._scipy.sparse.csgraph',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_scipy\\sparse\\csgraph\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._scipy.sparse.csgraph._laplacian',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\_scipy\\sparse\\csgraph\\_laplacian.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat._internal',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\_internal.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.common',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.common._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\_aliases.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.common._fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\_fft.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.common._helpers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\_helpers.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.common._linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\_linalg.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.common._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\_typing.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.cupy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.cupy._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\_aliases.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.cupy._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\_info.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.cupy._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\_typing.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.cupy.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\fft.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.cupy.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\linalg.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.dask',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.dask.array',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.dask.array._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\_aliases.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.dask.array._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\_info.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.dask.array.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\fft.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.dask.array.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\linalg.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.numpy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.numpy._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\_aliases.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.numpy._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\_info.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.numpy._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\_typing.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.numpy.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\fft.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.numpy.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\linalg.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.torch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.torch._aliases',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\_aliases.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.torch._info',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\_info.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.torch._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\_typing.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.torch.fft',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\fft.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_compat.torch.linalg',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\linalg.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._delegation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_delegation.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._at',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_at.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._backends',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_backends.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._funcs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_funcs.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._lazy',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_lazy.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._utils._compat',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_utils\\_compat.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._utils._helpers',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_utils\\_helpers.py',
+   'PYMODULE'),
+  ('sklearn.externals.array_api_extra._lib._utils._typing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\_lib\\_utils\\_typing.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\gaussian_process\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process._gpc',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\gaussian_process\\_gpc.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process._gpr',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\gaussian_process\\_gpr.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process.kernels',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\gaussian_process\\kernels.py',
+   'PYMODULE'),
+  ('sklearn.isotonic',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\isotonic.py',
+   'PYMODULE'),
+  ('sklearn.linear_model',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_base.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._bayes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_bayes.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._coordinate_descent',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_coordinate_descent.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._glm',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_glm\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._glm._newton_solver',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_glm\\_newton_solver.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._glm.glm',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_glm\\glm.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._huber',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_huber.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._least_angle',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_least_angle.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._linear_loss',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_linear_loss.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._logistic',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._omp',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_omp.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._passive_aggressive',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_passive_aggressive.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._perceptron',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_perceptron.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._quantile',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_quantile.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._ransac',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_ransac.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._ridge',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_ridge.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._sag',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_sag.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._stochastic_gradient',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_stochastic_gradient.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._theil_sen',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_theil_sen.py',
+   'PYMODULE'),
+  ('sklearn.manifold',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\manifold\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.manifold._isomap',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\manifold\\_isomap.py',
+   'PYMODULE'),
+  ('sklearn.manifold._locally_linear',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\manifold\\_locally_linear.py',
+   'PYMODULE'),
+  ('sklearn.manifold._mds',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\manifold\\_mds.py',
+   'PYMODULE'),
+  ('sklearn.manifold._spectral_embedding',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\manifold\\_spectral_embedding.py',
+   'PYMODULE'),
+  ('sklearn.manifold._t_sne',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\manifold\\_t_sne.py',
+   'PYMODULE'),
+  ('sklearn.metrics',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.metrics._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_base.py',
+   'PYMODULE'),
+  ('sklearn.metrics._classification',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_classification.py',
+   'PYMODULE'),
+  ('sklearn.metrics._pairwise_distances_reduction',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_pairwise_distances_reduction\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.metrics._pairwise_distances_reduction._dispatcher',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_pairwise_distances_reduction\\_dispatcher.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_plot\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.confusion_matrix',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_plot\\confusion_matrix.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.det_curve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_plot\\det_curve.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.precision_recall_curve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_plot\\precision_recall_curve.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.regression',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_plot\\regression.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.roc_curve',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_plot\\roc_curve.py',
+   'PYMODULE'),
+  ('sklearn.metrics._ranking',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_ranking.py',
+   'PYMODULE'),
+  ('sklearn.metrics._regression',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_regression.py',
+   'PYMODULE'),
+  ('sklearn.metrics._scorer',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_scorer.py',
+   'PYMODULE'),
+  ('sklearn.metrics.cluster',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\cluster\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.metrics.cluster._bicluster',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_bicluster.py',
+   'PYMODULE'),
+  ('sklearn.metrics.cluster._supervised',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_supervised.py',
+   'PYMODULE'),
+  ('sklearn.metrics.cluster._unsupervised',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_unsupervised.py',
+   'PYMODULE'),
+  ('sklearn.metrics.pairwise',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\metrics\\pairwise.py',
+   'PYMODULE'),
+  ('sklearn.model_selection',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._classification_threshold',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_classification_threshold.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._plot',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_plot.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._search',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._search_successive_halving',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search_successive_halving.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._split',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_split.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._validation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_validation.py',
+   'PYMODULE'),
+  ('sklearn.multiclass',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\multiclass.py',
+   'PYMODULE'),
+  ('sklearn.neighbors',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_base.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._classification',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_classification.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._graph',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_graph.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._kde',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_kde.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._lof',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_lof.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._nca',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_nca.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._nearest_centroid',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_nearest_centroid.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._regression',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_regression.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._unsupervised',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_unsupervised.py',
+   'PYMODULE'),
+  ('sklearn.pipeline',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\pipeline.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._data',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_data.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._discretization',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_discretization.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._encoders',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._function_transformer',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_function_transformer.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._label',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_label.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._polynomial',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_polynomial.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._target_encoder',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_target_encoder.py',
+   'PYMODULE'),
+  ('sklearn.svm',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\svm\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.svm._base',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\sklearn\\svm\\_base.py',
+   'PYMODULE'),
+  ('sklearn.svm._bounds',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\svm\\_bounds.py',
+   'PYMODULE'),
+  ('sklearn.svm._classes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\svm\\_classes.py',
+   'PYMODULE'),
+  ('sklearn.tree',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\tree\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.tree._classes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\tree\\_classes.py',
+   'PYMODULE'),
+  ('sklearn.tree._export',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\tree\\_export.py',
+   'PYMODULE'),
+  ('sklearn.tree._reingold_tilford',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\tree\\_reingold_tilford.py',
+   'PYMODULE'),
+  ('sklearn.utils',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.utils._arpack',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_arpack.py',
+   'PYMODULE'),
+  ('sklearn.utils._array_api',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_array_api.py',
+   'PYMODULE'),
+  ('sklearn.utils._available_if',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_available_if.py',
+   'PYMODULE'),
+  ('sklearn.utils._bunch',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_bunch.py',
+   'PYMODULE'),
+  ('sklearn.utils._chunking',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_chunking.py',
+   'PYMODULE'),
+  ('sklearn.utils._encode',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_encode.py',
+   'PYMODULE'),
+  ('sklearn.utils._indexing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_indexing.py',
+   'PYMODULE'),
+  ('sklearn.utils._mask',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_mask.py',
+   'PYMODULE'),
+  ('sklearn.utils._metadata_requests',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_metadata_requests.py',
+   'PYMODULE'),
+  ('sklearn.utils._missing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_missing.py',
+   'PYMODULE'),
+  ('sklearn.utils._optional_dependencies',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_optional_dependencies.py',
+   'PYMODULE'),
+  ('sklearn.utils._param_validation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_param_validation.py',
+   'PYMODULE'),
+  ('sklearn.utils._plotting',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_plotting.py',
+   'PYMODULE'),
+  ('sklearn.utils._pprint',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_pprint.py',
+   'PYMODULE'),
+  ('sklearn.utils._repr_html',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_repr_html\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.utils._repr_html.base',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_repr_html\\base.py',
+   'PYMODULE'),
+  ('sklearn.utils._repr_html.estimator',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_repr_html\\estimator.py',
+   'PYMODULE'),
+  ('sklearn.utils._repr_html.params',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_repr_html\\params.py',
+   'PYMODULE'),
+  ('sklearn.utils._response',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_response.py',
+   'PYMODULE'),
+  ('sklearn.utils._set_output',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_set_output.py',
+   'PYMODULE'),
+  ('sklearn.utils._show_versions',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_show_versions.py',
+   'PYMODULE'),
+  ('sklearn.utils._tags',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_tags.py',
+   'PYMODULE'),
+  ('sklearn.utils._testing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_testing.py',
+   'PYMODULE'),
+  ('sklearn.utils._unique',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_unique.py',
+   'PYMODULE'),
+  ('sklearn.utils._user_interface',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\_user_interface.py',
+   'PYMODULE'),
+  ('sklearn.utils.class_weight',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\class_weight.py',
+   'PYMODULE'),
+  ('sklearn.utils.deprecation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\deprecation.py',
+   'PYMODULE'),
+  ('sklearn.utils.discovery',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\discovery.py',
+   'PYMODULE'),
+  ('sklearn.utils.extmath',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\extmath.py',
+   'PYMODULE'),
+  ('sklearn.utils.fixes',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\fixes.py',
+   'PYMODULE'),
+  ('sklearn.utils.graph',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\graph.py',
+   'PYMODULE'),
+  ('sklearn.utils.metadata_routing',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\metadata_routing.py',
+   'PYMODULE'),
+  ('sklearn.utils.metaestimators',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\metaestimators.py',
+   'PYMODULE'),
+  ('sklearn.utils.multiclass',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\multiclass.py',
+   'PYMODULE'),
+  ('sklearn.utils.optimize',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\optimize.py',
+   'PYMODULE'),
+  ('sklearn.utils.parallel',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py',
+   'PYMODULE'),
+  ('sklearn.utils.random',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\random.py',
+   'PYMODULE'),
+  ('sklearn.utils.sparsefuncs',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\sparsefuncs.py',
+   'PYMODULE'),
+  ('sklearn.utils.stats',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\stats.py',
+   'PYMODULE'),
+  ('sklearn.utils.validation',
+   'c:\\Vehicle '
+   'recognition\\.venv\\Lib\\site-packages\\sklearn\\utils\\validation.py',
+   'PYMODULE'),
+  ('socket', 'C:\\Python314\\Lib\\socket.py', 'PYMODULE'),
+  ('socketserver', 'C:\\Python314\\Lib\\socketserver.py', 'PYMODULE'),
+  ('ssl', 'C:\\Python314\\Lib\\ssl.py', 'PYMODULE'),
+  ('statistics', 'C:\\Python314\\Lib\\statistics.py', 'PYMODULE'),
+  ('string', 'C:\\Python314\\Lib\\string\\__init__.py', 'PYMODULE'),
+  ('stringprep', 'C:\\Python314\\Lib\\stringprep.py', 'PYMODULE'),
+  ('subprocess', 'C:\\Python314\\Lib\\subprocess.py', 'PYMODULE'),
+  ('sysconfig', 'C:\\Python314\\Lib\\sysconfig\\__init__.py', 'PYMODULE'),
+  ('tarfile', 'C:\\Python314\\Lib\\tarfile.py', 'PYMODULE'),
+  ('tempfile', 'C:\\Python314\\Lib\\tempfile.py', 'PYMODULE'),
+  ('textwrap', 'C:\\Python314\\Lib\\textwrap.py', 'PYMODULE'),
+  ('threading', 'C:\\Python314\\Lib\\threading.py', 'PYMODULE'),
+  ('threadpoolctl',
+   'c:\\Vehicle recognition\\.venv\\Lib\\site-packages\\threadpoolctl.py',
+   'PYMODULE'),
+  ('timeit', 'C:\\Python314\\Lib\\timeit.py', 'PYMODULE'),
+  ('tkinter', 'C:\\Python314\\Lib\\tkinter\\__init__.py', 'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Python314\\Lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Python314\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.dialog', 'C:\\Python314\\Lib\\tkinter\\dialog.py', 'PYMODULE'),
+  ('tkinter.filedialog',
+   'C:\\Python314\\Lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Python314\\Lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'C:\\Python314\\Lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('tkinter.ttk', 'C:\\Python314\\Lib\\tkinter\\ttk.py', 'PYMODULE'),
+  ('token', 'C:\\Python314\\Lib\\token.py', 'PYMODULE'),
+  ('tokenize', 'C:\\Python314\\Lib\\tokenize.py', 'PYMODULE'),
+  ('tracemalloc', 'C:\\Python314\\Lib\\tracemalloc.py', 'PYMODULE'),
+  ('tty', 'C:\\Python314\\Lib\\tty.py', 'PYMODULE'),
+  ('typing', 'C:\\Python314\\Lib\\typing.py', 'PYMODULE'),
+  ('unittest', 'C:\\Python314\\Lib\\unittest\\__init__.py', 'PYMODULE'),
+  ('unittest._log', 'C:\\Python314\\Lib\\unittest\\_log.py', 'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Python314\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case', 'C:\\Python314\\Lib\\unittest\\case.py', 'PYMODULE'),
+  ('unittest.loader', 'C:\\Python314\\Lib\\unittest\\loader.py', 'PYMODULE'),
+  ('unittest.main', 'C:\\Python314\\Lib\\unittest\\main.py', 'PYMODULE'),
+  ('unittest.result', 'C:\\Python314\\Lib\\unittest\\result.py', 'PYMODULE'),
+  ('unittest.runner', 'C:\\Python314\\Lib\\unittest\\runner.py', 'PYMODULE'),
+  ('unittest.signals', 'C:\\Python314\\Lib\\unittest\\signals.py', 'PYMODULE'),
+  ('unittest.suite', 'C:\\Python314\\Lib\\unittest\\suite.py', 'PYMODULE'),
+  ('unittest.util', 'C:\\Python314\\Lib\\unittest\\util.py', 'PYMODULE'),
+  ('urllib', 'C:\\Python314\\Lib\\urllib\\__init__.py', 'PYMODULE'),
+  ('urllib.error', 'C:\\Python314\\Lib\\urllib\\error.py', 'PYMODULE'),
+  ('urllib.parse', 'C:\\Python314\\Lib\\urllib\\parse.py', 'PYMODULE'),
+  ('urllib.request', 'C:\\Python314\\Lib\\urllib\\request.py', 'PYMODULE'),
+  ('urllib.response', 'C:\\Python314\\Lib\\urllib\\response.py', 'PYMODULE'),
+  ('uuid', 'C:\\Python314\\Lib\\uuid.py', 'PYMODULE'),
+  ('webbrowser', 'C:\\Python314\\Lib\\webbrowser.py', 'PYMODULE'),
+  ('xml', 'C:\\Python314\\Lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml.parsers', 'C:\\Python314\\Lib\\xml\\parsers\\__init__.py', 'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Python314\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax', 'C:\\Python314\\Lib\\xml\\sax\\__init__.py', 'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Python314\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Python314\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler', 'C:\\Python314\\Lib\\xml\\sax\\handler.py', 'PYMODULE'),
+  ('xml.sax.saxutils', 'C:\\Python314\\Lib\\xml\\sax\\saxutils.py', 'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Python314\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc', 'C:\\Python314\\Lib\\xmlrpc\\__init__.py', 'PYMODULE'),
+  ('xmlrpc.client', 'C:\\Python314\\Lib\\xmlrpc\\client.py', 'PYMODULE'),
+  ('zipfile', 'C:\\Python314\\Lib\\zipfile\\__init__.py', 'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Python314\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Python314\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport', 'C:\\Python314\\Lib\\zipimport.py', 'PYMODULE')])

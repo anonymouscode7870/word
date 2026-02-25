@@ -1,0 +1,10 @@
+VEHICLE CLASSIFICATION SYSTEM – LICENSE AGREEMENT
+
+This software is provided for authorized use only.
+
+1. The software is intended for internal, academic, or authorized use.
+2. Redistribution, reverse engineering, or resale is prohibited.
+3. The authors are not responsible for misuse of results.
+4. The software works fully offline and does not transmit data.
+
+By clicking “I Agree”, you accept all terms of this agreement.
