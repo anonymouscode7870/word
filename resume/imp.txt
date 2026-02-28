@@ -1,0 +1,4 @@
+1. python -m venv venv ---> create virtual environment
+2. venv\Scripts\activate ----> Activate virtual environment
+3. pip install streamlit PyPDF2 pdfplumber selenium sqlalchemy openai  
+4. streamlit run app.py  --> run
