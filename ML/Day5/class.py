@@ -34,6 +34,7 @@ class NetworkDataProcessor(DataProcessor):
         logging.info("Sending processed data over network")
         print (result)
         return f"NET::{result}"
+
         
 
 
