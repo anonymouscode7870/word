@@ -1,0 +1,335 @@
+[{
+  "_id": {
+    "$oid": "6948ead1c0cc94bc58592c1d"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Egg Fry",
+    "price": 20
+  },
+  "requestedFor": {
+    "$date": "2025-12-22T00:00:00.000Z"
+  },
+  "day": 22,
+  "month": 12,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-12-22T06:53:05.137Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-12-22T06:53:39.630Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6918a67ad52a4cc4e46a9ab4"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Egg Fry",
+    "price": 20
+  },
+  "requestedFor": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "day": 15,
+  "month": 11,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-11-15T16:12:42.781Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-11-15T16:13:30.316Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6948de1edb2985dc621cdca0"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Butter Fry",
+    "price": 18
+  },
+  "requestedFor": {
+    "$date": "2025-12-22T00:00:00.000Z"
+  },
+  "day": 22,
+  "month": 12,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-12-22T05:58:54.577Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-12-22T05:59:10.232Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6916c50daba6bbcc123ed511"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Butter Fry",
+    "price": 18
+  },
+  "requestedFor": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "day": 14,
+  "month": 11,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-11-14T05:58:37.656Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-11-14T05:59:18.059Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6948dd7fdb2985dc621cdc78"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Biscuit",
+    "price": 15
+  },
+  "requestedFor": {
+    "$date": "2025-12-22T00:00:00.000Z"
+  },
+  "day": 22,
+  "month": 12,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-12-22T05:56:15.090Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-12-22T05:56:23.726Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6948f127c6cd3a842fd75dfc"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Butter Fry",
+    "price": 18
+  },
+  "requestedFor": {
+    "$date": "2025-12-22T00:00:00.000Z"
+  },
+  "day": 22,
+  "month": 12,
+  "year": 2025,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-12-22T07:20:07.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948dc6fe18cddaef234d555"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Biscuit",
+    "price": 15
+  },
+  "requestedFor": {
+    "$date": "2025-12-22T00:00:00.000Z"
+  },
+  "day": 22,
+  "month": 12,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-12-22T05:51:43.472Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-12-22T05:52:00.855Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "692446bf97d2df3a0066170d"
+  },
+  "studentId": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "studentName": "Ankush Kumar",
+  "studentAcNo": "9269",
+  "item": {
+    "name": "Milk",
+    "price": 10
+  },
+  "requestedFor": {
+    "$date": "2025-11-24T00:00:00.000Z"
+  },
+  "day": 24,
+  "month": 11,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-11-24T11:51:27.983Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-11-24T11:52:17.388Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "691f44a742885b5b79cfd08a"
+  },
+  "studentId": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "studentName": "Ankush Kumar",
+  "studentAcNo": "9269",
+  "item": {
+    "name": "Butter",
+    "price": 20
+  },
+  "requestedFor": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "day": 20,
+  "month": 11,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-11-20T16:41:11.028Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-11-20T16:41:29.674Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6918a6e1d52a4cc4e46a9b07"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "studentName": "Raushan Kumar",
+  "studentAcNo": "9383",
+  "item": {
+    "name": "Bread",
+    "price": 15
+  },
+  "requestedFor": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "day": 15,
+  "month": 11,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-11-15T16:14:25.914Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-11-15T16:15:57.955Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+},
+{
+  "_id": {
+    "$oid": "6924469297d2df3a006616f1"
+  },
+  "studentId": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "studentName": "Ankush Kumar",
+  "studentAcNo": "9269",
+  "item": {
+    "name": "Butter Fry",
+    "price": 18
+  },
+  "requestedFor": {
+    "$date": "2025-11-24T00:00:00.000Z"
+  },
+  "day": 24,
+  "month": 11,
+  "year": 2025,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-11-24T11:50:42.643Z"
+  },
+  "__v": 0,
+  "approvedAt": {
+    "$date": "2025-11-24T11:52:03.406Z"
+  },
+  "approvedBy": {
+    "$oid": "69155cf9ded3070c9d695323"
+  }
+}]

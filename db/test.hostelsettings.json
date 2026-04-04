@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "69160a914e2136b02bc6158e"
+  },
+  "hostelNo": "1",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-13T16:42:58.259Z"
+  },
+  "diet": 130,
+  "isTodayMessOff": false,
+  "rebate": 17,
+  "updatedAt": {
+    "$date": "2025-12-22T05:36:35.411Z"
+  }
+}]

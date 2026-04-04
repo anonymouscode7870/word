@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "691f45f742885b5b79cfd109"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-11-20T16:46:47.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6914a2674747176155b52f6a"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-11-12T15:06:15.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6933b27c4511e17631759793"
+  },
+  "student": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-12-06T04:35:08.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691f45f942885b5b79cfd10c"
+  },
+  "student": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "status": "absent",
+  "date": {
+    "$date": "2025-11-20T16:46:49.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6947f49912647a9c36f6a4d6"
+  },
+  "student": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "date": {
+    "$date": "2025-12-21T00:00:00.000Z"
+  },
+  "status": "Absent",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6918adb2d52a4cc4e46a9e78"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-11-15T16:43:30.757Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6933b27b4511e17631759790"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-12-06T04:35:07.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6916afbd338e08febb4d98e4"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-11-14T04:27:41.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6947f49912647a9c36f6a4d5"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "date": {
+    "$date": "2025-12-21T00:00:00.000Z"
+  },
+  "status": "Absent",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691c0bd6e73ffbf211f2162e"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "status": "present",
+  "date": {
+    "$date": "2025-11-18T06:01:58.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691c0bd7e73ffbf211f21631"
+  },
+  "student": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "status": "absent",
+  "date": {
+    "$date": "2025-11-18T06:01:59.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6918adb3d52a4cc4e46a9e7b"
+  },
+  "student": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "status": "absent",
+  "date": {
+    "$date": "2025-11-15T16:43:31.737Z"
+  },
+  "__v": 0
+}]

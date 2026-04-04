@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6912e008300d5c9970aa7d7e"
+  },
+  "name": "Manager",
+  "email": "manager@gmail.com",
+  "password": "manager",
+  "phone": "7421594872",
+  "profilePhoto": "https://st.depositphotos.com/2101611/3925/v/450/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+  "role": "Manager",
+  "hostelNo": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69155f30f3130045be9f5a99"
+  },
+  "name": "Manager",
+  "email": "manager1@gmail.com",
+  "password": "manager",
+  "phone": "7631867534",
+  "profilePhoto": "https://st.depositphotos.com/2101611/3925/v/450/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+  "role": "Manager",
+  "hostelNo": 2,
+  "__v": 0
+}]

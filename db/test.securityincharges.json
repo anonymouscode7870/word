@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6912ca85af1f4f4b8b6e8170"
+  },
+  "name": "Security Incharge",
+  "email": "securityincharge@gmail.com",
+  "password": "securityincharge",
+  "phone": "7631867534",
+  "profilePhoto": "https://st.depositphotos.com/2101611/3925/v/450/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+  "role": "SecurityIncharge",
+  "__v": 0
+}]

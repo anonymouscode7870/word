@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "691350d440b798c9da7c7e72"
+  },
+  "name": "warden",
+  "email": "warden@gmail.com",
+  "password": "warden",
+  "phone": "7631867534",
+  "profilePhoto": "https://st.depositphotos.com/2101611/3925/v/450/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+  "role": "Warden",
+  "hostelNo": 1,
+  "__v": 0
+}]

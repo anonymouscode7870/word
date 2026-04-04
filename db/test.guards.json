@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "6912dc774934ef753562ffd4"
+  },
+  "name": "Harinder Singh",
+  "email": "guard1@gmail.com",
+  "password": "guard1",
+  "phone": "9523847612",
+  "profilePhoto": "https://st.depositphotos.com/2101611/3925/v/450/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+  "role": "Guard",
+  "hostelNo": 1,
+  "status": "Active",
+  "__v": 0,
+  "shift": "Night"
+},
+{
+  "_id": {
+    "$oid": "6912bfe3d5b905b8a16d5f4e"
+  },
+  "name": "Sukhwinder Singh",
+  "email": "guard@gmail.com",
+  "password": "guard",
+  "phone": "9825417854",
+  "profilePhoto": "https://st.depositphotos.com/2101611/3925/v/450/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+  "role": "Guard",
+  "hostelNo": 1,
+  "status": "Inactive",
+  "__v": 0,
+  "shift": "Day"
+}]

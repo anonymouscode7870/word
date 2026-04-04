@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6908db1928e3c5a33fbb6884"
+  },
+  "name": "SuperAdmin",
+  "email": "superadmin@gmail.com",
+  "password": "superadmin",
+  "phoneNo": "7631867534",
+  "address": "Ludhiana, Punjab, India",
+  "role": "SuperAdmin",
+  "profilePhoto": "https://res.cloudinary.com/duthu0r3j/image/upload/v1761640341/QuickChat/photo-1761640337192.jpg",
+  "createdAt": {
+    "$date": "2025-11-03T16:40:57.146Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-03T16:40:57.146Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "691bf6b3822b5797f1890075"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "leaving_date": {
+    "$date": "2025-11-18T18:30:00.000Z"
+  },
+  "return_date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "status": "completed",
+  "request_date": {
+    "$date": "2025-11-18T04:31:47.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924476997d2df3a00661773"
+  },
+  "student": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "leaving_date": {
+    "$date": "2025-11-24T18:30:00.000Z"
+  },
+  "return_date": {
+    "$date": "2025-11-26T00:00:00.000Z"
+  },
+  "status": "completed",
+  "request_date": {
+    "$date": "2025-11-24T11:54:17.061Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,1461 @@
+[{
+  "_id": {
+    "$oid": "692d7165aae1e0fe741883c9"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "year": 2025,
+  "month": 12,
+  "days": [
+    {
+      "date": 1,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "692d7165aae1e0fe741883cc"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "692d7165aae1e0fe741883cb"
+      }
+    },
+    {
+      "date": 2,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "692ec280bdbbe9c612aeeaeb"
+      }
+    },
+    {
+      "date": 3,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693014790f181704c89f83cb"
+      }
+    },
+    {
+      "date": 4,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693165a69ef8163717ea2d8a"
+      }
+    },
+    {
+      "date": 5,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6932b69a65e08dac80b4198f"
+      }
+    },
+    {
+      "date": 6,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693406c85dca258477e25e4a"
+      }
+    },
+    {
+      "date": 7,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69355807637c7d7c246f7b66"
+      }
+    },
+    {
+      "date": 8,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6936abc65184918d4695474c"
+      }
+    },
+    {
+      "date": 9,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6937fd49252ca3f9ce7ed27c"
+      }
+    },
+    {
+      "date": 10,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69394fdbf6da862ad83e7789"
+      }
+    },
+    {
+      "date": 11,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693aa055d2995823eaf59304"
+      }
+    },
+    {
+      "date": 12,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693bf17636b8b1efbb9ec214"
+      }
+    },
+    {
+      "date": 13,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693d4176209695b4217c8f8a"
+      }
+    },
+    {
+      "date": 14,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693e93146bc5eb65c0d710b6"
+      }
+    },
+    {
+      "date": 15,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693fe70d8762a30be1a4cad4"
+      }
+    },
+    {
+      "date": 16,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "694137fc2cd046237af1cc4b"
+      }
+    },
+    {
+      "date": 17,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6942896efb1f21b227c38560"
+      }
+    },
+    {
+      "date": 18,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6943daa7632fa749aebd5e20"
+      }
+    },
+    {
+      "date": 19,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69452bd04aed2dec4fb45ca6"
+      }
+    },
+    {
+      "date": 20,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69467bfffd647dc0adfc9b58"
+      }
+    },
+    {
+      "date": 21,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6947cdc7421a23375fb6cf8b"
+      }
+    },
+    {
+      "date": 22,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Biscuit",
+          "price": 15,
+          "_id": {
+            "$oid": "6948dd87b6bd703b56986b8b"
+          }
+        },
+        {
+          "name": "Butter Fry",
+          "price": 18,
+          "_id": {
+            "$oid": "6948de2eb6bd703b56986bed"
+          }
+        },
+        {
+          "name": "Egg Fry",
+          "price": 20,
+          "_id": {
+            "$oid": "6948eaf3c0cc94bc58592c3f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6948dc80b6bd703b56986b23"
+      }
+    }
+  ],
+  "totalDietAmount": 2600,
+  "totalItemsAmount": 85,
+  "hostelNo": "1",
+  "createdAt": {
+    "$date": "2025-12-01T10:43:49.133Z"
+  },
+  "__v": 24
+},
+{
+  "_id": {
+    "$oid": "692d7165aae1e0fe741883cf"
+  },
+  "studentId": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "year": 2025,
+  "month": 12,
+  "days": [
+    {
+      "date": 1,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "692d7166aae1e0fe741883d1"
+      }
+    },
+    {
+      "date": 2,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "692ec281bdbbe9c612aeeaf2"
+      }
+    },
+    {
+      "date": 3,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693014790f181704c89f83d3"
+      }
+    },
+    {
+      "date": 4,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693165a79ef8163717ea2d93"
+      }
+    },
+    {
+      "date": 5,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6932b69b65e08dac80b41997"
+      }
+    },
+    {
+      "date": 6,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693406c95dca258477e25e55"
+      }
+    },
+    {
+      "date": 7,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69355807637c7d7c246f7b72"
+      }
+    },
+    {
+      "date": 8,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6936abc75184918d46954757"
+      }
+    },
+    {
+      "date": 9,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6937fd4a252ca3f9ce7ed28a"
+      }
+    },
+    {
+      "date": 10,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69394fdcf6da862ad83e7798"
+      }
+    },
+    {
+      "date": 11,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693aa056d2995823eaf59314"
+      }
+    },
+    {
+      "date": 12,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693bf17636b8b1efbb9ec225"
+      }
+    },
+    {
+      "date": 13,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693d4176209695b4217c8f9a"
+      }
+    },
+    {
+      "date": 14,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693e93146bc5eb65c0d710c9"
+      }
+    },
+    {
+      "date": 15,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "693fe70e8762a30be1a4cae6"
+      }
+    },
+    {
+      "date": 16,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "694137fc2cd046237af1cc5e"
+      }
+    },
+    {
+      "date": 17,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6942896ffb1f21b227c38574"
+      }
+    },
+    {
+      "date": 18,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6943daa8632fa749aebd5e35"
+      }
+    },
+    {
+      "date": 19,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69452bd04aed2dec4fb45cbc"
+      }
+    },
+    {
+      "date": 20,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69467c00fd647dc0adfc9b6f"
+      }
+    },
+    {
+      "date": 21,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6947cdc8421a23375fb6cfa3"
+      }
+    }
+  ],
+  "totalDietAmount": 2730,
+  "totalItemsAmount": 0,
+  "hostelNo": "1",
+  "createdAt": {
+    "$date": "2025-12-01T10:43:49.824Z"
+  },
+  "__v": 20
+},
+{
+  "_id": {
+    "$oid": "69158449edd22b4865585502"
+  },
+  "studentId": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "year": 2025,
+  "month": 11,
+  "days": [
+    {
+      "date": 1,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 2,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 3,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 4,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 5,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 6,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 7,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 8,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 9,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 10,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 11,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 12,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 13,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 14,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69162588f2ca8bab94c3102c"
+      }
+    },
+    {
+      "date": 15,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6918a2cdd52a4cc4e46a9a6d"
+      }
+    },
+    {
+      "date": 17,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "691b638f4eb97ba3fef03863"
+      }
+    },
+    {
+      "date": 18,
+      "isMessClose": true,
+      "diet": {
+        "name": "Whole Mess was closed",
+        "price": 0
+      },
+      "items": [],
+      "_id": {
+        "$oid": "691b9129cb0efa89b0ec279e"
+      }
+    },
+    {
+      "date": 19,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "691d9e87eff46a626c732fce"
+      }
+    },
+    {
+      "date": 20,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "Butter",
+          "price": 20,
+          "_id": {
+            "$oid": "691f44b942885b5b79cfd0a5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "691eefde6adde05680dc280c"
+      }
+    },
+    {
+      "date": 21,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "692040dd50c564b0a09b2161"
+      }
+    },
+    {
+      "date": 22,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69219180f55fc8a9be087fe4"
+      }
+    },
+    {
+      "date": 23,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "6922e3280006cbeed9e91c62"
+      }
+    },
+    {
+      "date": 24,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "Butter Fry",
+          "price": 18,
+          "_id": {
+            "$oid": "692446e397d2df3a0066172e"
+          }
+        },
+        {
+          "name": "Milk",
+          "price": 10,
+          "_id": {
+            "$oid": "692446f197d2df3a0066174e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6924367ced91b05669bd6dec"
+      }
+    },
+    {
+      "date": 25,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "69258842a8cce2ccac3bb473"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69258842a8cce2ccac3bb472"
+      }
+    },
+    {
+      "date": 26,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "6926d95ce2eccb00e5c86961"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6926d95ce2eccb00e5c86960"
+      }
+    },
+    {
+      "date": 27,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69282ab177e341d914363182"
+      }
+    },
+    {
+      "date": 28,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "69297bb902b3bb81575c0166"
+      }
+    },
+    {
+      "date": 29,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "692acc60d54c7a0b0f03f8d9"
+      }
+    },
+    {
+      "date": 30,
+      "isMessClose": false,
+      "diet": {
+        "name": "Diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "692c1dac5cd5b48d821a6c2f"
+      }
+    }
+  ],
+  "totalDietAmount": 3900,
+  "totalItemsAmount": 82,
+  "createdAt": {
+    "$date": "2025-11-13T07:10:01.360Z"
+  },
+  "__v": 23
+},
+{
+  "_id": {
+    "$oid": "69158448edd22b48655854fe"
+  },
+  "studentId": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "year": 2025,
+  "month": 11,
+  "days": [
+    {
+      "date": 1,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "milk",
+          "price": 20
+        },
+        {
+          "name": "egg fry",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "date": 2,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 3,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "butter bread",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "date": 4,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 5,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "vegitable",
+          "price": 20
+        },
+        {
+          "name": "sweet",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "date": 6,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "paratha",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "date": 7,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 8,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "milk",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "date": 9,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 10,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "butter fry",
+          "price": 35
+        },
+        {
+          "name": "egg fry",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "date": 11,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 12,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": []
+    },
+    {
+      "date": 13,
+      "isMessClose": true,
+      "diet": {
+        "name": "closed",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "6915a0b124414d0364d5e8ce"
+          }
+        }
+      ]
+    },
+    {
+      "date": 14,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "Bread",
+          "price": 15,
+          "_id": {
+            "$oid": "691627aabbec1551ed8e4321"
+          }
+        },
+        {
+          "name": "Butter Fry",
+          "price": 18,
+          "_id": {
+            "$oid": "6916c535aba6bbcc123ed532"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69162588f2ca8bab94c3101b"
+      }
+    },
+    {
+      "date": 15,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [
+        {
+          "name": "Egg Fry",
+          "price": 20,
+          "_id": {
+            "$oid": "6918a6a9d52a4cc4e46a9adb"
+          }
+        },
+        {
+          "name": "Bread",
+          "price": 15,
+          "_id": {
+            "$oid": "6918a73dd52a4cc4e46a9b2b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6918a2cdd52a4cc4e46a9a5b"
+      }
+    },
+    {
+      "date": 17,
+      "isMessClose": false,
+      "diet": {
+        "name": "diet",
+        "price": 130
+      },
+      "items": [],
+      "_id": {
+        "$oid": "691b638f4eb97ba3fef03850"
+      }
+    },
+    {
+      "date": 18,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "691c4d3ce38da9d7760216f5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "691b9128cb0efa89b0ec2789"
+      }
+    },
+    {
+      "date": 19,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "691d9e86eff46a626c732fb7"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "691d9e86eff46a626c732fb6"
+      }
+    },
+    {
+      "date": 20,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "691eefdd6adde05680dc27f6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "691eefdd6adde05680dc27f5"
+      }
+    },
+    {
+      "date": 21,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "692040dd50c564b0a09b2147"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "692040dd50c564b0a09b2146"
+      }
+    },
+    {
+      "date": 22,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "6921917ff55fc8a9be087fc9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6921917ff55fc8a9be087fc8"
+      }
+    },
+    {
+      "date": 23,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "6922e3270006cbeed9e91c48"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6922e3270006cbeed9e91c47"
+      }
+    },
+    {
+      "date": 24,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "6924367bed91b05669bd6dd1"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6924367bed91b05669bd6dd0"
+      }
+    },
+    {
+      "date": 25,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "69258841a8cce2ccac3bb454"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69258841a8cce2ccac3bb453"
+      }
+    },
+    {
+      "date": 26,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "6926d95be2eccb00e5c86940"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6926d95be2eccb00e5c8693f"
+      }
+    },
+    {
+      "date": 27,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "69282ab077e341d91436315e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69282ab077e341d91436315d"
+      }
+    },
+    {
+      "date": 28,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "69297bb802b3bb81575c0143"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69297bb802b3bb81575c0142"
+      }
+    },
+    {
+      "date": 29,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "692acc5fd54c7a0b0f03f8b5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "692acc5fd54c7a0b0f03f8b4"
+      }
+    },
+    {
+      "date": 30,
+      "isMessClose": true,
+      "diet": {
+        "name": "The student had mess off.",
+        "price": 0
+      },
+      "items": [
+        {
+          "name": "Rebate",
+          "price": 17,
+          "_id": {
+            "$oid": "692c1dab5cd5b48d821a6c0a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "692c1dab5cd5b48d821a6c09"
+      }
+    }
+  ],
+  "totalDietAmount": 2470,
+  "totalItemsAmount": 454,
+  "createdAt": {
+    "$date": "2025-11-13T07:10:00.832Z"
+  },
+  "__v": 33
+}]

@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "6948dc78b6bd703b56986b03"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Wifi Speed",
+  "description": "The Wi-Fi speed in the hostel becomes very slow during night hours. Please look into improving the network bandwidth.",
+  "suggestionFor": "Hostel",
+  "status": "pending",
+  "date": {
+    "$date": "2025-12-22T05:51:52.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948e0194c1a2a89bda3d63a"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Please Increase the no. of Chairs",
+  "description": "We Are unable to get sit at night at a time, we have to wait for it",
+  "suggestionFor": "Mess",
+  "status": "pending",
+  "date": {
+    "$date": "2025-12-22T06:07:21.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694826d6a933bafaacfa5be2"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Concern About Food Quantity in Mess",
+  "description": "The quantity of food served in the mess is often insufficient for students. I request the management to ensure adequate portion sizes so that students do not remain hungry after meals.",
+  "suggestionFor": "Mess",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T16:56:54.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69481462da9bbd8aac384d53"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Mess Food Quality Improvement Request",
+  "description": "Taste, freshness, and hygiene need improvement.",
+  "suggestionFor": "Mess",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T15:38:11.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6933b3e34511e1763175980b"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Washing machine ",
+  "description": "Not Working  jj e 3e 3  3e 3e 3e  4 4f   f4 r 4 4 Not Working  jj e 3e 3  3e 3e 3e  4 4f   f4 r 4 4 Not Working  jj e 3e 3  3e 3e 3e  4 4f   f4 r 4 4 e e f e e",
+  "suggestionFor": "Hostel",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-06T04:41:07.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6947fdb44cb6224bf56feed5"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "wifi problem",
+  "description": "wifi is not working from last 4 hours ",
+  "suggestionFor": "Hostel",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T14:01:24.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6947fe1a4cb6224bf56fef09"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Fan problem ",
+  "description": "sir my fan is not working from last 2 days ",
+  "suggestionFor": "Hostel",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T14:03:06.128Z"
+  },
+  "__v": 0
+}]

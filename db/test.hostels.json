@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "name": "1",
+  "location": "https://maps.app.goo.gl/PRrXKRVxqrWt7J7eA",
+  "rooms": "200",
+  "capacity": "200",
+  "vacant": "200"
+}]

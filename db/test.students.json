@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "6948e29f4c1a2a89bda3d6b3"
+  },
+  "name": "Utkarsh ",
+  "urn": 2203904,
+  "room_no": 19,
+  "batch": 2026,
+  "dept": "IT",
+  "course": "B.Tech",
+  "email": "utkarsh@gmail.com",
+  "father_name": "Rakesh Kumar Gandhi",
+  "contact": "+917545982242",
+  "accountNumber": "9284",
+  "address": "at guru Nanak Dev Engineering College, Ludhiana",
+  "dob": {
+    "$date": "2005-06-07T00:00:00.000Z"
+  },
+  "uidai": "673184123335",
+  "role": "Student",
+  "password": "$2a$10$jz3WEhNvrDaANS1r8yk32OPZvDfNniHH2LqNIE2I5CDXFIA5MVpku",
+  "hostelNo": 1,
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "profilePhoto": "https://thumbs.dreamstime.com/b/skeleton-sitting-under-moonlight-skeleton-sits-stone-gazing-full-moon-night-sky-334139675.jpg",
+  "date": {
+    "$date": "2025-12-22T06:18:07.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948e3d94c1a2a89bda3d706"
+  },
+  "name": "Jay Kumar",
+  "urn": 2203844,
+  "room_no": 1,
+  "batch": 2026,
+  "dept": "IT",
+  "course": "B.Tech",
+  "email": "jay@gmail.com",
+  "father_name": "xyz",
+  "contact": "+917545982249",
+  "accountNumber": "9278",
+  "address": "at guru Nanak Dev Engineering College, Ludhiana",
+  "dob": {
+    "$date": "1999-02-02T00:00:00.000Z"
+  },
+  "uidai": "12476319456",
+  "role": "Student",
+  "password": "$2a$10$6f.jIGA74n.iiYz4ihZKpOHegmRX/z86xmXGbDE8eLXZ2oZ59y9Xe",
+  "hostelNo": 1,
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "profilePhoto": "https://thumbs.dreamstime.com/b/skeleton-sitting-under-moonlight-skeleton-sits-stone-gazing-full-moon-night-sky-334139675.jpg",
+  "date": {
+    "$date": "2025-12-22T06:23:21.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6914a385d84ff2c61a3f8ac9"
+  },
+  "name": "Ankush Kumar",
+  "urn": 2203749,
+  "room_no": 13,
+  "batch": 2026,
+  "dept": "IT",
+  "course": "B.Tech(IT)",
+  "email": "ankush@gmail.com",
+  "father_name": "Raushan Singh",
+  "contact": "917631867534",
+  "accountNumber": "9269",
+  "address": "Guru Nanak Dev Engineering College, Ludhiana",
+  "dob": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "uidai": "673184123334",
+  "role": "Student",
+  "password": "$2a$10$fqaIG12gygsanI1NuQQXMe1/caNSmfbr75egzmOnX2rGCOzmYsKuu",
+  "hostelNo": 1,
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "profilePhoto": "https://thumbs.dreamstime.com/b/skeleton-sitting-under-moonlight-skeleton-sits-stone-gazing-full-moon-night-sky-334139675.jpg",
+  "date": {
+    "$date": "2025-11-12T15:11:01.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "name": "Raushan Kumar",
+  "urn": 2203751,
+  "room_no": 17,
+  "batch": 2026,
+  "dept": "IT",
+  "course": "B-Tech",
+  "email": "raushan@gmail.com",
+  "father_name": "virendra singh",
+  "contact": "918787678767",
+  "accountNumber": "9383",
+  "address": "Guru nanak dev engineering college Ludhiana Punjab , hostel no 2\nGne college hostel no 2",
+  "dob": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "uidai": "469986482364",
+  "role": "Student",
+  "password": "$2a$10$VfW2m7OW7yljthkQ.g5Q2.kerPW2J29s6kX.LlPYUk7GJo36z8TnK",
+  "hostelNo": 1,
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "profilePhoto": "https://res.cloudinary.com/duthu0r3j/image/upload/v1766319355/Raushan_Photo_dtknfz.png",
+  "date": {
+    "$date": "2025-11-11T15:37:46.590Z"
+  },
+  "__v": 0
+}]

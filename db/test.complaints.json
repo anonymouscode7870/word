@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "69482677a933bafaacfa5bc3"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Hygiene & Cleanliness",
+  "description": "I would like to raise a concern regarding cleanliness and hygiene in the mess area. Proper hygiene while cooking and serving food is essential for students’ health. Kindly take necessary action.",
+  "suggestionFor": "Mess",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T16:55:19.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948215ca933bafaacfa5ad9"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Hostel Wi-Fi Connectivity Issue",
+  "description": "The hostel Wi-Fi connection is very unstable and frequently disconnects. This is affecting online classes, assignments, and daily academic work. Kindly resolve this issue at the earliest.",
+  "suggestionFor": "Hostel",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T16:33:32.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69483363d24c273f44fcb111"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Frequent Disconnection",
+  "description": "The hostel Wi-Fi disconnects repeatedly throughout the day. Due to this, online activities like lectures, exams, and project work are getting disturbed. Please fix this issue permanently.",
+  "suggestionFor": "Hostel",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T17:50:27.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948dbc6b6bd703b56986af6"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Food quality",
+  "description": "food quality is not upto the mark. ",
+  "suggestionFor": "Mess",
+  "status": "pending",
+  "date": {
+    "$date": "2025-12-22T05:48:54.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69482201a933bafaacfa5afe"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Repetitive Menu Issue",
+  "description": "The current mess menu feels very repetitive, which affects students’ interest in meals. Adding more variety and balanced food options will greatly improve the overall mess experience.",
+  "suggestionFor": "Mess",
+  "status": "approved",
+  "date": {
+    "$date": "2025-12-21T16:36:17.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948db93b6bd703b56986aef"
+  },
+  "student": {
+    "$oid": "6913584a9ff7768f806ccd28"
+  },
+  "hostel": {
+    "$oid": "6909d7ae43d947653625a8d8"
+  },
+  "title": "Water Cooler",
+  "description": "Water cooler is not working. ",
+  "suggestionFor": "Hostel",
+  "status": "pending",
+  "date": {
+    "$date": "2025-12-22T05:48:03.277Z"
+  },
+  "__v": 0
+}]
