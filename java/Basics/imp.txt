@@ -1,0 +1,3 @@
+in java 
+char and int is friendly
+while boolean and int is NOT
