@@ -1,4 +1,5 @@
 #include<iostream>
+#include<queue>
 using namespace std;
 
 class Node{
@@ -67,6 +68,13 @@ void postOrderTraversal(Node* root)
     cout<<root->val<<" ";
 }
 
+void levelOrderTraversalBFS(Node* root){
+
+   
+
+
+}
+
 int main(){
     
     Node* root = createTree();
@@ -78,6 +86,8 @@ int main(){
     cout<<endl;
     postOrderTraversal(root);
     cout<<endl;
+    levelOrderTraversalBFS(root);
+
 }
 
 
