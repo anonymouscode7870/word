@@ -70,10 +70,56 @@ void postOrderTraversal(Node* root)
 
 void levelOrderTraversalBFS(Node* root){
 
-   
+    queue<Node*> q;
+    q.push(root);
+    while(!q.empty()){
 
+        Node* frontNode = q.front();
+        cout<<frontNode->val<<" ";
+        q.pop();
 
+        if(frontNode->left){
+            q.push(frontNode->left);
+        }
+        if(frontNode->right){
+            q.push(frontNode->right);
+        }
+
+    }
 }
+        
+
+    void levelOrderTraversalNULLPtr (Node* root){
+        queue<Node*> q;
+        q.push(root);
+        q.push(NULL);
+
+        while(q.size()>1){
+
+            Node* frontNode = q.front();
+            
+             q.pop();
+            if(frontNode == NULL){// it is root for first ele
+                cout<<endl;
+               
+                q.push(NULL);
+                
+            }else{
+
+                cout<<frontNode->val<<" ";
+                if(frontNode->left){
+                    q.push(frontNode->left);
+                }
+                if(frontNode->right){
+                    q.push(frontNode->right);
+                }
+
+            }
+            
+
+    }
+    }
+
 
 int main(){
     
@@ -87,6 +133,9 @@ int main(){
     postOrderTraversal(root);
     cout<<endl;
     levelOrderTraversalBFS(root);
+
+    cout<<endl;
+    levelOrderTraversalNULLPtr(root);
 
 }
 

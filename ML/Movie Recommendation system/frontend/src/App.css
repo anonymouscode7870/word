@@ -1,0 +1,40 @@
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --text: #c9d1d9;
+  --accent: #58a6ff;
+  --border: #30363d;
+}
+
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; margin: 0; }
+.container { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
+
+.hero { text-align: center; margin-bottom: 50px; }
+h1 span { color: var(--accent); }
+
+.search-bar { display: flex; gap: 10px; justify-content: center; }
+input { background: #010409; border: 1px solid var(--border); padding: 12px 20px; border-radius: 6px; color: white; width: 400px; }
+button { background: #238636; color: white; border: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; cursor: pointer; }
+
+.movie-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
+
+.movie-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; display: flex; flex-direction: column; transition: 0.2s; }
+.movie-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+
+.card-top { display: flex; justify-content: space-between; padding: 15px 20px 0; font-size: 11px; color: #8b949e; }
+.rating-label { color: #e3b341; font-weight: bold; }
+
+.info { padding: 20px; flex-grow: 1; }
+.info h3 { margin: 0 0 5px 0; color: white; }
+.tagline { color: #8b949e; font-size: 13px; margin-bottom: 20px; display: block; }
+
+.meta-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+.stat { font-size: 12px; }
+.stat span { color: #8b949e; margin-right: 5px; }
+
+.overview-box { font-size: 13px; line-height: 1.5; margin-bottom: 20px; height: 100px; overflow-y: auto; padding-right: 5px; }
+.overview-box strong { color: var(--accent); display: block; margin-bottom: 5px; }
+
+.genre-tags { font-size: 11px; font-weight: bold; color: var(--accent); border: 1px solid var(--accent); padding: 5px 10px; border-radius: 4px; display: inline-block; }
+
+.card-footer { margin-top: 20px; padding-top: 15px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; font-size: 10px; color: #8b949e; }

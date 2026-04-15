@@ -7,7 +7,6 @@ public class Swaping {
         int temp = li.get(idx1);
         li.set(idx1, li.get(idx2) );
         li.set(idx2, temp);
-
     }
     public static void main(String[] args) {
         ArrayList<Integer> list3 = new ArrayList<>();
