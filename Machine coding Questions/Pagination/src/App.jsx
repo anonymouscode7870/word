@@ -28,7 +28,7 @@ function App() {
 
   const Page_Size = 10;
   const total_pages = Math.ceil(products.length / Page_Size);
-  
+
   return (
     <div className="app">
       <h1>Pagiation : {currentPage}</h1>
