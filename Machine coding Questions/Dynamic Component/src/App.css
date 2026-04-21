@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+.active{
+  background-color: #cc0d6c;
+}
