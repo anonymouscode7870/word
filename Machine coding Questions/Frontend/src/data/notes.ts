@@ -1,0 +1,68 @@
+import { Note } from '../types';
+
+export const notes: Note[] = [
+    {
+        id: '1',
+        title: 'DSA Complete Handbook',
+        category: 'DSA',
+        description: 'Comprehensive guide covering arrays, linked lists, trees, graphs, and more',
+        downloadUrl: '#',
+        pages: 245,
+    },
+    {
+        id: '2',
+        title: 'C++ STL Reference',
+        category: 'C++',
+        description: 'Complete reference for C++ Standard Template Library with examples',
+        downloadUrl: '#',
+        pages: 156,
+    },
+    {
+        id: '3',
+        title: 'Java Collections Framework',
+        category: 'Java',
+        description: 'In-depth guide to Java collections and data structures',
+        downloadUrl: '#',
+        pages: 189,
+    },
+    {
+        id: '4',
+        title: 'Operating Systems Study Guide',
+        category: 'OS',
+        description: 'Comprehensive OS concepts, processes, memory management, and IPC',
+        downloadUrl: '#',
+        pages: 312,
+    },
+    {
+        id: '5',
+        title: 'DBMS Interview Questions',
+        category: 'DBMS',
+        description: '100+ common DBMS interview questions with detailed answers',
+        downloadUrl: '#',
+        pages: 267,
+    },
+    {
+        id: '6',
+        title: 'System Design Patterns',
+        category: 'System Design',
+        description: 'Common system design patterns and architectural decisions',
+        downloadUrl: '#',
+        pages: 198,
+    },
+    {
+        id: '7',
+        title: 'Python Quick Tips',
+        category: 'Python',
+        description: 'Useful Python tips, tricks, and best practices',
+        downloadUrl: '#',
+        pages: 87,
+    },
+    {
+        id: '8',
+        title: 'SQL Master Guide',
+        category: 'SQL',
+        description: 'From basics to advanced SQL queries and optimization',
+        downloadUrl: '#',
+        pages: 224,
+    },
+];

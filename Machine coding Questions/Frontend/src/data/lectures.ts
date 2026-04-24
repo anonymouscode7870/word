@@ -1,0 +1,58 @@
+import { Lecture } from '../types';
+
+export const lectures: Lecture[] = [
+    {
+        id: '1',
+        title: 'Arrays and Strings - Complete Guide',
+        description: 'Master array manipulation, string processing, and common interview problems',
+        thumbnail: 'https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=500&h=300&fit=crop',
+        youtubeUrl: 'https://youtube.com/watch?v=example1',
+        isNew: true,
+        category: 'DSA',
+    },
+    {
+        id: '2',
+        title: 'Linked Lists from Zero to Hero',
+        description: 'Learn single, double, and circular linked lists with visualization',
+        thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
+        youtubeUrl: 'https://youtube.com/watch?v=example2',
+        isNew: true,
+        category: 'DSA',
+    },
+    {
+        id: '3',
+        title: 'Tree Traversal and Binary Search Trees',
+        description: 'In-depth coverage of tree data structures and common patterns',
+        thumbnail: 'https://images.unsplash.com/photo-1516534775068-bb57e5f4e0bb?w=500&h=300&fit=crop',
+        youtubeUrl: 'https://youtube.com/watch?v=example3',
+        isNew: false,
+        category: 'DSA',
+    },
+    {
+        id: '4',
+        title: 'Operating System Fundamentals',
+        description: 'Process management, memory management, and scheduling algorithms',
+        thumbnail: 'https://images.unsplash.com/photo-1518611505868-48510c8a9db8?w=500&h=300&fit=crop',
+        youtubeUrl: 'https://youtube.com/watch?v=example4',
+        isNew: true,
+        category: 'OS',
+    },
+    {
+        id: '5',
+        title: 'Database Management Systems Crash Course',
+        description: 'SQL, normalization, transactions, and indexing strategies',
+        thumbnail: 'https://images.unsplash.com/photo-1516321318423-f06f70504ce0?w=500&h=300&fit=crop',
+        youtubeUrl: 'https://youtube.com/watch?v=example5',
+        isNew: false,
+        category: 'DBMS',
+    },
+    {
+        id: '6',
+        title: 'System Design Interview Prep',
+        description: 'Design scalable systems, databases, and handle millions of users',
+        thumbnail: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop',
+        youtubeUrl: 'https://youtube.com/watch?v=example6',
+        isNew: true,
+        category: 'System Design',
+    },
+];
