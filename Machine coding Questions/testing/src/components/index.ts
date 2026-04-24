@@ -2,3 +2,8 @@ export { Navbar } from './Navbar';
 export { Footer } from './Footer';
 export { LectureCard } from './LectureCard';
 export { NoteCard } from './NoteCard';
+export { AuthModal } from './AuthModal';
+export { TaskForm } from './TaskForm';
+export { ContributionGraph } from './ContributionGraph';
+export { ProgressBar } from './ProgressBar';
+export { WeeklyTracker } from './WeeklyTracker';

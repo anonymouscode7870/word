@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion';
-import { ArrowRight, Star } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { LectureCard } from '../components/LectureCard';
-import { lectures } from '../data/lectures';
+import { motion } from "framer-motion";
+import { ArrowRight, Star } from "lucide-react";
+import { Link } from "react-router-dom";
+import { LectureCard } from "../components/LectureCard";
+import { lectures } from "../data/lectures";
 
 interface HomeProps {
   isDark: boolean;
@@ -10,20 +10,22 @@ interface HomeProps {
 
 export const Home = ({ isDark }: HomeProps) => {
   const stats = [
-    { label: 'Total Subscribers', value: '150K+' },
-    { label: 'Video Tutorials', value: '100+' },
-    { label: 'Study Notes', value: '50+' },
-    { label: 'Success Rate', value: '98%' },
+    { label: "Total Subscribers", value: "150K+" },
+    { label: "Video Tutorials", value: "100+" },
+    { label: "Study Notes", value: "50+" },
+    { label: "Success Rate", value: "98%" },
   ];
 
   const recentLectures = lectures.slice(0, 3);
 
   return (
-    <div className={`pt-20 ${isDark ? 'bg-slate-950' : 'bg-white'}`}>
+    <div className={`pt-20 ${isDark ? "bg-slate-950" : "bg-white"}`}>
       {/* Hero Section */}
-      <section className={`py-20 px-4 ${isDark ? 'bg-gradient-to-b from-slate-950 to-slate-900/50' : 'bg-gradient-to-b from-white to-slate-50'}`}>
+      <section
+        className={`py-12 md:py-16 lg:py-20 px-4 ${isDark ? "bg-gradient-to-b from-slate-950 to-slate-900/50" : "bg-gradient-to-b from-white to-slate-50"}`}
+      >
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left Content */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -42,23 +44,20 @@ export const Home = ({ isDark }: HomeProps) => {
               </motion.div>
 
               <h1
-                className={`text-5xl md:text-6xl font-bold mb-6 leading-tight ${
-                  isDark
-                    ? 'text-white'
-                    : 'text-slate-900'
+                className={`text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight ${
+                  isDark ? "text-white" : "text-slate-900"
                 }`}
               >
                 Master DSA, OS & DBMS for Your Dream Job
               </h1>
 
               <p
-                className={`text-xl mb-8 leading-relaxed ${
-                  isDark
-                    ? 'text-slate-300'
-                    : 'text-slate-600'
+                className={`text-base sm:text-lg md:text-xl mb-8 leading-relaxed ${
+                  isDark ? "text-slate-300" : "text-slate-600"
                 }`}
               >
-                Comprehensive video lectures, downloadable study notes, and interview prep resources to help you ace your placements.
+                Comprehensive video lectures, downloadable study notes, and
+                interview prep resources to help you ace your placements.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -89,10 +88,12 @@ export const Home = ({ isDark }: HomeProps) => {
                   ))}
                 </div>
                 <div>
-                  <p className={`font-semibold ${isDark ? 'text-white' : 'text-slate-900'}`}>
+                  <p
+                    className={`font-semibold ${isDark ? "text-white" : "text-slate-900"}`}
+                  >
                     150K+ Joined
                   </p>
-                  <p className={isDark ? 'text-slate-400' : 'text-slate-600'}>
+                  <p className={isDark ? "text-slate-400" : "text-slate-600"}>
                     Start your journey today
                   </p>
                 </div>
@@ -110,8 +111,8 @@ export const Home = ({ isDark }: HomeProps) => {
               <div
                 className={`relative h-full rounded-3xl border ${
                   isDark
-                    ? 'bg-gradient-to-br from-slate-800 to-slate-900 border-slate-700'
-                    : 'bg-gradient-to-br from-slate-100 to-slate-50 border-slate-300'
+                    ? "bg-gradient-to-br from-slate-800 to-slate-900 border-slate-700"
+                    : "bg-gradient-to-br from-slate-100 to-slate-50 border-slate-300"
                 } flex items-center justify-center`}
               >
                 <motion.div
@@ -128,11 +129,13 @@ export const Home = ({ isDark }: HomeProps) => {
       </section>
 
       {/* Statistics Section */}
-      <section className={`py-20 px-4 ${isDark ? 'bg-slate-900/50' : 'bg-slate-50'}`}>
+      <section
+        className={`py-12 md:py-16 lg:py-20 px-4 ${isDark ? "bg-slate-900/50" : "bg-slate-50"}`}
+      >
         <div className="max-w-7xl mx-auto">
           <h2
-            className={`text-4xl font-bold text-center mb-16 ${
-              isDark ? 'text-white' : 'text-slate-900'
+            className={`text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 md:mb-16 ${
+              isDark ? "text-white" : "text-slate-900"
             }`}
           >
             Our Impact
@@ -148,13 +151,13 @@ export const Home = ({ isDark }: HomeProps) => {
                 viewport={{ once: true }}
                 className={`rounded-2xl border p-8 text-center transition-all duration-300 hover:shadow-xl ${
                   isDark
-                    ? 'bg-slate-800 border-slate-700 hover:border-indigo-600/50'
-                    : 'bg-white border-slate-200 hover:border-indigo-600/50'
+                    ? "bg-slate-800 border-slate-700 hover:border-indigo-600/50"
+                    : "bg-white border-slate-200 hover:border-indigo-600/50"
                 }`}
               >
                 <p
                   className={`text-sm font-semibold mb-2 ${
-                    isDark ? 'text-slate-400' : 'text-slate-600'
+                    isDark ? "text-slate-400" : "text-slate-600"
                   }`}
                 >
                   {stat.label}
@@ -169,18 +172,20 @@ export const Home = ({ isDark }: HomeProps) => {
       </section>
 
       {/* Recent Videos Section */}
-      <section className={`py-20 px-4 ${isDark ? 'bg-slate-950' : 'bg-white'}`}>
+      <section
+        className={`py-12 md:py-16 lg:py-20 px-4 ${isDark ? "bg-slate-950" : "bg-white"}`}
+      >
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-12">
             <div>
               <h2
-                className={`text-4xl font-bold mb-2 ${
-                  isDark ? 'text-white' : 'text-slate-900'
+                className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-2 ${
+                  isDark ? "text-white" : "text-slate-900"
                 }`}
               >
                 Recent Lectures
               </h2>
-              <p className={isDark ? 'text-slate-400' : 'text-slate-600'}>
+              <p className={isDark ? "text-slate-400" : "text-slate-600"}>
                 Fresh content to boost your preparation
               </p>
             </div>
@@ -219,17 +224,21 @@ export const Home = ({ isDark }: HomeProps) => {
             viewport={{ once: true }}
             className={`rounded-3xl border ${
               isDark
-                ? 'bg-gradient-to-r from-slate-800 to-slate-900 border-slate-700'
-                : 'bg-gradient-to-r from-slate-900 to-slate-800 border-slate-700'
+                ? "bg-gradient-to-r from-slate-800 to-slate-900 border-slate-700"
+                : "bg-gradient-to-r from-slate-900 to-slate-800 border-slate-700"
             } p-12 text-center`}
           >
             <h3 className="text-4xl font-bold text-white mb-4">
               Ready to Transform Your Career?
             </h3>
             <p className="text-slate-300 mb-8 text-lg max-w-2xl mx-auto">
-              Join thousands of students who have successfully landed their dream placements with our comprehensive resources.
+              Join thousands of students who have successfully landed their
+              dream placements with our comprehensive resources.
             </p>
-            <Link to="/notes" className="btn-primary inline-flex items-center justify-center gap-2">
+            <Link
+              to="/notes"
+              className="btn-primary inline-flex items-center justify-center gap-2"
+            >
               Explore Study Notes
               <ArrowRight size={20} />
             </Link>

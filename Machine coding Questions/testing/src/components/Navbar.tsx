@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Moon, Sun } from 'lucide-react';
+import { Menu, X, Moon, Sun, LogOut } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useAuth } from '../context/AuthContext';
 
 interface NavbarProps {
   isDark: boolean;
@@ -10,11 +11,13 @@ interface NavbarProps {
 
 export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isLoggedIn, user, logout } = useAuth();
 
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Lectures', path: '/lectures' },
     { name: 'Notes', path: '/notes' },
+    { name: 'Tasks', path: '/tasks' },
     { name: 'About', path: '/about' },
   ];
 
@@ -60,6 +63,25 @@ export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
 
           {/* Theme Toggle & Mobile Menu */}
           <div className="flex items-center gap-4">
+            {isLoggedIn && (
+              <div className="flex items-center gap-3">
+                <span className={`text-sm ${isDark ? 'text-slate-300' : 'text-slate-700'}`}>
+                  {user?.email}
+                </span>
+                <button
+                  onClick={logout}
+                  className={`p-2 rounded-lg transition-colors ${
+                    isDark
+                      ? 'bg-slate-800/50 text-red-400 hover:bg-slate-700/50'
+                      : 'bg-white/50 text-red-600 hover:bg-white/70'
+                  }`}
+                  title="Logout"
+                >
+                  <LogOut size={20} />
+                </button>
+              </div>
+            )}
+            
             <button
               onClick={onToggleDarkMode}
               className={`p-2 rounded-lg transition-colors ${
@@ -111,6 +133,22 @@ export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
                 {item.name}
               </Link>
             ))}
+            {isLoggedIn && (
+              <button
+                onClick={() => {
+                  logout();
+                  setIsMenuOpen(false);
+                }}
+                className={`w-full text-left px-4 py-2 rounded-lg transition-colors flex items-center gap-2 ${
+                  isDark
+                    ? 'text-red-400 hover:bg-slate-800/50'
+                    : 'text-red-600 hover:bg-white/50'
+                }`}
+              >
+                <LogOut size={18} />
+                Logout
+              </button>
+            )}
           </motion.div>
         )}
       </div>

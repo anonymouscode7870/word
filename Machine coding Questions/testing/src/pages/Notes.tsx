@@ -1,20 +1,20 @@
-import { useState, useMemo } from 'react';
-import { motion } from 'framer-motion';
-import { Search, ChevronDown } from 'lucide-react';
-import { NoteCard } from '../components/NoteCard';
-import { notes } from '../data/notes';
+import { useState, useMemo } from "react";
+import { motion } from "framer-motion";
+import { Search, ChevronDown } from "lucide-react";
+import { NoteCard } from "../components/NoteCard";
+import { notes } from "../data/notes";
 
 interface NotesProps {
   isDark: boolean;
 }
 
 export const Notes = ({ isDark }: NotesProps) => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [isFilterOpen, setIsFilterOpen] = useState(true);
 
   // Get unique categories
-  const categories = [...new Set(notes.map(n => n.category))].sort();
+  const categories = [...new Set(notes.map((n) => n.category))].sort();
 
   // Filter notes
   const filteredNotes = useMemo(() => {
@@ -36,14 +36,18 @@ export const Notes = ({ isDark }: NotesProps) => {
     setSelectedCategories((prev) =>
       prev.includes(category)
         ? prev.filter((c) => c !== category)
-        : [...prev, category]
+        : [...prev, category],
     );
   };
 
   return (
-    <div className={`pt-20 min-h-screen ${isDark ? 'bg-slate-950' : 'bg-white'}`}>
+    <div
+      className={`pt-20 min-h-screen ${isDark ? "bg-slate-950" : "bg-white"}`}
+    >
       {/* Header */}
-      <section className={`py-16 px-4 ${isDark ? 'bg-slate-900/50' : 'bg-slate-50'}`}>
+      <section
+        className={`py-16 px-4 ${isDark ? "bg-slate-900/50" : "bg-slate-50"}`}
+      >
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -51,14 +55,14 @@ export const Notes = ({ isDark }: NotesProps) => {
             transition={{ duration: 0.5 }}
           >
             <h1
-              className={`text-5xl font-bold mb-4 ${
-                isDark ? 'text-white' : 'text-slate-900'
+              className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${
+                isDark ? "text-white" : "text-slate-900"
               }`}
             >
               Study Notes Library
             </h1>
             <p
-              className={`text-xl ${isDark ? 'text-slate-400' : 'text-slate-600'}`}
+              className={`text-base sm:text-lg md:text-xl ${isDark ? "text-slate-400" : "text-slate-600"}`}
             >
               Download comprehensive PDF notes for all your preparation needs
             </p>
@@ -82,15 +86,15 @@ export const Notes = ({ isDark }: NotesProps) => {
                 onClick={() => setIsFilterOpen(!isFilterOpen)}
                 className={`lg:hidden w-full flex items-center justify-between px-4 py-2 rounded-lg border ${
                   isDark
-                    ? 'bg-slate-800 border-slate-700'
-                    : 'bg-white border-slate-200'
+                    ? "bg-slate-800 border-slate-700"
+                    : "bg-white border-slate-200"
                 } font-semibold`}
               >
                 <span>Filters</span>
                 <ChevronDown
                   size={20}
                   className={`transition-transform ${
-                    isFilterOpen ? 'rotate-180' : ''
+                    isFilterOpen ? "rotate-180" : ""
                   }`}
                 />
               </button>
@@ -100,13 +104,13 @@ export const Notes = ({ isDark }: NotesProps) => {
                 <div
                   className={`rounded-xl border p-6 ${
                     isDark
-                      ? 'bg-slate-800 border-slate-700'
-                      : 'bg-white border-slate-200'
+                      ? "bg-slate-800 border-slate-700"
+                      : "bg-white border-slate-200"
                   } space-y-4`}
                 >
                   <h3
                     className={`font-bold text-lg ${
-                      isDark ? 'text-white' : 'text-slate-900'
+                      isDark ? "text-white" : "text-slate-900"
                     }`}
                   >
                     Categories
@@ -126,21 +130,18 @@ export const Notes = ({ isDark }: NotesProps) => {
                         />
                         <span
                           className={`font-medium transition-colors group-hover:text-indigo-600 ${
-                            isDark
-                              ? 'text-slate-300'
-                              : 'text-slate-700'
+                            isDark ? "text-slate-300" : "text-slate-700"
                           }`}
                         >
                           {category}
                         </span>
                         <span
                           className={`text-sm ml-auto ${
-                            isDark
-                              ? 'text-slate-500'
-                              : 'text-slate-500'
+                            isDark ? "text-slate-500" : "text-slate-500"
                           }`}
                         >
-                          ({notes.filter(n => n.category === category).length})
+                          ({notes.filter((n) => n.category === category).length}
+                          )
                         </span>
                       </label>
                     ))}
@@ -166,14 +167,16 @@ export const Notes = ({ isDark }: NotesProps) => {
               className="lg:col-span-3 space-y-6"
             >
               {/* Search Bar */}
-              <div className={`relative rounded-xl border ${
-                isDark
-                  ? 'bg-slate-800 border-slate-700'
-                  : 'bg-white border-slate-200'
-              } p-4 flex items-center gap-3`}>
+              <div
+                className={`relative rounded-xl border ${
+                  isDark
+                    ? "bg-slate-800 border-slate-700"
+                    : "bg-white border-slate-200"
+                } p-4 flex items-center gap-3`}
+              >
                 <Search
                   size={24}
-                  className={isDark ? 'text-slate-500' : 'text-slate-400'}
+                  className={isDark ? "text-slate-500" : "text-slate-400"}
                 />
                 <input
                   type="text"
@@ -182,18 +185,19 @@ export const Notes = ({ isDark }: NotesProps) => {
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className={`flex-1 outline-none bg-transparent ${
                     isDark
-                      ? 'text-white placeholder:text-slate-500'
-                      : 'text-slate-900 placeholder:text-slate-400'
+                      ? "text-white placeholder:text-slate-500"
+                      : "text-slate-900 placeholder:text-slate-400"
                   }`}
                 />
               </div>
 
               {/* Results Info */}
               <p
-                className={`text-sm ${isDark ? 'text-slate-400' : 'text-slate-600'}`}
+                className={`text-sm ${isDark ? "text-slate-400" : "text-slate-600"}`}
               >
                 Showing {filteredNotes.length} of {notes.length} notes
-                {selectedCategories.length > 0 && ` in ${selectedCategories.length} categories`}
+                {selectedCategories.length > 0 &&
+                  ` in ${selectedCategories.length} categories`}
               </p>
 
               {/* Notes Grid */}
@@ -218,18 +222,18 @@ export const Notes = ({ isDark }: NotesProps) => {
                   transition={{ duration: 0.3 }}
                   className={`text-center py-20 rounded-xl border ${
                     isDark
-                      ? 'bg-slate-800/50 border-slate-700'
-                      : 'bg-slate-50 border-slate-200'
+                      ? "bg-slate-800/50 border-slate-700"
+                      : "bg-slate-50 border-slate-200"
                   }`}
                 >
                   <p
                     className={`text-2xl font-semibold mb-2 ${
-                      isDark ? 'text-white' : 'text-slate-900'
+                      isDark ? "text-white" : "text-slate-900"
                     }`}
                   >
                     No notes found
                   </p>
-                  <p className={isDark ? 'text-slate-400' : 'text-slate-600'}>
+                  <p className={isDark ? "text-slate-400" : "text-slate-600"}>
                     Try adjusting your search or category filters
                   </p>
                 </motion.div>

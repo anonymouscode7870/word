@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body{
+  margin: 0;
+  padding: 0;
+}
 @layer components {
   .glass {
     @apply bg-white/10 backdrop-blur-md border border-white/20;
@@ -12,11 +16,11 @@
   }
 
   .btn-primary {
-    @apply px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105;
+    @apply px-4 py-2 sm:px-6 sm:py-2.5 text-sm sm:text-base bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105;
   }
 
   .btn-secondary {
-    @apply px-6 py-2 bg-white/10 text-white border border-white/30 rounded-lg font-semibold hover:bg-white/20 transition-all duration-300;
+    @apply px-4 py-2 sm:px-6 sm:py-2.5 text-sm sm:text-base bg-white/10 text-white border border-white/30 rounded-lg font-semibold hover:bg-white/20 transition-all duration-300;
   }
 
   .card-hover {
@@ -36,11 +40,11 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
-  font: 18px/145% var(--sans);
+  font: clamp(14px, 2vw, 16px) / 145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
@@ -76,7 +80,7 @@
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
