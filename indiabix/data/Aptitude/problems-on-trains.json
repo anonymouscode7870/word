@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "problems-on-trains",
+    "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+    "options": [
+      "120 metres",
+      "180 metres",
+      "324 metres",
+      "150 metres"
+    ],
+    "explanation": "Speed = \n    \n    60 x\n    5\n    m/sec\n    =\n    \n    50\n    m/sec.\n \n \n    18\n    3\n  \n\n\nLength of the train = (Speed x Time).\n\n \n     Length of the train =\n    \n    50\n    x 9\n    m = 150 m.\n \n \n    3",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
+    "options": [
+      "45 km/hr",
+      "50 km/hr",
+      "54 km/hr",
+      "55 km/hr"
+    ],
+    "explanation": "Speed of the train relative to man =\n    \n    125\n    m/sec\n \n \n    10\n  \n\n\n\n \n       =\n    \n    25\n    m/sec.\n \n \n    2\n  \n\n\n\n \n       =\n    \n    25\n    x\n    18\n    km/hr\n \n \n    2\n    5\n  \n\n\n   = 45 km/hr.\nLet the speed of the train be x km/hr. Then, relative speed = (x - 5) km/hr.\n x - 5 = 45          x = 50 km/hr.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
+    "options": [
+      "200 m",
+      "225 m",
+      "245 m",
+      "250 m"
+    ],
+    "explanation": "Speed =\n    \n    45 x\n    5\n    m/sec\n    =\n    \n    25\n    m/sec.\n \n \n    18\n    2\n  \n\n\nTime = 30 sec.\nLet the length of bridge be x metres.\n\n    \n       Then,\n       130 + x\n       =\n       25\n    \n    \n       30\n       2\n     \n   \n\n 2(130 + x) = 750\n x = 245 m.\n\nVideo Explanation: https://youtu.be/M_d8WufJWKc",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+    "options": [
+      "1 : 3",
+      "3 : 2",
+      "3 : 4",
+      "None of these"
+    ],
+    "explanation": "Let the speeds of the two trains be x m/sec and y m/sec respectively.\nThen, length of the first train = 27x metres,\nand length of the second train = 17y metres.\n\n \n     \n    27x + 17y\n    = 23\n \n \n    x+ y\n  \n\n\n 27x + 17y = 23x + 23y\n 4x = 6y\n\n \n     \n    x\n    =\n    3\n    .\n \n \n    y\n    2",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+    "options": [
+      "120 m",
+      "240 m",
+      "300 m",
+      "None of these"
+    ],
+    "explanation": "Speed =\n    \n    54 x\n    5\n    m/sec = 15 m/sec.\n \n \n    18\n  \n\n\nLength of the train = (15 x 20)m = 300 m.\nLet the length of the platform be x metres.\n\n \n    Then,\n    x + 300\n    = 15\n \n \n    36\n  \n\n\n x + 300 = 540\n x = 240 m.",
+    "difficulty": "medium"
+  }
+]

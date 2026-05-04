@@ -3,7 +3,7 @@ import axios from "axios";
 
 const AuthContext = createContext(null);
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "http://localhost:5001/api";
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
@@ -28,7 +28,10 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const res = await axios.post(`${API_BASE_URL}/auth/login`, { email, password });
+      const res = await axios.post(`${API_BASE_URL}/auth/login`, {
+        email,
+        password,
+      });
       localStorage.setItem("token", res.data.token);
       setUser(res.data.user);
       setShowAuthModal(false);
@@ -38,9 +41,13 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const register = async (email, password) => {
+  const register = async (email, password, name) => {
     try {
-      const res = await axios.post(`${API_BASE_URL}/auth/register`, { email, password });
+      const res = await axios.post(`${API_BASE_URL}/auth/register`, {
+        email,
+        password,
+        name,
+      });
       localStorage.setItem("token", res.data.token);
       setUser(res.data.user);
       setShowAuthModal(false);

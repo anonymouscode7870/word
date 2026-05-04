@@ -1,0 +1,1612 @@
+[
+  {
+    "id": 1,
+    "question": "Which layer of the OSI model is responsible for error detection?",
+    "options": {
+      "A": "Physical Layer",
+      "B": "Data Link Layer",
+      "C": "Network Layer",
+      "D": "Transport Layer"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS", "Infosys"],
+    "level": "Easy",
+    "explanation": "The Data Link Layer detects errors that occur during data transmission over the physical medium using techniques like CRC and checksum, ensuring reliable node-to-node delivery."
+  },
+  {
+    "id": 2,
+    "question": "How many layers are there in the OSI reference model?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "The OSI model has seven layers starting from Physical at the bottom to Application at the top, each with a specific role in data communication."
+  },
+  {
+    "id": 3,
+    "question": "Which device works at the Physical layer of the OSI model?",
+    "options": {
+      "A": "Router",
+      "B": "Switch",
+      "C": "Hub",
+      "D": "Bridge"
+    },
+    "answer": "C",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "A hub operates at the Physical Layer and simply broadcasts signals to all devices without filtering or checking data."
+  },
+  {
+    "id": 4,
+    "question": "Which layer is responsible for logical addressing?",
+    "options": {
+      "A": "Data Link Layer",
+      "B": "Network Layer",
+      "C": "Transport Layer",
+      "D": "Application Layer"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Easy",
+    "explanation": "The Network Layer assigns logical addresses (IP addresses) and determines the best path for data transmission."
+  },
+  {
+    "id": 5,
+    "question": "Which protocol is used to resolve IP address to MAC address?",
+    "options": {
+      "A": "DNS",
+      "B": "RARP",
+      "C": "ARP",
+      "D": "ICMP"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "ARP (Address Resolution Protocol) helps a device find the MAC address associated with a given IP address in a local network."
+  },
+  {
+    "id": 6,
+    "question": "What type of transmission allows data to flow in both directions but not simultaneously?",
+    "options": {
+      "A": "Simplex",
+      "B": "Duplex",
+      "C": "Half Duplex",
+      "D": "Full Duplex"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "Half duplex communication allows two-way communication, but only one direction at a time, similar to walkie-talkies."
+  },
+  {
+    "id": 7,
+    "question": "Which topology uses a central connecting device?",
+    "options": {
+      "A": "Bus",
+      "B": "Ring",
+      "C": "Star",
+      "D": "Mesh"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "In star topology, all nodes are connected to a central hub or switch, making fault detection easier."
+  },
+  {
+    "id": 8,
+    "question": "Which topology has the highest reliability?",
+    "options": {
+      "A": "Bus",
+      "B": "Ring",
+      "C": "Star",
+      "D": "Mesh"
+    },
+    "answer": "D",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "Mesh topology provides multiple paths between nodes, so failure of one link does not affect overall communication."
+  },
+  {
+    "id": 9,
+    "question": "Which protocol is used to send emails?",
+    "options": {
+      "A": "POP3",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "IMAP"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is responsible for sending emails from client to server or between servers."
+  },
+  {
+    "id": 10,
+    "question": "Which address uniquely identifies a device on a network?",
+    "options": {
+      "A": "IP Address",
+      "B": "MAC Address",
+      "C": "Port Number",
+      "D": "URL"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "A MAC address is a hardware address that uniquely identifies a device within a local network."
+  },
+  {
+    "id": 11,
+    "question": "Which layer is responsible for process-to-process communication?",
+    "options": {
+      "A": "Network Layer",
+      "B": "Transport Layer",
+      "C": "Session Layer",
+      "D": "Presentation Layer"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "The Transport Layer enables communication between applications running on different devices using port numbers."
+  },
+  {
+    "id": 12,
+    "question": "Which OSI layer ensures data format compatibility?",
+    "options": {
+      "A": "Session Layer",
+      "B": "Application Layer",
+      "C": "Presentation Layer",
+      "D": "Transport Layer"
+    },
+    "answer": "C",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "The Presentation Layer handles data encryption, compression, and translation to ensure proper data representation."
+  },
+  {
+    "id": 13,
+    "question": "Which device forwards packets based on IP addresses?",
+    "options": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Router",
+      "D": "Repeater"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "Routers operate at the Network Layer and forward packets using logical IP addresses."
+  },
+  {
+    "id": 14,
+    "question": "What is the default port number of HTTP?",
+    "options": {
+      "A": "21",
+      "B": "23",
+      "C": "80",
+      "D": "443"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "HTTP protocol communicates over port number 80 by default for web traffic."
+  },
+  {
+    "id": 15,
+    "question": "Which network type covers a small geographical area?",
+    "options": {
+      "A": "WAN",
+      "B": "MAN",
+      "C": "LAN",
+      "D": "PAN"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "LAN (Local Area Network) is typically used in homes, offices, or campuses."
+  },
+  {
+    "id": 16,
+    "question": "Which protocol is used to transfer files over the internet?",
+    "options": {
+      "A": "FTP",
+      "B": "SMTP",
+      "C": "HTTP",
+      "D": "SNMP"
+    },
+    "answer": "A",
+    "companyAsked": ["Accenture"],
+    "level": "Easy",
+    "explanation": "FTP (File Transfer Protocol) allows uploading and downloading files between systems."
+  },
+  {
+    "id": 17,
+    "question": "Which topology uses a single cable to connect all nodes?",
+    "options": {
+      "A": "Star",
+      "B": "Bus",
+      "C": "Ring",
+      "D": "Mesh"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "In bus topology, all devices share a single communication line, making it inexpensive but less reliable."
+  },
+  {
+    "id": 18,
+    "question": "Which layer establishes, manages, and terminates sessions?",
+    "options": {
+      "A": "Transport",
+      "B": "Presentation",
+      "C": "Application",
+      "D": "Session"
+    },
+    "answer": "D",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "The Session Layer manages communication sessions between applications."
+  },
+  {
+    "id": 19,
+    "question": "Which protocol is used to check network connectivity?",
+    "options": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "ICMP",
+      "D": "ARP"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Easy",
+    "explanation": "ICMP is used by tools like ping to check the availability of network devices."
+  },
+  {
+    "id": 20,
+    "question": "Which layer converts bits into signals?",
+    "options": {
+      "A": "Physical",
+      "B": "Data Link",
+      "C": "Network",
+      "D": "Transport"
+    },
+    "answer": "A",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "The Physical Layer transmits raw bits over a physical medium using electrical or optical signals."
+  },
+  {
+    "id": 21,
+    "question": "Which type of address is used by switches?",
+    "options": {
+      "A": "IP Address",
+      "B": "MAC Address",
+      "C": "Port Address",
+      "D": "Logical Address"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "Switches forward frames based on MAC addresses at the Data Link Layer."
+  },
+  {
+    "id": 22,
+    "question": "Which protocol converts domain names into IP addresses?",
+    "options": {
+      "A": "ARP",
+      "B": "ICMP",
+      "C": "DNS",
+      "D": "DHCP"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "DNS resolves human-readable domain names into machine-readable IP addresses."
+  },
+  {
+    "id": 23,
+    "question": "Which network device amplifies signals?",
+    "options": {
+      "A": "Router",
+      "B": "Switch",
+      "C": "Bridge",
+      "D": "Repeater"
+    },
+    "answer": "D",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "Repeaters regenerate and amplify weak signals to extend transmission distance."
+  },
+  {
+    "id": 24,
+    "question": "Which protocol assigns IP addresses automatically?",
+    "options": {
+      "A": "ARP",
+      "B": "DNS",
+      "C": "DHCP",
+      "D": "SNMP"
+    },
+    "answer": "C",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "DHCP dynamically assigns IP addresses to devices, reducing manual configuration."
+  },
+  {
+    "id": 25,
+    "question": "Which layer interacts directly with the end user?",
+    "options": {
+      "A": "Presentation",
+      "B": "Session",
+      "C": "Application",
+      "D": "Transport"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Easy",
+    "explanation": "The Application Layer provides network services directly to user applications like browsers and email clients."
+  },
+  {
+    "id": 26,
+    "question": "Which protocol provides reliable, connection-oriented communication?",
+    "options": {
+      "A": "UDP",
+      "B": "IP",
+      "C": "TCP",
+      "D": "ARP"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS", "Wipro"],
+    "level": "Easy",
+    "explanation": "TCP establishes using acknowledgments, sequencing, and retransmission."
+  },
+  {
+    "id": 27,
+    "question": "Which protocol is connectionless in nature?",
+    "options": {
+      "A": "TCP",
+      "B": "FTP",
+      "C": "UDP",
+      "D": "SMTP"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "UDP sends data without establishing a connection, making it faster but less reliable."
+  },
+  {
+    "id": 28,
+    "question": "Which port number is used by HTTPS?",
+    "options": {
+      "A": "80",
+      "B": "21",
+      "C": "25",
+      "D": "443"
+    },
+    "answer": "D",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "HTTPS uses port 443 to provide secure, encrypted communication over the web."
+  },
+  {
+    "id": 29,
+    "question": "Which IP version uses 128-bit addressing?",
+    "options": {
+      "A": "IPv2",
+      "B": "IPv4",
+      "C": "IPv6",
+      "D": "IPv8"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Easy",
+    "explanation": "IPv6 uses 128-bit addresses to support a massive number of devices compared to IPv4."
+  },
+  {
+    "id": 30,
+    "question": "What is the size of an IPv4 address?",
+    "options": {
+      "A": "16 bits",
+      "B": "32 bits",
+      "C": "64 bits",
+      "D": "128 bits"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "IPv4 addresses are 32 bits long and are usually written in dotted-decimal format."
+  },
+  {
+    "id": 31,
+    "question": "Which class of IP address is used for multicast?",
+    "options": {
+      "A": "Class A",
+      "B": "Class B",
+      "C": "Class C",
+      "D": "Class D"
+    },
+    "answer": "D",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "Class D IP addresses are reserved for multicast communication."
+  },
+  {
+    "id": 32,
+    "question": "Which address is used to identify a network uniquely?",
+    "options": {
+      "A": "Host Address",
+      "B": "MAC Address",
+      "C": "Network Address",
+      "D": "Port Address"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "A network address identifies an entire network, not individual hosts."
+  },
+  {
+    "id": 33,
+    "question": "Which protocol helps in logical to physical address mapping?",
+    "options": {
+      "A": "ICMP",
+      "B": "DNS",
+      "C": "ARP",
+      "D": "DHCP"
+    },
+    "answer": "C",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "ARP maps an IP address (logical) to a MAC address (physical) within a local network."
+  },
+  {
+    "id": 34,
+    "question": "Which routing algorithm uses hop count as a metric?",
+    "options": {
+      "A": "Link State",
+      "B": "Distance Vector",
+      "C": "Flooding",
+      "D": "Hierarchical"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "Distance Vector routing determines the best path based on the number of hops."
+  },
+  {
+    "id": 35,
+    "question": "Which protocol is used by routers to exchange routing information?",
+    "options": {
+      "A": "ARP",
+      "B": "RIP",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "RIP (Routing Information Protocol) is a distance-vector routing protocol."
+  },
+  {
+    "id": 36,
+    "question": "Which layer of TCP/IP corresponds to the OSI Network layer?",
+    "options": {
+      "A": "Application",
+      "B": "Transport",
+      "C": "Internet",
+      "D": "Network Access"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "The Internet layer in TCP/IP handles logical addressing and routing, similar to the OSI Network layer."
+  },
+  {
+    "id": 37,
+    "question": "Which field in TCP ensures correct data ordering?",
+    "options": {
+      "A": "Checksum",
+      "B": "Sequence Number",
+      "C": "Window Size",
+      "D": "Urgent Pointer"
+    },
+    "answer": "B",
+    "companyAsked": ["Wipro"],
+    "level": "Medium",
+    "explanation": "Sequence numbers allow TCP to rearrange segments in the correct order."
+  },
+  {
+    "id": 38,
+    "question": "Which port range is reserved for well-known services?",
+    "options": {
+      "A": "0–1023",
+      "B": "1024–49151",
+      "C": "49152–65535",
+      "D": "All ports"
+    },
+    "answer": "A",
+    "companyAsked": ["Capgemini"],
+    "level": "Medium",
+    "explanation": "Ports from 0 to 1023 are reserved for standard services like HTTP, FTP, and SMTP."
+  },
+  {
+    "id": 39,
+    "question": "Which protocol is best suited for real-time applications like video streaming?",
+    "options": {
+      "A": "TCP",
+      "B": "FTP",
+      "C": "UDP",
+      "D": "SMTP"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Easy",
+    "explanation": "UDP provides faster transmission with minimal delay, making it ideal for real-time data."
+  },
+  {
+    "id": 40,
+    "question": "What does TTL stand for in IP packets?",
+    "options": {
+      "A": "Time To Live",
+      "B": "Total Transfer Length",
+      "C": "Transmission Time Limit",
+      "D": "Temporary Time Label"
+    },
+    "answer": "A",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "TTL limits the lifetime of a packet to prevent infinite looping in networks."
+  },
+  {
+    "id": 41,
+    "question": "Which protocol reports errors and network congestion?",
+    "options": {
+      "A": "ARP",
+      "B": "ICMP",
+      "C": "UDP",
+      "D": "DNS"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "ICMP is used for error reporting and diagnostic functions like ping."
+  },
+  {
+    "id": 42,
+    "question": "Which IP address is used for loopback testing?",
+    "options": {
+      "A": "0.0.0.0",
+      "B": "127.0.0.1",
+      "C": "255.255.255.255",
+      "D": "192.168.1.1"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Easy",
+    "explanation": "127.0.0.1 is used to test network functionality on the local machine."
+  },
+  {
+    "id": 43,
+    "question": "Which protocol is used to assign IP addresses dynamically?",
+    "options": {
+      "A": "ARP",
+      "B": "DNS",
+      "C": "DHCP",
+      "D": "ICMP"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "DHCP automatically assigns IP configuration to devices in a network."
+  },
+  {
+    "id": 44,
+    "question": "Which TCP mechanism controls data flow?",
+    "options": {
+      "A": "Congestion Control",
+      "B": "Flow Control",
+      "C": "Error Control",
+      "D": "Routing Control"
+    },
+    "answer": "B",
+    "companyAsked": ["Capgemini"],
+    "level": "Medium",
+    "explanation": "Flow control prevents the sender from overwhelming the receiver with too much data."
+  },
+  {
+    "id": 45,
+    "question": "Which addressing is used at the Transport layer?",
+    "options": {
+      "A": "MAC Address",
+      "B": "IP Address",
+      "C": "Port Number",
+      "D": "Logical Address"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "The Transport layer uses port numbers to identify specific applications."
+  },
+  {
+    "id": 46,
+    "question": "Which TCP/IP layer corresponds to OSI Application layer?",
+    "options": {
+      "A": "Transport",
+      "B": "Internet",
+      "C": "Application",
+      "D": "Network Access"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "The TCP/IP Application layer combines OSI Application, Presentation, and Session layers."
+  },
+  {
+    "id": 47,
+    "question": "Which address range is private?",
+    "options": {
+      "A": "8.8.8.8",
+      "B": "172.16.0.0 – 172.31.255.255",
+      "C": "1.1.1.1",
+      "D": "56.0.0.0"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "This range is reserved for private networks and cannot be routed on the public internet."
+  },
+  {
+    "id": 48,
+    "question": "Which routing technique sends packets on all paths?",
+    "options": {
+      "A": "Distance Vector",
+      "B": "Link State",
+      "C": "Flooding",
+      "D": "Hierarchical"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "Flooding sends packets through all available routes, ensuring delivery but increasing traffic."
+  },
+  {
+    "id": 49,
+    "question": "Which TCP flag is used to establish a connection?",
+    "options": {
+      "A": "FIN",
+      "B": "ACK",
+      "C": "SYN",
+      "D": "RST"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "TCP uses the SYN flag during the three-way handshake to initiate a connection."
+  },
+  {
+    "id": 50,
+    "question": "Which mechanism avoids network congestion in TCP?",
+    "options": {
+      "A": "Flow Control",
+      "B": "Error Control",
+      "C": "Congestion Control",
+      "D": "Routing"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "TCP congestion control adjusts the data transmission rate to prevent network overload."
+  },
+  {
+    "id": 51,
+    "question": "What is the main purpose of subnetting?",
+    "options": {
+      "A": "Increase IP address length",
+      "B": "Reduce network traffic and improve management",
+      "C": "Increase transmission speed",
+      "D": "Replace MAC addressing"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS", "Capgemini"],
+    "level": "Medium",
+    "explanation": "Subnetting divides a large network into smaller logical networks, reducing broadcast traffic and improving security and manageability."
+  },
+  {
+    "id": 52,
+    "question": "Which subnet mask represents a /26 network?",
+    "options": {
+      "A": "255.255.255.0",
+      "B": "255.255.255.192",
+      "C": "255.255.255.224",
+      "D": "255.255.255.128"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "A /26 subnet uses 26 bits for the network and provides 64 IP addresses (62 usable)."
+  },
+  {
+    "id": 53,
+    "question": "How many usable hosts are available in a /27 subnet?",
+    "options": {
+      "A": "30",
+      "B": "32",
+      "C": "16",
+      "D": "62"
+    },
+    "answer": "A",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "A /27 subnet gives 32 total addresses; subtracting network and broadcast leaves 30 usable hosts."
+  },
+  {
+    "id": 54,
+    "question": "Which routing algorithm has complete knowledge of the network topology?",
+    "options": {
+      "A": "Distance Vector",
+      "B": "Flooding",
+      "C": "Link State",
+      "D": "Hierarchical"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "Link State routing maintains a full map of the network and calculates shortest paths using algorithms like Dijkstra."
+  },
+  {
+    "id": 55,
+    "question": "Which problem is commonly associated with Distance Vector routing?",
+    "options": {
+      "A": "Routing loops",
+      "B": "High memory usage",
+      "C": "Complex computation",
+      "D": "Packet loss"
+    },
+    "answer": "A",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "Distance Vector routing can suffer from routing loops and slow convergence, known as the count‑to‑infinity problem."
+  },
+  {
+    "id": 56,
+    "question": "Which technique is used to prevent count‑to‑infinity?",
+    "options": {
+      "A": "Flooding",
+      "B": "Split Horizon",
+      "C": "Shortest Path First",
+      "D": "Static Routing"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "Split Horizon prevents routers from advertising routes back on the same interface they were learned from."
+  },
+  {
+    "id": 57,
+    "question": "What is congestion in a network?",
+    "options": {
+      "A": "Data corruption",
+      "B": "Excessive routing updates",
+      "C": "Too many packets in the network",
+      "D": "Hardware failure"
+    },
+    "answer": "C",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "Congestion occurs when the offered load exceeds network capacity, causing delays and packet loss."
+  },
+  {
+    "id": 58,
+    "question": "Which TCP mechanism handles congestion control?",
+    "options": {
+      "A": "Checksum",
+      "B": "Sliding Window",
+      "C": "Slow Start",
+      "D": "Sequencing"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "Slow Start gradually increases the transmission rate to avoid overwhelming the network."
+  },
+  {
+    "id": 59,
+    "question": "Which algorithm is used by Link State routing?",
+    "options": {
+      "A": "Bellman-Ford",
+      "B": "Dijkstra",
+      "C": "Kruskal",
+      "D": "Prim"
+    },
+    "answer": "B",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "Link State routing protocols compute shortest paths using Dijkstra’s algorithm."
+  },
+  {
+    "id": 60,
+    "question": "Which security attack involves flooding a network with traffic?",
+    "options": {
+      "A": "Phishing",
+      "B": "Spoofing",
+      "C": "Man-in-the-middle",
+      "D": "Denial of Service"
+    },
+    "answer": "D",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "DoS attacks overload network resources, making services unavailable to legitimate users."
+  },
+  {
+    "id": 61,
+    "question": "Which device protects a network by filtering traffic?",
+    "options": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Firewall",
+      "D": "Repeater"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "Firewalls monitor and control incoming and outgoing network traffic based on security rules."
+  },
+  {
+    "id": 62,
+    "question": "What does CIDR stand for?",
+    "options": {
+      "A": "Centralized IP Routing",
+      "B": "Classless Inter-Domain Routing",
+      "C": "Common Internet Data Routing",
+      "D": "Classless Internal Data Routing"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "CIDR improves IP address allocation efficiency by removing rigid class boundaries."
+  },
+  {
+    "id": 63,
+    "question": "Which field in the IP header prevents packet looping?",
+    "options": {
+      "A": "Checksum",
+      "B": "TTL",
+      "C": "Protocol",
+      "D": "Fragment Offset"
+    },
+    "answer": "B",
+    "companyAsked": ["Capgemini"],
+    "level": "Medium",
+    "explanation": "TTL (Time To Live) limits the number of hops a packet can take before being discarded."
+  },
+  {
+    "id": 64,
+    "question": "What is the primary goal of encryption in networking?",
+    "options": {
+      "A": "Faster transmission",
+      "B": "Error detection",
+      "C": "Confidentiality",
+      "D": "Routing efficiency"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "Encryption ensures that only authorized parties can read transmitted data."
+  },
+  {
+    "id": 65,
+    "question": "Which protocol secures IP communication?",
+    "options": {
+      "A": "SSL",
+      "B": "TLS",
+      "C": "IPSec",
+      "D": "SSH"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "IPSec provides authentication and encryption at the IP layer."
+  },
+  {
+    "id": 66,
+    "question": "Which congestion control approach drops packets before congestion occurs?",
+    "options": {
+      "A": "Tail Drop",
+      "B": "Leaky Bucket",
+      "C": "Random Early Detection",
+      "D": "Token Bucket"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Hard",
+    "explanation": "RED drops packets probabilistically to signal congestion early and avoid sudden overload."
+  },
+  {
+    "id": 67,
+    "question": "What is the main disadvantage of static routing?",
+    "options": {
+      "A": "High bandwidth usage",
+      "B": "Automatic updates",
+      "C": "Manual configuration",
+      "D": "Complex algorithms"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "Static routes must be configured manually and do not adapt automatically to network changes."
+  },
+  {
+    "id": 68,
+    "question": "Which protocol is commonly used with Link State routing?",
+    "options": {
+      "A": "RIP",
+      "B": "OSPF",
+      "C": "BGP",
+      "D": "ARP"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "OSPF is a Link State routing protocol used in large enterprise networks."
+  },
+  {
+    "id": 69,
+    "question": "Which type of attack impersonates a trusted device?",
+    "options": {
+      "A": "DoS",
+      "B": "Spoofing",
+      "C": "Sniffing",
+      "D": "Replay"
+    },
+    "answer": "B",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "Spoofing occurs when an attacker pretends to be a legitimate device or user."
+  },
+  {
+    "id": 70,
+    "question": "Which mechanism smooths bursty traffic?",
+    "options": {
+      "A": "Leaky Bucket",
+      "B": "Routing Table",
+      "C": "ARP Cache",
+      "D": "Checksum"
+    },
+    "answer": "A",
+    "companyAsked": ["Capgemini"],
+    "level": "Medium",
+    "explanation": "The Leaky Bucket algorithm regulates output rate, preventing sudden bursts."
+  },
+  {
+    "id": 71,
+    "question": "Which protocol is used for inter-domain routing on the Internet?",
+    "options": {
+      "A": "OSPF",
+      "B": "RIP",
+      "C": "BGP",
+      "D": "EIGRP"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "BGP manages routing between autonomous systems on the Internet."
+  },
+  {
+    "id": 72,
+    "question": "What is the key benefit of CIDR?",
+    "options": {
+      "A": "Better security",
+      "B": "Reduced routing table size",
+      "C": "Higher speed",
+      "D": "Error correction"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "CIDR aggregates routes, reducing routing table size and improving efficiency."
+  },
+  {
+    "id": 73,
+    "question": "Which layer is most associated with network security policies?",
+    "options": {
+      "A": "Physical",
+      "B": "Network",
+      "C": "Transport",
+      "D": "Application"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "Security mechanisms like firewalls and IPS operate mainly at the Network layer."
+  },
+  {
+    "id": 74,
+    "question": "Why is UDP unsuitable for file transfer?",
+    "options": {
+      "A": "High latency",
+      "B": "No encryption",
+      "C": "No reliability or ordering",
+      "D": "Small packet size"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "UDP does not guarantee delivery, order, or retransmission, which are essential for files."
+  },
+  {
+    "id": 75,
+    "question": "Which security goal ensures data is not altered in transit?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Authentication"
+    },
+    "answer": "B",
+    "companyAsked": ["Accenture"],
+    "level": "Easy",
+    "explanation": "Integrity guarantees that data remains unchanged during transmission."
+  },
+  {
+    "id": 76,
+    "question": "What is the primary purpose of NAT (Network Address Translation)?",
+    "options": {
+      "A": "Encrypt network traffic",
+      "B": "Improve routing speed",
+      "C": "Conserve public IP addresses",
+      "D": "Detect network intrusion"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS", "Infosys"],
+    "level": "Medium",
+    "explanation": "NAT allows multiple private devices to share a single public IP address, reducing the need for public IPv4 addresses."
+  },
+  {
+    "id": 77,
+    "question": "Which NAT type maps one public IP to many private IPs using port numbers?",
+    "options": {
+      "A": "Static NAT",
+      "B": "Dynamic NAT",
+      "C": "PAT",
+      "D": "Reverse NAT"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "PAT (Port Address Translation) uses port numbers to differentiate sessions, allowing many devices to share one public IP."
+  },
+  {
+    "id": 78,
+    "question": "What is the role of a proxy server?",
+    "options": {
+      "A": "Route packets",
+      "B": "Act as an intermediary between client and server",
+      "C": "Assign IP addresses",
+      "D": "Encrypt emails"
+    },
+    "answer": "B",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "A proxy server handles client requests on behalf of clients, improving security, caching, and privacy."
+  },
+  {
+    "id": 79,
+    "question": "How is a proxy different from a firewall?",
+    "options": {
+      "A": "Proxy blocks traffic, firewall caches data",
+      "B": "Proxy works at application level, firewall filters traffic",
+      "C": "No difference",
+      "D": "Firewall hides IPs, proxy does not"
+    },
+    "answer": "B",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "A proxy works at the application layer acting as an intermediary, while a firewall enforces access control rules."
+  },
+  {
+    "id": 80,
+    "question": "What is the main function of a load balancer?",
+    "options": {
+      "A": "Encrypt data",
+      "B": "Distribute traffic evenly across servers",
+      "C": "Route packets between networks",
+      "D": "Assign IP addresses"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "Load balancers distribute incoming traffic among servers to improve performance, scalability, and availability."
+  },
+  {
+    "id": 81,
+    "question": "Which algorithm distributes traffic equally regardless of load?",
+    "options": {
+      "A": "Least Connection",
+      "B": "Weighted Round Robin",
+      "C": "IP Hashing",
+      "D": "Round Robin"
+    },
+    "answer": "D",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "Round Robin assigns each request sequentially to servers without considering current load."
+  },
+  {
+    "id": 82,
+    "question": "Which load balancing algorithm considers current server connections?",
+    "options": {
+      "A": "Round Robin",
+      "B": "Least Connection",
+      "C": "Random",
+      "D": "Static Routing"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "Least Connection forwards requests to the server with the fewest active connections."
+  },
+  {
+    "id": 83,
+    "question": "What is a VPN primarily used for?",
+    "options": {
+      "A": "Increase bandwidth",
+      "B": "Secure communication over public networks",
+      "C": "Faster DNS resolution",
+      "D": "Better routing"
+    },
+    "answer": "B",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "VPNs create encrypted tunnels ensuring confidentiality and integrity over public networks."
+  },
+  {
+    "id": 84,
+    "question": "Which VPN technology operates at the Network layer?",
+    "options": {
+      "A": "SSL VPN",
+      "B": "TLS VPN",
+      "C": "IPSec",
+      "D": "SSH"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "IPSec secures IP packets at the Network layer using authentication and encryption."
+  },
+  {
+    "id": 85,
+    "question": "Which firewall filters traffic based on application data?",
+    "options": {
+      "A": "Packet Filtering Firewall",
+      "B": "Stateful Firewall",
+      "C": "Application Layer Firewall",
+      "D": "Network Layer Firewall"
+    },
+    "answer": "C",
+    "companyAsked": ["Capgemini"],
+    "level": "Medium",
+    "explanation": "Application layer firewalls inspect payload content rather than just headers."
+  },
+  {
+    "id": 86,
+    "question": "What information does a stateful firewall track?",
+    "options": {
+      "A": "Only IP addresses",
+      "B": "Connection states",
+      "C": "Application data",
+      "D": "Encryption keys"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "Stateful firewalls monitor active connections to make intelligent filtering decisions."
+  },
+  {
+    "id": 87,
+    "question": "Which protocol is commonly used for secure remote login?",
+    "options": {
+      "A": "FTP",
+      "B": "Telnet",
+      "C": "SSH",
+      "D": "SNMP"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "SSH provides encrypted and secure remote access, unlike Telnet."
+  },
+  {
+    "id": 88,
+    "question": "What is port forwarding mainly used for?",
+    "options": {
+      "A": "Routing internet traffic",
+      "B": "Allow external access to internal services",
+      "C": "Prevent attacks",
+      "D": "Encrypt data"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "Port forwarding maps external requests to internal devices behind NAT."
+  },
+  {
+    "id": 89,
+    "question": "If DNS fails but IP works, which issue is likely?",
+    "options": {
+      "A": "Physical cable failure",
+      "B": "Routing loop",
+      "C": "DNS resolution problem",
+      "D": "ARP failure"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "If IP access works but domain names fail, DNS is the likely issue."
+  },
+  {
+    "id": 90,
+    "question": "Which tool checks path and delays across routers?",
+    "options": {
+      "A": "ping",
+      "B": "netstat",
+      "C": "tracert",
+      "D": "ipconfig"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "Traceroute shows the path taken by packets and delay at each hop."
+  },
+  {
+    "id": 91,
+    "question": "What happens if ARP cache is poisoned?",
+    "options": {
+      "A": "Routing failure",
+      "B": "Man-in-the-middle attack",
+      "C": "DoS attack",
+      "D": "Packet fragmentation"
+    },
+    "answer": "B",
+    "companyAsked": ["Infosys"],
+    "level": "Hard",
+    "explanation": "ARP poisoning redirects traffic to attackers, enabling MITM attacks."
+  },
+  {
+    "id": 92,
+    "question": "Which protocol monitors network devices?",
+    "options": {
+      "A": "FTP",
+      "B": "SNMP",
+      "C": "TTL",
+      "D": "ICMP"
+    },
+    "answer": "B",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "SNMP collects and organizes information from managed network devices."
+  },
+  {
+    "id": 93,
+    "question": "Which issue causes packet fragmentation?",
+    "options": {
+      "A": "Low TTL",
+      "B": "MTU mismatch",
+      "C": "DNS error",
+      "D": "ARP failure"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "Packets larger than the MTU are fragmented to fit the transmission medium."
+  },
+  {
+    "id": 94,
+    "question": "Which protocol resolves IP conflicts?",
+    "options": {
+      "A": "ARP",
+      "B": "DHCP",
+      "C": "ICMP",
+      "D": "DNS"
+    },
+    "answer": "B",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "DHCP prevents conflicts by centrally managing IP address allocation."
+  },
+  {
+    "id": 95,
+    "question": "Which scenario requires a VPN most?",
+    "options": {
+      "A": "Local LAN access",
+      "B": "Public Wi-Fi access to company resources",
+      "C": "Internal routing",
+      "D": "Data backup"
+    },
+    "answer": "B",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "VPNs secure sensitive data over untrusted public networks."
+  },
+  {
+    "id": 96,
+    "question": "Which firewall rule is evaluated first?",
+    "options": {
+      "A": "Last rule",
+      "B": "Random rule",
+      "C": "Top rule",
+      "D": "Any rule"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Hard",
+    "explanation": "Firewalls process rules top-down; first match is applied."
+  },
+  {
+    "id": 97,
+    "question": "What is asymmetric routing?",
+    "options": {
+      "A": "Same path both ways",
+      "B": "Different paths for request and response",
+      "C": "Routing loop",
+      "D": "Static routing"
+    },
+    "answer": "B",
+    "companyAsked": ["Cognizant"],
+    "level": "Hard",
+    "explanation": "Asymmetric routing occurs when packets take different paths, causing firewall/session issues."
+  },
+  {
+    "id": 98,
+    "question": "Which NAT breaks protocols that embed IP addresses?",
+    "options": {
+      "A": "Static NAT",
+      "B": "Dynamic NAT",
+      "C": "PAT",
+      "D": "None"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS"],
+    "level": "Hard",
+    "explanation": "PAT modifies port numbers and IPs, breaking protocols that hardcode address info."
+  },
+  {
+    "id": 99,
+    "question": "Which is the first step in network troubleshooting?",
+    "options": {
+      "A": "Replace hardware",
+      "B": "Check physical connectivity",
+      "C": "Reconfigure router",
+      "D": "Change IP"
+    },
+    "answer": "B",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "Always verify physical connections before complex troubleshooting."
+  },
+  {
+    "id": 100,
+    "question": "Why are logs critical in network security?",
+    "options": {
+      "A": "Increase speed",
+      "B": "Track attacks and incidents",
+      "C": "Reduce latency",
+      "D": "Improve routing"
+    },
+    "answer": "B",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "Logs help analyze attacks, audit access, and detect abnormal behavior."
+  },
+  {
+    "id": 101,
+    "question": "Which port number is used by HTTP?",
+    "options": {
+      "A": "21",
+      "B": "23",
+      "C": "80",
+      "D": "443"
+    },
+    "answer": "C",
+    "companyAsked": ["TCS", "Infosys"],
+    "level": "Easy",
+    "explanation": "HTTP uses port 80 by default for unsecured web communication."
+  },
+  {
+    "id": 102,
+    "question": "Which port number is used by HTTPS?",
+    "options": {
+      "A": "80",
+      "B": "25",
+      "C": "443",
+      "D": "110"
+    },
+    "answer": "C",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "HTTPS uses port 443 to provide secure, encrypted communication using SSL/TLS."
+  },
+  {
+    "id": 103,
+    "question": "Which port number is used by DNS?",
+    "options": {
+      "A": "53",
+      "B": "21",
+      "C": "25",
+      "D": "161"
+    },
+    "answer": "A",
+    "companyAsked": ["Infosys", "Capgemini"],
+    "level": "Easy",
+    "explanation": "DNS uses port 53, mainly over UDP, to resolve domain names into IP addresses."
+  },
+  {
+    "id": 104,
+    "question": "Which protocol uses port number 21?",
+    "options": {
+      "A": "SMTP",
+      "B": "FTP",
+      "C": "SSH",
+      "D": "HTTP"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Easy",
+    "explanation": "FTP uses port 21 for control commands during file transfer."
+  },
+  {
+    "id": 105,
+    "question": "Which port number is used to send emails?",
+    "options": {
+      "A": "110",
+      "B": "143",
+      "C": "25",
+      "D": "53"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Easy",
+    "explanation": "SMTP uses port 25 to send emails from client to server or between mail servers."
+  },
+  {
+    "id": 106,
+    "question": "Which port number is used by POP3?",
+    "options": {
+      "A": "143",
+      "B": "25",
+      "C": "110",
+      "D": "21"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Easy",
+    "explanation": "POP3 uses port 110 to download emails from the mail server to the client."
+  },
+  {
+    "id": 107,
+    "question": "Which port number is used by IMAP?",
+    "options": {
+      "A": "110",
+      "B": "143",
+      "C": "25",
+      "D": "80"
+    },
+    "answer": "B",
+    "companyAsked": ["Wipro"],
+    "level": "Easy",
+    "explanation": "IMAP uses port 143 and allows emails to remain on the server while being accessed."
+  },
+  {
+    "id": 108,
+    "question": "Which port number is used by SSH?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "23",
+      "D": "25"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS", "Accenture"],
+    "level": "Easy",
+    "explanation": "SSH uses port 22 to provide secure, encrypted remote login."
+  },
+  {
+    "id": 109,
+    "question": "Which protocol uses port number 23?",
+    "options": {
+      "A": "FTP",
+      "B": "Telnet",
+      "C": "SSH",
+      "D": "SMTP"
+    },
+    "answer": "B",
+    "companyAsked": ["Capgemini"],
+    "level": "Easy",
+    "explanation": "Telnet uses port 23 but is insecure because it transfers data in plain text."
+  },
+  {
+    "id": 110,
+    "question": "Which port number is used by SNMP?",
+    "options": {
+      "A": "161",
+      "B": "53",
+      "C": "443",
+      "D": "110"
+    },
+    "answer": "A",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "SNMP uses port 161 to monitor and manage network devices."
+  },
+  {
+    "id": 111,
+    "question": "Which port range is reserved for well-known services?",
+    "options": {
+      "A": "0–1023",
+      "B": "1024–49151",
+      "C": "49152–65535",
+      "D": "All ports"
+    },
+    "answer": "A",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "Ports 0–1023 are reserved for standard services like HTTP, FTP, SMTP, and DNS."
+  },
+  {
+    "id": 112,
+    "question": "Which protocol uses both TCP and UDP on the same port number?",
+    "options": {
+      "A": "FTP",
+      "B": "SMTP",
+      "C": "DNS",
+      "D": "HTTP"
+    },
+    "answer": "C",
+    "companyAsked": ["Accenture"],
+    "level": "Medium",
+    "explanation": "DNS uses UDP for queries and TCP for zone transfers and large responses."
+  },
+  {
+    "id": 113,
+    "question": "Which secure version of FTP uses port 22?",
+    "options": {
+      "A": "FTPS",
+      "B": "SFTP",
+      "C": "FTP",
+      "D": "TFTP"
+    },
+    "answer": "B",
+    "companyAsked": ["TCS"],
+    "level": "Medium",
+    "explanation": "SFTP runs over SSH and uses port 22 for secure file transfer."
+  },
+  {
+    "id": 114,
+    "question": "Which protocol uses port number 69?",
+    "options": {
+      "A": "FTP",
+      "B": "SMTP",
+      "C": "TFTP",
+      "D": "SNMP"
+    },
+    "answer": "C",
+    "companyAsked": ["Infosys"],
+    "level": "Medium",
+    "explanation": "TFTP uses port 69 and provides lightweight, connectionless file transfer."
+  },
+  {
+    "id": 115,
+    "question": "Which protocol uses port 3389?",
+    "options": {
+      "A": "SSH",
+      "B": "Telnet",
+      "C": "RDP",
+      "D": "FTP"
+    },
+    "answer": "C",
+    "companyAsked": ["Cognizant"],
+    "level": "Medium",
+    "explanation": "RDP uses port 3389 for remote desktop connections in Windows systems."
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "question": "Which ACID property ensures all operations of a transaction execute completely or none at all?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "answer": "Atomicity",
+    "explanation": "Atomicity follows the 'all or nothing' rule. If any part of a transaction fails, the entire transaction is rolled back."
+  },
+  {
+    "id": 2,
+    "question": "Which ACID property ensures committed data is not lost after a system crash?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "answer": "Durability",
+    "explanation": "Durability guarantees that once a transaction is committed, its effects persist even after failures."
+  },
+  {
+    "id": 3,
+    "question": "Which normal form eliminates partial dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": "2NF",
+    "explanation": "Second Normal Form removes partial dependency where non‑key attributes depend on part of a composite key."
+  },
+  {
+    "id": 4,
+    "question": "Which normal form removes transitive dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": "3NF",
+    "explanation": "Third Normal Form eliminates transitive dependency where non‑key attributes depend on other non‑key attributes."
+  },
+  {
+    "id": 5,
+    "question": "Which key uniquely identifies each record in a table?",
+    "options": ["Foreign Key", "Candidate Key", "Primary Key", "Super Key"],
+    "answer": "Primary Key",
+    "explanation": "A primary key uniquely identifies each row and cannot contain NULL values."
+  },
+  {
+    "id": 6,
+    "question": "A foreign key is used to enforce which concept?",
+    "options": ["Indexing", "Normalization", "Referential Integrity", "Isolation"],
+    "answer": "Referential Integrity",
+    "explanation": "Foreign keys ensure that referenced records exist in the parent table, maintaining table relationships."
+  },
+  {
+    "id": 7,
+    "question": "Which problem is solved by normalization?",
+    "options": ["Deadlock", "Data redundancy", "Index overhead", "Starvation"],
+    "answer": "Data redundancy",
+    "explanation": "Normalization removes duplicate data and reduces anomalies caused by redundancy."
+  },
+  {
+    "id": 8,
+    "question": "Which is NOT a data anomaly?",
+    "options": ["Insert anomaly", "Update anomaly", "Delete anomaly", "Select anomaly"],
+    "answer": "Select anomaly",
+    "explanation": "Select anomaly does not exist; insert, update, and delete anomalies occur due to poor design."
+  },
+  {
+    "id": 9,
+    "question": "What is a transaction in DBMS?",
+    "options": ["Single SQL query", "Logical unit of work", "Table", "Index"],
+    "answer": "Logical unit of work",
+    "explanation": "A transaction is a sequence of operations that must all succeed together."
+  },
+  {
+    "id": 10,
+    "question": "Which command permanently saves a transaction?",
+    "options": ["SAVE", "UNDO", "COMMIT", "ROLLBACK"],
+    "answer": "COMMIT",
+    "explanation": "COMMIT makes all changes of a transaction permanent."
+  },
+
+  {
+    "id": 11,
+    "question": "Which command reverses the effects of a transaction?",
+    "options": ["UNDO", "ROLLBACK", "DELETE", "CLOSE"],
+    "answer": "ROLLBACK",
+    "explanation": "ROLLBACK restores the database to the state before the transaction began."
+  },
+  {
+    "id": 12,
+    "question": "Which problem occurs when uncommitted data is read?",
+    "options": ["Lost update", "Dirty read", "Phantom read", "Deadlock"],
+    "answer": "Dirty read",
+    "explanation": "A dirty read occurs when a transaction reads data not yet committed by another transaction."
+  },
+  {
+    "id": 13,
+    "question": "How many necessary conditions cause a deadlock?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4",
+    "explanation": "The four conditions are mutual exclusion, hold and wait, no preemption, and circular wait."
+  },
+  {
+    "id": 14,
+    "question": "Deadlock detection commonly uses which structure?",
+    "options": ["ER diagram", "Flow chart", "Wait-for graph", "Index tree"],
+    "answer": "Wait-for graph",
+    "explanation": "A cycle in a wait‑for graph indicates deadlock."
+  },
+  {
+    "id": 15,
+    "question": "Which lock allows multiple transactions to read the same data?",
+    "options": ["Exclusive", "Shared", "Binary", "Intent"],
+    "answer": "Shared",
+    "explanation": "Shared locks allow concurrent read access but block writes."
+  },
+
+  {
+    "id": 16,
+    "question": "Which lock allows a transaction to read and write data?",
+    "options": ["Shared", "Read", "Exclusive", "None"],
+    "answer": "Exclusive",
+    "explanation": "Exclusive locks prevent any other access to the data item."
+  },
+  {
+    "id": 17,
+    "question": "Two‑Phase Locking guarantees which property?",
+    "options": ["Deadlock freedom", "Isolation removal", "Serializability", "Durability"],
+    "answer": "Serializability",
+    "explanation": "2PL ensures schedules are conflict‑serializable."
+  },
+  {
+    "id": 18,
+    "question": "Strict Two‑Phase Locking prevents which issue?",
+    "options": ["Deadlock", "Lost update", "Cascading rollback", "Phantom read"],
+    "answer": "Cascading rollback",
+    "explanation": "Strict 2PL prevents other transactions from reading uncommitted data."
+  },
+  {
+    "id": 19,
+    "question": "Which isolation level provides the highest isolation?",
+    "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+    "answer": "Serializable",
+    "explanation": "Serializable isolation makes transactions appear as if executed sequentially."
+  },
+  {
+    "id": 20,
+    "question": "Which problem occurs when rows appear or disappear between reads?",
+    "options": ["Dirty read", "Lost update", "Phantom read", "Deadlock"],
+    "answer": "Phantom read",
+    "explanation": "Phantom reads occur when result sets change between queries due to inserts/deletes."
+  },
+
+  {
+    "id": 21,
+    "question": "What is the main purpose of indexing?",
+    "options": ["Security", "Faster retrieval", "Normalization", "Locking"],
+    "answer": "Faster retrieval",
+    "explanation": "Indexes reduce disk access time during SELECT operations."
+  },
+  {
+    "id": 22,
+    "question": "What is the main drawback of indexing?",
+    "options": ["Data inconsistency", "Extra storage and slower updates", "Deadlock", "Redundancy"],
+    "answer": "Extra storage and slower updates",
+    "explanation": "Indexes must be updated during INSERT/UPDATE/DELETE operations."
+  },
+  {
+    "id": 23,
+    "question": "Which key can contain NULL values?",
+    "options": ["Primary", "Candidate", "Composite", "Foreign"],
+    "answer": "Foreign",
+    "explanation": "Foreign keys can be NULL if the relationship is optional."
+  },
+  {
+    "id": 24,
+    "question": "A composite key consists of?",
+    "options": ["Single column", "Multiple columns", "Only numbers", "Only strings"],
+    "answer": "Multiple columns",
+    "explanation": "Composite keys use more than one attribute to identify a record."
+  },
+  {
+    "id": 25,
+    "question": "Which join returns only matching records?",
+    "options": ["LEFT", "RIGHT", "INNER", "FULL"],
+    "answer": "INNER",
+    "explanation": "INNER JOIN returns rows with matching values in both tables."
+  },
+
+  {
+    "id": 26,
+    "question": "A view in DBMS is best described as?",
+    "options": ["Physical table", "Virtual table", "Index", "Trigger"],
+    "answer": "Virtual table",
+    "explanation": "Views are logical tables derived from SELECT queries without storing data."
+  },
+  {
+    "id": 27,
+    "question": "Which command removes all rows and cannot be rolled back?",
+    "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+    "answer": "TRUNCATE",
+    "explanation": "TRUNCATE removes all rows permanently and does not support rollback."
+  },
+  {
+    "id": 28,
+    "question": "Which problem differs from deadlock because it has no circular wait?",
+    "options": ["Rollback", "Starvation", "Dirty read", "Lost update"],
+    "answer": "Starvation",
+    "explanation": "Starvation occurs due to priority scheduling, not circular waiting."
+  },
+  {
+    "id": 29,
+    "question": "Which protocol is most commonly used in practical DBMS?",
+    "options": ["Timestamp ordering", "Basic 2PL", "Strict 2PL", "View locking"],
+    "answer": "Strict 2PL",
+    "explanation": "Strict 2PL provides serializability and recoverability."
+  },
+  {
+    "id": 30,
+    "question": "Which ensures abstraction and data independence?",
+    "options": ["Normalization", "Indexing", "Database abstraction", "Deadlock"],
+    "answer": "Database abstraction",
+    "explanation": "Abstraction hides implementation details from users."
+  },
+  {
+    "id": 31,
+    "question": "Which schedule is safe to execute?",
+    "options": ["Non-serial", "Serializable", "Concurrent", "Deadlocked"],
+    "answer": "Serializable",
+    "explanation": "Serializable schedules produce the same result as some serial execution, ensuring correctness."
+  },
+  {
+    "id": 32,
+    "question": "Conflict serializability is tested using?",
+    "options": ["View graph", "Wait-for graph", "Precedence graph", "ER diagram"],
+    "answer": "Precedence graph",
+    "explanation": "If the precedence graph has no cycles, the schedule is conflict-serializable."
+  },
+  {
+    "id": 33,
+    "question": "A cycle in a precedence graph indicates?",
+    "options": ["Deadlock", "Starvation", "Non-serializable schedule", "Recoverable schedule"],
+    "answer": "Non-serializable schedule",
+    "explanation": "Cycles imply conflicting operations that cannot be serialized."
+  },
+  {
+    "id": 34,
+    "question": "Which isolation issue is prevented by Repeatable Read?",
+    "options": ["Dirty read", "Lost update", "Non-repeatable read", "Phantom read"],
+    "answer": "Non-repeatable read",
+    "explanation": "Repeatable Read ensures rows read once cannot change during the transaction."
+  },
+  {
+    "id": 35,
+    "question": "Which isolation issue may still occur in Repeatable Read?",
+    "options": ["Dirty read", "Lost update", "Phantom read", "Cascading rollback"],
+    "answer": "Phantom read",
+    "explanation": "Repeatable Read does not prevent new rows from appearing in range queries."
+  },
+
+  {
+    "id": 36,
+    "question": "Which isolation level allows dirty reads?",
+    "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+    "answer": "Read Uncommitted",
+    "explanation": "This level provides the lowest isolation and allows reading uncommitted data."
+  },
+  {
+    "id": 37,
+    "question": "Which isolation level prevents dirty reads but allows non-repeatable reads?",
+    "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+    "answer": "Read Committed",
+    "explanation": "Read Committed ensures only committed data is read, but values may change later."
+  },
+  {
+    "id": 38,
+    "question": "Which operation does NOT require an exclusive lock?",
+    "options": ["INSERT", "DELETE", "UPDATE", "SELECT"],
+    "answer": "SELECT",
+    "explanation": "SELECT operations typically use shared locks, not exclusive locks."
+  },
+  {
+    "id": 39,
+    "question": "Which concurrency problem occurs when two transactions overwrite each other?",
+    "options": ["Dirty read", "Lost update", "Phantom read", "Starvation"],
+    "answer": "Lost update",
+    "explanation": "Lost update happens when concurrent updates overwrite changes."
+  },
+  {
+    "id": 40,
+    "question": "Which protocol orders transactions using timestamps?",
+    "options": ["Two-phase locking", "Strict 2PL", "Timestamp ordering", "Wait-die"],
+    "answer": "Timestamp ordering",
+    "explanation": "Timestamp ordering assigns each transaction a timestamp to enforce execution order."
+  },
+
+  {
+    "id": 41,
+    "question": "Which issue is NOT solved by timestamp ordering?",
+    "options": ["Deadlock", "Serializability", "Isolation", "Concurrency control"],
+    "answer": "Deadlock",
+    "explanation": "Timestamp ordering avoids deadlock by not waiting but may cause rollbacks."
+  },
+  {
+    "id": 42,
+    "question": "Which lock conversion is allowed in Two-Phase Locking?",
+    "options": ["Exclusive to Shared", "Shared to Exclusive", "Any conversion", "No conversion"],
+    "answer": "Shared to Exclusive",
+    "explanation": "Upgrading from shared to exclusive is allowed during the growing phase."
+  },
+  {
+    "id": 43,
+    "question": "Which phase of 2PL allows releasing locks?",
+    "options": ["Growing", "Locking", "Shrinking", "Execution"],
+    "answer": "Shrinking",
+    "explanation": "In the shrinking phase, locks are released and no new locks are acquired."
+  },
+  {
+    "id": 44,
+    "question": "Which ensures recoverable schedules?",
+    "options": ["Basic 2PL", "Strict 2PL", "Non-serial scheduling", "View serializability"],
+    "answer": "Strict 2PL",
+    "explanation": "Strict 2PL ensures data written by uncommitted transactions is never read."
+  },
+  {
+    "id": 45,
+    "question": "Which failure scenario is handled by durability?",
+    "options": ["Power failure", "Deadlock", "Incorrect query", "Lost update"],
+    "answer": "Power failure",
+    "explanation": "Durability ensures committed data survives system crashes."
+  },
+
+  {
+    "id": 46,
+    "question": "Which schema level deals with physical storage?",
+    "options": ["External", "Conceptual", "Logical", "Physical"],
+    "answer": "Physical",
+    "explanation": "The physical level defines how data is stored on disk."
+  },
+  {
+    "id": 47,
+    "question": "Which schema level provides multiple user views?",
+    "options": ["Physical", "Conceptual", "External", "Global"],
+    "answer": "External",
+    "explanation": "External level supports user-specific views of the database."
+  },
+  {
+    "id": 48,
+    "question": "Which ensures logical data independence?",
+    "options": ["Changing storage", "Changing schema without program changes", "Locking", "Normalization"],
+    "answer": "Changing schema without program changes",
+    "explanation": "Logical data independence allows schema changes without affecting applications."
+  },
+  {
+    "id": 49,
+    "question": "Which command belongs to Transaction Control Language (TCL)?",
+    "options": ["INSERT", "UPDATE", "COMMIT", "CREATE"],
+    "answer": "COMMIT",
+    "explanation": "COMMIT and ROLLBACK are TCL commands."
+  },
+  {
+    "id": 50,
+    "question": "Which DBMS concept primarily ensures correctness under concurrency?",
+    "options": ["Indexing", "Locking", "Normalization", "Views"],
+    "answer": "Locking",
+    "explanation": "Locking enforces isolation and prevents conflicting concurrent operations."
+  }
+]

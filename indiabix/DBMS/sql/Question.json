@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Find the second highest salary from the Employee table.",
+    "answer": "Approach 1: Using subquery\nSELECT MAX(salary)\nFROM Employee\nWHERE salary < (SELECT MAX(salary) FROM Employee);\n\nApproach 2: Using ORDER BY\nSELECT salary\nFROM Employee\nORDER BY salary DESC\nLIMIT 1 OFFSET 1;",
+    "output": "+--------+\n| salary |\n+--------+\n| 60000  |\n+--------+",
+    "companyAsked": ["TCS", "Infosys", "Accenture"],
+    "interviewExplanation": "Checks subquery logic and salary ranking."
+  },
+  {
+    "id": 2,
+    "question": "Find employees with duplicate salaries.",
+    "answer": "SELECT salary\nFROM Employee\nGROUP BY salary\nHAVING COUNT(*) > 1;",
+    "output": "+--------+\n| salary |\n+--------+\n| 40000  |\n+--------+",
+    "companyAsked": ["Infosys", "Cognizant"],
+    "interviewExplanation": "Tests GROUP BY and HAVING understanding."
+  },
+  {
+    "id": 3,
+    "question": "Fetch employees who belong to IT department.",
+    "answer": "SELECT *\nFROM Employee\nWHERE department = 'IT';",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 1      | Rahul | IT         | 50000  |\n| 3      | Amit  | IT         | 60000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["Wipro"],
+    "interviewExplanation": "Basic filtering using WHERE clause."
+  },
+  {
+    "id": 4,
+    "question": "Find the average salary of employees.",
+    "answer": "SELECT AVG(salary) AS avg_salary\nFROM Employee;",
+    "output": "+------------+\n| avg_salary |\n+------------+\n| 52000     |\n+------------+",
+    "companyAsked": ["Capgemini"],
+    "interviewExplanation": "Tests aggregate function AVG."
+  },
+  {
+    "id": 5,
+    "question": "Find employee(s) earning the highest salary.",
+    "answer": "SELECT *\nFROM Employee\nWHERE salary = (SELECT MAX(salary) FROM Employee);",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 5      | Priya | Finance    | 70000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["TCS", "Infosys"],
+    "interviewExplanation": "Tests MAX with subquery."
+  },
+  {
+    "id": 6,
+    "question": "Count number of employees in each department.",
+    "answer": "SELECT department, COUNT(*) AS total\nFROM Employee\nGROUP BY department;",
+    "output": "+------------+-------+\n| department | total |\n+------------+-------+\n| IT         | 2     |\n| HR         | 2     |\n| Finance    | 1     |\n+------------+-------+",
+    "companyAsked": ["Accenture"],
+    "interviewExplanation": "Very common GROUP BY question."
+  },
+  {
+    "id": 7,
+    "question": "Find employees earning more than average salary.",
+    "answer": "SELECT *\nFROM Employee\nWHERE salary > (SELECT AVG(salary) FROM Employee);",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 3      | Amit  | IT         | 60000  |\n| 5      | Priya | Finance    | 70000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["Cognizant"],
+    "interviewExplanation": "Checks subquery with aggregate function."
+  },
+  {
+    "id": 8,
+    "question": "Find total salary paid department‑wise.",
+    "answer": "SELECT department, SUM(salary) AS total_salary\nFROM Employee\nGROUP BY department;",
+    "output": "+------------+--------------+\n| department | total_salary |\n+------------+--------------+\n| IT         | 110000       |\n| HR         | 80000        |\n| Finance    | 70000        |\n+------------+--------------+",
+    "companyAsked": ["Wipro"],
+    "interviewExplanation": "SUM + GROUP BY test."
+  },
+  {
+    "id": 9,
+    "question": "Fetch employees sorted by salary (high to low).",
+    "answer": "SELECT *\nFROM Employee\nORDER BY salary DESC;",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 5      | Priya | Finance    | 70000  |\n| 3      | Amit  | IT         | 60000  |\n| 1      | Rahul | IT         | 50000  |\n| 2      | Anjali| HR         | 40000  |\n| 4      | Neha  | HR         | 40000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["Infosys"],
+    "interviewExplanation": "Tests ORDER BY."
+  },
+  {
+    "id": 10,
+    "question": "Find employees whose salary is equal to 40000.",
+    "answer": "SELECT *\nFROM Employee\nWHERE salary = 40000;",
+    "output": "+--------+--------+------------+--------+\n| emp_id | name   | department | salary |\n+--------+--------+------------+--------+\n| 2      | Anjali | HR         | 40000  |\n| 4      | Neha   | HR         | 40000  |\n+--------+--------+------------+--------+",
+    "companyAsked": ["Capgemini"],
+    "interviewExplanation": "Basic equality condition."
+  },
+  {
+    "id": 11,
+    "question": "Find the minimum salary in the company.",
+    "answer": "SELECT MIN(salary) AS min_salary\nFROM Employee;",
+    "output": "+------------+\n| min_salary |\n+------------+\n| 40000     |\n+------------+",
+    "companyAsked": ["TCS"],
+    "interviewExplanation": "Aggregate MIN function."
+  },
+  {
+    "id": 12,
+    "question": "Show only unique departments.",
+    "answer": "SELECT DISTINCT department\nFROM Employee;",
+    "output": "+------------+\n| department |\n+------------+\n| IT         |\n| HR         |\n| Finance    |\n+------------+",
+    "companyAsked": ["Infosys"],
+    "interviewExplanation": "Tests DISTINCT keyword."
+  },
+  {
+    "id": 13,
+    "question": "Count total employees in the company.",
+    "answer": "SELECT COUNT(*) AS total_employees\nFROM Employee;",
+    "output": "+------------------+\n| total_employees  |\n+------------------+\n| 5                |\n+------------------+",
+    "companyAsked": ["Cognizant"],
+    "interviewExplanation": "Basic COUNT function."
+  },
+  {
+    "id": 14,
+    "question": "Find employees whose name starts with 'A'.",
+    "answer": "SELECT *\nFROM Employee\nWHERE name LIKE 'A%';",
+    "output": "+--------+--------+------------+--------+\n| emp_id | name   | department | salary |\n+--------+--------+------------+--------+\n| 2      | Anjali | HR         | 40000  |\n| 3      | Amit   | IT         | 60000  |\n+--------+--------+------------+--------+",
+    "companyAsked": ["Wipro"],
+    "interviewExplanation": "Tests LIKE operator."
+  },
+  {
+    "id": 15,
+    "question": "Display department along with highest salary in each department.",
+    "answer": "SELECT department, MAX(salary) AS max_salary\nFROM Employee\nGROUP BY department;",
+    "output": "+------------+------------+\n| department | max_salary |\n+------------+------------+\n| IT         | 60000      |\n| HR         | 40000      |\n| Finance    | 70000      |\n+------------+------------+",
+    "companyAsked": ["Accenture"],
+    "interviewExplanation": "Very frequently repeated interview question."
+  },
+  {
+    "id": 16,
+    "question": "Fetch employee name along with department name (use JOIN).",
+    "answer": "SELECT e.name, d.dept_name\nFROM Employee e\nJOIN Department d\nON e.department = d.dept_id;",
+    "output": "+-------+---------------+\n| name  | dept_name     |\n+-------+---------------+\n| Rahul | Technology    |\n| Amit  | Technology    |\n| Anjali| HumanResource |\n| Neha  | HumanResource |\n| Priya | Finance       |\n+-------+---------------+",
+    "companyAsked": ["TCS", "Infosys"],
+    "interviewExplanation": "Tests INNER JOIN understanding."
+  },
+  {
+    "id": 17,
+    "question": "Fetch employees even if department details are missing.",
+    "answer": "SELECT e.name, d.dept_name\nFROM Employee e\nLEFT JOIN Department d\nON e.department = d.dept_id;",
+    "output": "+-------+---------------+\n| name  | dept_name     |\n+-------+---------------+\n| Rahul | Technology    |\n| Amit  | Technology    |\n| Anjali| HumanResource |\n| Neha  | HumanResource |\n| Priya | Finance       |\n+-------+---------------+",
+    "companyAsked": ["Cognizant"],
+    "interviewExplanation": "LEFT JOIN returns all employees."
+  },
+  {
+    "id": 18,
+    "question": "Find employees whose department does not exist in Department table.",
+    "answer": "SELECT e.*\nFROM Employee e\nLEFT JOIN Department d\nON e.department = d.dept_id\nWHERE d.dept_id IS NULL;",
+    "output": "Empty result (no missing departments)",
+    "companyAsked": ["Capgemini"],
+    "interviewExplanation": "Checks LEFT JOIN with NULL filtering."
+  },
+  {
+    "id": 19,
+    "question": "Find employees earning same salary using self join.",
+    "answer": "SELECT e1.name, e1.salary\nFROM Employee e1\nJOIN Employee e2\nON e1.salary = e2.salary\nAND e1.emp_id <> e2.emp_id;",
+    "output": "+--------+--------+\n| name   | salary |\n+--------+--------+\n| Anjali | 40000  |\n| Neha   | 40000  |\n+--------+--------+",
+    "companyAsked": ["Infosys"],
+    "interviewExplanation": "Self‑join interview favorite."
+  },
+  {
+    "id": 20,
+    "question": "Find departments having more than 1 employee.",
+    "answer": "SELECT department, COUNT(*) AS total\nFROM Employee\nGROUP BY department\nHAVING COUNT(*) > 1;",
+    "output": "+------------+-------+\n| department | total |\n+------------+-------+\n| IT         | 2     |\n| HR         | 2     |\n+------------+-------+",
+    "companyAsked": ["TCS"],
+    "interviewExplanation": "HAVING clause usage."
+  },
+  {
+    "id": 21,
+    "question": "Find department with maximum total salary.",
+    "answer": "SELECT department, SUM(salary) AS total_salary\nFROM Employee\nGROUP BY department\nORDER BY total_salary DESC\nLIMIT 1;",
+    "output": "+------------+--------------+\n| department | total_salary |\n+------------+--------------+\n| IT         | 110000       |\n+------------+--------------+",
+    "companyAsked": ["Accenture"],
+    "interviewExplanation": "Tests ORDER BY with aggregation."
+  },
+  {
+    "id": 22,
+    "question": "Fetch first 3 highest paid employees.",
+    "answer": "SELECT *\nFROM Employee\nORDER BY salary DESC\nLIMIT 3;",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 5      | Priya | Finance    | 70000  |\n| 3      | Amit  | IT         | 60000  |\n| 1      | Rahul | IT         | 50000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["Infosys"],
+    "interviewExplanation": "Top‑N query."
+  },
+  {
+    "id": 23,
+    "question": "Find employee count where salary is greater than 45000.",
+    "answer": "SELECT COUNT(*) AS total\nFROM Employee\nWHERE salary > 45000;",
+    "output": "+-------+\n| total |\n+-------+\n| 3     |\n+-------+",
+    "companyAsked": ["Wipro"],
+    "interviewExplanation": "COUNT with condition."
+  },
+  {
+    "id": 24,
+    "question": "Display employees in alphabetical order of name.",
+    "answer": "SELECT *\nFROM Employee\nORDER BY name ASC;",
+    "output": "+--------+--------+------------+--------+\n| emp_id | name   | department | salary |\n+--------+--------+------------+--------+\n| 2      | Anjali | HR         | 40000  |\n| 3      | Amit   | IT         | 60000  |\n| 4      | Neha   | HR         | 40000  |\n| 5      | Priya  | Finance    | 70000  |\n| 1      | Rahul  | IT         | 50000  |\n+--------+--------+------------+--------+",
+    "companyAsked": ["Capgemini"],
+    "interviewExplanation": "ORDER BY string column."
+  },
+  {
+    "id": 25,
+    "question": "Find employees whose salary is between 40000 and 60000.",
+    "answer": "SELECT *\nFROM Employee\nWHERE salary BETWEEN 40000 AND 60000;",
+    "output": "+--------+--------+------------+--------+\n| emp_id | name   | department | salary |\n+--------+--------+------------+--------+\n| 1      | Rahul  | IT         | 50000  |\n| 2      | Anjali | HR         | 40000  |\n| 3      | Amit   | IT         | 60000  |\n| 4      | Neha   | HR         | 40000  |\n+--------+--------+------------+--------+",
+    "companyAsked": ["Cognizant"],
+    "interviewExplanation": "BETWEEN operator."
+  },
+  {
+    "id": 26,
+    "question": "Find total number of distinct departments.",
+    "answer": "SELECT COUNT(DISTINCT department) AS total_departments\nFROM Employee;",
+    "output": "+-------------------+\n| total_departments |\n+-------------------+\n| 3                 |\n+-------------------+",
+    "companyAsked": ["TCS"],
+    "interviewExplanation": "DISTINCT with COUNT."
+  },
+  {
+    "id": 27,
+    "question": "Fetch employees whose name ends with 'a'.",
+    "answer": "SELECT *\nFROM Employee\nWHERE name LIKE '%a';",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 4      | Neha  | HR         | 40000  |\n| 5      | Priya | Finance    | 70000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["Infosys"],
+    "interviewExplanation": "LIKE operator pattern matching."
+  },
+  {
+    "id": 28,
+    "question": "Find total salary paid to HR department.",
+    "answer": "SELECT SUM(salary) AS total_salary\nFROM Employee\nWHERE department = 'HR';",
+    "output": "+--------------+\n| total_salary |\n+--------------+\n| 80000        |\n+--------------+",
+    "companyAsked": ["Accenture"],
+    "interviewExplanation": "Aggregate with WHERE clause."
+  },
+  {
+    "id": 29,
+    "question": "Find employee names and salaries where salary is not NULL.",
+    "answer": "SELECT name, salary\nFROM Employee\nWHERE salary IS NOT NULL;",
+    "output": "All rows returned (salary column has no NULLs)",
+    "companyAsked": ["Capgemini"],
+    "interviewExplanation": "NULL handling question."
+  },
+  {
+    "id": 30,
+    "question": "Find employees working in IT or Finance department.",
+    "answer": "SELECT *\nFROM Employee\nWHERE department IN ('IT', 'Finance');",
+    "output": "+--------+-------+------------+--------+\n| emp_id | name  | department | salary |\n+--------+-------+------------+--------+\n| 1      | Rahul | IT         | 50000  |\n| 3      | Amit  | IT         | 60000  |\n| 5      | Priya | Finance    | 70000  |\n+--------+-------+------------+--------+",
+    "companyAsked": ["Infosys", "Wipro"],
+    "interviewExplanation": "IN operator common interview question."
+  }
+]

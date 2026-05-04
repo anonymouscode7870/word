@@ -1,0 +1,406 @@
+[
+  {
+    "topic": "problems-on-trains",
+    "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+    "options": [
+      "120 metres",
+      "180 metres",
+      "324 metres",
+      "150 metres"
+    ],
+    "correctOption": 3,
+    "explanation": "Speed = \n    \n    60 x\n    5\n    m/sec\n    =\n    \n    50\n    m/sec.\n \n \n    18\n    3\n  \n\n\nLength of the train = (Speed x Time).\n\n\n \n     Length of the train =\n    \n    50\n    x 9\n    m = 150 m.\n \n \n    3",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
+    "options": [
+      "45 km/hr",
+      "50 km/hr",
+      "54 km/hr",
+      "55 km/hr"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed of the train relative to man =\n    \n    125\n    m/sec\n \n \n    10\n  \n\n\n\n\n \n       =\n    \n    25\n    m/sec.\n \n \n    2\n  \n\n\n\n\n \n       =\n    \n    25\n    x\n    18\n    km/hr\n \n \n    2\n    5\n  \n\n\n   = 45 km/hr.\nLet the speed of the train be x km/hr. Then, relative speed = (x - 5) km/hr.\n x - 5 = 45          x = 50 km/hr.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
+    "options": [
+      "200 m",
+      "225 m",
+      "245 m",
+      "250 m"
+    ],
+    "correctOption": 2,
+    "explanation": "Speed =\n    \n    45 x\n    5\n    m/sec\n    =\n    \n    25\n    m/sec.\n \n \n    18\n    2\n  \n\n\nTime = 30 sec.\nLet the length of bridge be x metres.\n\n    \n       Then,\n       130 + x\n       =\n       25\n    \n    \n       30\n       2\n     \n   \n\n 2(130 + x) = 750\n x = 245 m.\n\nVideo Explanation: https://youtu.be/M_d8WufJWKc",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+    "options": [
+      "1 : 3",
+      "3 : 2",
+      "3 : 4",
+      "None of these"
+    ],
+    "correctOption": 1,
+    "explanation": "Let the speeds of the two trains be x m/sec and y m/sec respectively.\nThen, length of the first train = 27x metres,\nand length of the second train = 17y metres.\n\n\n \n     \n    27x + 17y\n    = 23\n \n \n    x+ y\n  \n\n\n 27x + 17y = 23x + 23y\n 4x = 6y\n\n\n \n     \n    x\n    =\n    3\n    .\n \n \n    y\n    2",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+    "options": [
+      "120 m",
+      "240 m",
+      "300 m",
+      "None of these"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed =\n    \n    54 x\n    5\n    m/sec = 15 m/sec.\n \n \n    18\n  \n\n\nLength of the train = (15 x 20)m = 300 m.\nLet the length of the platform be x metres.\n\n\n \n    Then,\n    x + 300\n    = 15\n \n \n    36\n  \n\n\n x + 300 = 540\n x = 240 m.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 240 m long passes a pole in 24 seconds. How long will it take to pass a platform 650 m long?",
+    "options": [
+      "65 sec",
+      "89 sec",
+      "100 sec",
+      "150 sec"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed =\n    \n    240\n    m/sec = 10 m/sec.\n \n \n    24\n  \n\n\n\n\n \n    Required time =\n    \n    240 + 650\n    sec = 89 sec.\n \n \n    10",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains of equal length are running on parallel lines in the same direction at 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. The length of each train is:",
+    "options": [
+      "50 m",
+      "72 m",
+      "80 m",
+      "82 m"
+    ],
+    "correctOption": 0,
+    "explanation": "Let the length of each train be x metres.\nThen, distance covered = 2x metres.\nRelative speed = (46 - 36) km/hr\n\n\n \n       =\n    \n    10 x\n    5\n    m/sec\n \n \n    18\n  \n\n\n\n\n \n       =\n    \n    25\n    m/sec\n \n \n    9\n  \n\n\n\n\n \n     \n    2x\n    =\n    25\n \n \n    36\n    9\n  \n\n\n 2x = 100\n x = 50.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?",
+    "options": [
+      "40 sec",
+      "42 sec",
+      "45 sec",
+      "48 sec"
+    ],
+    "correctOption": 0,
+    "explanation": "Formula for converting from km/hr to m/s:    \nX km/hr = \n     \n    X x \n    5 \n     \n    m/s. \n  \n  \n    18 \n  \n \n \n\n\n\n \n    Therefore, Speed =\n    \n    45 x\n    5\n    m/sec\n    =\n    25\n    m/sec.\n \n \n    18\n    2\n  \n\n\nTotal distance to be covered = (360 + 140) m = 500 m.\n\n\n \n \n  \n    Formula for finding Time =  \n     \n    Distance \n     \n  \n  \n     Speed \n  \n \n\n\n\n\n \n     Required time =\n    \n     500 x 2\n    sec\n    = 40 sec.\n \n \n    25",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains are moving in opposite directions @ 60 km/hr and 90 km/hr. Their lengths are 1.10 km and 0.9 km respectively. The time taken by the slower train to cross the faster train in seconds is:",
+    "options": [
+      "36",
+      "45",
+      "48",
+      "49"
+    ],
+    "correctOption": 2,
+    "explanation": "Relative speed = (60+ 90) km/hr\n\n\n \n       =\n    \n    150 x\n    5\n    m/sec\n \n \n    18\n  \n\n\n\n\n \n       =\n    \n    125\n    m/sec.\n \n \n    3\n  \n\n\nDistance covered = (1.10 + 0.9) km = 2 km = 2000 m.\n\n\n \n    Required time =\n    \n    2000 x\n    3\n    sec = 48 sec.\n \n \n    125",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A jogger running at 9 kmph alongside a railway track in 240 metres ahead of the engine of a 120 metres long train running at 45 kmph in the same direction. In how much time will the train pass the jogger?",
+    "options": [
+      "3.6 sec",
+      "18 sec",
+      "36 sec",
+      "72 sec"
+    ],
+    "correctOption": 2,
+    "explanation": "Speed of train relative to jogger = (45 - 9) km/hr = 36 km/hr.\n\n\n \n       =\n    \n    36 x\n    5\n    m/sec\n \n \n    18\n  \n\n\n   = 10 m/sec.\nDistance to be covered = (240 + 120) m = 360 m.\n\n \n     Time taken =\n    \n    360\n    sec\n    = 36 sec.\n \n \n    10",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A 270 metres long train running at the speed of 120 kmph crosses another train running in opposite direction at the speed of 80 kmph in 9 seconds. What is the length of the other train?",
+    "options": [
+      "230 m",
+      "240 m",
+      "260 m",
+      "320 m",
+      "None of these"
+    ],
+    "correctOption": 0,
+    "explanation": "Relative speed = (120 + 80) km/hr\n\n\n \n       =\n    \n    200 x\n    5\n    m/sec\n \n \n    18\n  \n\n\n\n\n \n       =\n    \n    500\n    m/sec.\n \n \n    9\n  \n\n\nLet the length of the other train be x metres.\n\n\n \n    Then,\n    x + 270\n    =\n    500\n \n \n    9\n    9\n  \n\n\n x + 270 = 500\n x = 230.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A goods train runs at the speed of 72 kmph and crosses a 250 m long platform in 26 seconds. What is the length of the goods train?",
+    "options": [
+      "230 m",
+      "240 m",
+      "260 m",
+      "270 m"
+    ],
+    "correctOption": 3,
+    "explanation": "Speed =\n       \n       72 x\n       5\n       m/sec\n       = 20 m/sec.\n    \n    \n       18\n     \n   \n   \nTime = 26 sec.   \nLet the length of the train be x metres.\n\n\n \n    Then,\n    x + 250\n    = 20\n \n \n    26\n  \n\n\n x + 250 = 520\n x = 270.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains, each 100 m long, moving in opposite directions, cross each other in 8 seconds. If one is moving twice as fast the other, then the speed of the faster train is:",
+    "options": [
+      "30 km/hr",
+      "45 km/hr",
+      "60 km/hr",
+      "75 km/hr"
+    ],
+    "correctOption": 2,
+    "explanation": "Let the speed of the slower train be x m/sec.\nThen, speed of the faster train = 2x m/sec.\nRelative speed = (x + 2x) m/sec = 3x m/sec.\n\n\n \n     \n    (100 + 100)\n    = 3x\n \n \n    8\n  \n\n\n 24x = 200\n\n\n \n     x =\n    25\n    .\n \n \n    3\n  \n\n\n\n\n \n    So, speed of the faster train =\n    50\n    m/sec\n \n \n    3\n  \n\n\n\n\n \n       =\n    \n    50\n    x\n    18\n    km/hr\n \n \n    3\n    5\n  \n\n\n   = 60 km/hr.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains 140 m and 160 m long run at the speed of 60 km/hr and 40 km/hr respectively in opposite directions on parallel tracks. The time (in seconds) which they take to cross each other, is:",
+    "options": [
+      "9",
+      "9.6",
+      "10",
+      "10.8"
+    ],
+    "correctOption": 3,
+    "explanation": "Relative speed = (60 + 40) km/hr =\n    \n    100 x\n    5\n    m/sec\n    =\n    \n    250\n    m/sec.\n \n \n    18\n    9\n  \n\n\nDistance covered in crossing each other = (140 + 160) m = 300 m.\n\n\n \n    Required time =\n    \n    300 x\n    9\n    sec\n    =\n    54\n    sec = 10.8 sec.\n \n \n    250\n    5",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 110 metres long is running with a speed of 60 kmph. In what time will it pass a man who is running at 6 kmph in the direction opposite to that in which the train is going?",
+    "options": [
+      "5 sec",
+      "6 sec",
+      "7 sec",
+      "10 sec"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed of train relative to man = (60 + 6) km/hr = 66 km/hr.\n\n\n \n       =\n    \n    66 x\n    5\n    m/sec\n \n \n    18\n  \n\n\n\n\n \n       =\n    \n    55\n    m/sec.\n \n \n    3\n  \n\n\n\n\n \n     Time taken to pass the man =\n    \n    110 x\n    3\n    sec = 6 sec.\n \n \n    55",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train travelling at a speed of 75 mph enters a tunnel 3 miles long. The train is  mile long. How long does it take for the train to pass through the tunnel from the moment the front enters to the moment the rear emerges?",
+    "options": [
+      "2.5 min",
+      "3 min",
+      "3.2 min",
+      "3.5 min"
+    ],
+    "correctOption": 1,
+    "explanation": "Total distance covered\n  \n  \n    \n      =\n      \n      7\n      +\n      1 \n      \n      miles\n    \n    \n      2\n      4\n    \n  \n  \n\n\n  \n  \n  \n    \n      =\n      15\n      miles.\n    \n    \n      4\n    \n  \n  \n\n\n\n\n\n\n   Time taken\n  \n  \n    \n      =\n      \n      15\n      \n      hrs\n    \n    \n      4 x 75\n    \n  \n\n\n  \n  \n  \n    \n      =\n      1\n      hrs\n    \n    \n      20\n    \n  \n  \n\n\n  \n  \n  \n    \n      =\n      \n      1\n      x 60\n      \n      min.\n    \n    \n      20\n    \n  \n  \n\n \n   \n   = 3 min.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 800 metres long is running at a speed of 78 km/hr. If it crosses a tunnel in 1 minute, then the length of the tunnel (in meters) is:",
+    "options": [
+      "130",
+      "360",
+      "500",
+      "540"
+    ],
+    "correctOption": 2,
+    "explanation": "Speed =\n  \n  78 x\n  5\n  \n  m/sec\n  =\n  \n  \n  65 \n  \n  m/sec.\n\n\n  18\n  3\n\n\n\nTime = 1 minute = 60 seconds.\nLet the length of the tunnel be x metres.\n\n\n\n  Then, \n  \n  800 + x\n  \n  =\n  65 \n\n\n  60\n  3\n\n\n\n 3(800 + x) = 3900\n x = 500.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A 300 metre long train crosses a platform in 39 seconds while it crosses a signal pole in 18 seconds. What is the length of the platform?",
+    "options": [
+      "320 m",
+      "350 m",
+      "650 m",
+      "Data inadequate"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed =\n  \n  300\n  \n  m/sec =\n  50 \n  m/sec.\n\n\n  18\n  3\n\n\n\nLet the length of the platform be x metres.\n\n\n\n  Then,\n  \n  x + 300\n  \n  =\n  50 \n\n\n  39\n  3\n\n\n\n 3(x + 300) = 1950\n x = 350 m.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train speeds past a pole in 15 seconds and a platform 100 m long in 25 seconds. Its length is:",
+    "options": [
+      "50 m",
+      "150 m",
+      "200 m",
+      "Data inadequate"
+    ],
+    "correctOption": 1,
+    "explanation": "Let the length of the train be x metres and its speed by y m/sec.\n\n\n\n  Then,\n  x\n  = 15          y =\n  x \n  .\n\n\n  y\n  15\n\n\n\n\n\n\n  \n  x + 100\n  =\n  x \n\n\n  25\n  15\n\n\n\n 15(x + 100) = 25x\n 15x + 1500 = 25x\n 1500 = 10x\n x = 150 m.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train moves past a telegraph post and a bridge 264 m long in 8 seconds and 20 seconds respectively. What is the speed of the train?",
+    "options": [
+      "69.5 km/hr",
+      "70 km/hr",
+      "79 km/hr",
+      "79.2 km/hr"
+    ],
+    "correctOption": 3,
+    "explanation": "Let the length of the train be x metres and its speed by y m/sec.\n\n\n\n  Then,\n  x\n  = 8          x = 8y\n\n\n  y\n\n\n\n\n\n\n  Now,\n  x + 264\n  = y\n\n\n  20\n\n\n\n 8y + 264 = 20y\n y = 22.\n\n\n\n\n   Speed = 22 m/sec =\n  \n  22 x\n  18\n  \n  km/hr = 79.2 km/hr.\n\n\n  5",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "How many seconds will a 500 metre long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?",
+    "options": [
+      "25",
+      "30",
+      "40",
+      "45"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed of the train relative to man\n  = (63 - 3) km/hr\n\n\n  \n  = 60 km/hr\n\n\n  \n  \n  \n    \n      =\n      \n      60 x\n      5\n      \n      m/sec\n    \n    \n      18\n    \n  \n  \n\n\n  \n  \n  \n    \n      =\n      \n      50\n      \n      m/sec.\n    \n    \n      3\n    \n  \n  \n\n\n   Time taken to pass the man\n  \n  \n    \n      =\n      \n      500 x\n      3\n      \n      sec\n    \n    \n      50\n    \n  \n  \n\n\n  \n  = 30 sec.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two goods train each 500 m long, are running in opposite directions on parallel tracks. Their speeds are 45 km/hr and 30 km/hr respectively. Find the time taken by the slower train to pass the driver of the faster one.",
+    "options": [
+      "12 sec",
+      "24 sec",
+      "48 sec",
+      "60 sec"
+    ],
+    "correctOption": 1,
+    "explanation": "Relative speed =\n  = (45 + 30) km/hr\n\n\n  \n  \n  \n  \n    =\n    \n    75 x\n    5\n    \n    m/sec\n  \n  \n    18\n  \n  \n  \n\n\n  \n  \n  \n    \n      =\n      \n      125\n      \n      m/sec.\n    \n    \n      6\n    \n  \n  \n\n\n\n\n\nWe have to find the time taken by the slower train to pass the DRIVER of the faster train and not the complete train.\n\nSo, distance covered = Length of the slower train.\n\nTherefore, Distance covered = 500 m.\n\n\n\n\n\n\n   Required time =\n  \n  500 x\n  6\n  \n  = 24 sec.\n\n\n  125",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains are running in opposite directions with the same speed. If the length of each train is 120 metres and they cross each other in 12 seconds, then the speed of each train (in km/hr) is:",
+    "options": [
+      "10",
+      "18",
+      "36",
+      "72"
+    ],
+    "correctOption": 2,
+    "explanation": "Let the speed of each train be x m/sec.\nThen, relative speed of the two trains = 2x m/sec.\n\n\n\n  So, 2x =\n  (120 + 120)\n\n\n  12\n\n\n\n 2x = 20\n x = 10.\n\n\n\n\n   Speed of  each train = 10 m/sec =\n  \n  10 x\n  18\n  \n  km/hr = 36 km/hr.\n\n\n  5",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains of equal lengths take 10 seconds and 15 seconds respectively to cross a telegraph post. If the length of each train be 120 metres, in what time (in seconds) will they cross each other travelling in opposite direction?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed of the first train =\n  \n  120\n  \n  m/sec = 12 m/sec.\n\n\n  10\n\n\n\n\n\n\n  Speed of the second train =\n  \n  120\n  \n  m/sec = 8 m/sec.\n\n\n  15\n\n\n\nRelative speed = (12 + 8) = 20 m/sec.\n\n\n\n   Required time =\n  \n  (120 + 120)\n  \n  sec = 12 sec.\n\n\n  20",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train 108 m long moving at a speed of 50 km/hr crosses a train 112 m long coming from opposite direction in 6 seconds. The speed of the second train is:",
+    "options": [
+      "48 km/hr",
+      "54 km/hr",
+      "66 km/hr",
+      "82 km/hr"
+    ],
+    "correctOption": 3,
+    "explanation": "Let the speed of the second train be x km/hr.\n\n\n\n  Relative speed\n  = (x + 50) km/hr\n\n\n  \n  \n  \n  \n    =\n    \n    (x + 50) x\n    5\n    \n    m/sec\n  \n  \n    18\n  \n  \n  \n\n\n  \n  \n  \n    \n      =\n      \n      250 + 5x\n      \n      m/sec.\n    \n    \n      18\n    \n  \n  \n\n\n\nDistance covered = (108 + 112) = 220 m.\n\n\n\n   \n  220\n  = 6\n\n\n  \n  \n  \n    \n    250 + 5x\n    \n  \n  \n    18\n  \n  \n  \n\n\n\n 250 + 5x = 660\n x = 82 km/hr.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two trains are running at 40 km/hr and 20 km/hr respectively in the same direction. Fast train completely passes a man sitting in the slower train in 5 seconds. What is the length of the fast train?",
+    "options": [
+      "23 m",
+      "23\n      2\n      m\n    \n    \n      9",
+      "27\n      7\n      m\n    \n    \n      9",
+      "29 m"
+    ],
+    "correctOption": 2,
+    "explanation": "Relative speed = (40 - 20) km/hr =\n  \n  20 x\n  5\n  \n  m/sec =\n  \n  50 \n  \n  m/sec.\n\n\n  18\n  9\n\n\n\n\n\n\n   Length of faster train =\n  \n  50\n  x 5\n  \n  m =\n  250 \n  m = 27\n  7 \n  m.\n\n\n  9\n  9\n  9",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train overtakes two persons who are walking in the same direction in which the train is going, at the rate of 2 kmph and 4 kmph and passes them completely in 9 and 10 seconds respectively. The length of the train is:",
+    "options": [
+      "45 m",
+      "50 m",
+      "54 m",
+      "72 m"
+    ],
+    "correctOption": 1,
+    "explanation": "2 kmph =\n  \n  2 x\n  5\n  \n  m/sec =\n  5 \n  m/sec.\n\n\n  18\n  9\n\n\n\n\n\n\n  4 kmph =\n  \n  4 x\n  5\n  \n  m/sec =\n  10 \n  m/sec.\n\n\n  18\n  9\n\n\n\nLet the length of the train be x metres and its speed by y m/sec.\n\n\n\n  Then,\n  \n  x\n  \n  = 9 and\n  \n  x \n  \n  = 10.\n\n\n  \n  \n  \n    y -\n    5\n  \n  \n    9\n  \n  \n  \n  \n  \n  \n    y -\n    10\n  \n  \n    9\n  \n  \n  \n\n\n\n 9y - 5 = x and 10(9y - 10) = 9x\n 9y - x = 5 and 90y - 9x = 100.\nOn solving, we get: x = 50.\n Length of the train is 50 m.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr. The other one walks at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train if both the persons are walking in the same direction as the train?",
+    "options": [
+      "66 km/hr",
+      "72 km/hr",
+      "78 km/hr",
+      "81 km/hr"
+    ],
+    "correctOption": 3,
+    "explanation": "4.5 km/hr =\n  \n  4.5 x\n  5\n  \n  m/sec =\n  5 \n  m/sec = 1.25 m/sec, and\n\n\n  18\n  4\n\n\n\n\n\n\n  5.4 km/hr =\n  \n  5.4 x\n  5\n  \n  m/sec =\n  3 \n  m/sec = 1.5 m/sec.\n\n\n  18\n  2\n\n\n\nLet the speed of the train be x m/sec.\nThen, (x - 1.25) x 8.4 = (x - 1.5) x 8.5\n 8.4x - 10.5 = 8.5x - 12.75\n 0.1x = 2.25\n x = 22.5\n\n\n\n   Speed of the train =\n  \n  22.5 x\n  18\n  \n  km/hr = 81 km/hr.\n\n\n  5",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "A train travelling at 48 kmph completely crosses another train having half its length and travelling in opposite direction at 42 kmph, in 12 seconds. It also passes a railway platform in 45 seconds. The length of the platform is",
+    "options": [
+      "400 m",
+      "450 m",
+      "560 m",
+      "600 m"
+    ],
+    "correctOption": 0,
+    "explanation": "Let the length of the first train be x metres.\n\n\n\n  Then, the length of the second train is\n  \n  x\n  \n  metres.\n\n\n  2\n\n\n\n\n\n\n  Relative speed = (48 + 42) kmph =\n  \n  90 x\n  5\n  \n  m/sec = 25 m/sec.\n\n\n  18\n\n\n\n\n\n\n   \n  [x + (x/2)]\n  = 12 or\n  3x \n  = 300     or     x = 200.\n\n\n  25\n  2\n\n\n\n Length of first train = 200 m.\nLet the length of platform be y metres.\n\n\n\n  Speed of the first train =\n  \n  48 x\n  5\n  \n  m/sec =\n  40 \n  m/sec.\n\n\n  18\n  3\n\n\n\n\n\n\n   (200 + y) x\n  3\n  = 45\n\n\n  40\n\n\n\n 600 + 3y = 1800\n y = 400 m.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two stations A and B are 110 km apart on a straight line. One train starts from A at 7 a.m. and travels towards B at 20 kmph. Another train starts from B at 8 a.m. and travels towards A at a speed of 25 kmph. At what time will they meet?",
+    "options": [
+      "9 a.m.",
+      "10 a.m.",
+      "10.30 a.m.",
+      "11 a.m."
+    ],
+    "correctOption": 1,
+    "explanation": "Suppose they meet x hours after 7 a.m.\nDistance covered by A in x hours = 20x km.\nDistance covered by B in (x - 1) hours = 25(x - 1) km.\n 20x + 25(x - 1) = 110\n 45x = 135\n x = 3.\nSo, they meet at 10 a.m.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "problems-on-trains",
+    "question": "Two, trains, one from Howrah to Patna and the other from Patna to Howrah, start simultaneously. After they meet, the trains reach their destinations after 9 hours and 16 hours respectively. The ratio of their speeds is:",
+    "options": [
+      "2 : 3",
+      "4 : 3",
+      "6 : 7",
+      "9 : 16"
+    ],
+    "correctOption": 1,
+    "explanation": "Let us name the trains as A and B. Then,\n(A's speed) : (B's speed) = b : a = 16 : 9 = 4 : 3.",
+    "difficulty": "medium"
+  }
+]

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar, Footer, AuthModal } from "./components";
-import { Home, Lectures, Notes, About, Tasks } from "./pages";
+import { Home, Lectures, Notes, About, Tasks, AuthPage, DailyNotes } from "./pages";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 
 function AppContent() {
@@ -62,6 +62,12 @@ function App() {
   return (
     <AuthProvider>
       <AppContent />
+    </AuthProvider>
+  );
+}
+
+export default App;
+ontent />
     </AuthProvider>
   );
 }

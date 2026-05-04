@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { Menu, X, Moon, Sun, LogOut } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
+import { Menu, X, Moon, Sun, LogOut, LogIn } from "lucide-react";
 import { motion } from "framer-motion";
 import { useAuth } from "../context/AuthContext";
 
@@ -17,6 +17,7 @@ export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
     { name: "Home", path: "/" },
     { name: "Lectures", path: "/lectures" },
     { name: "Notes", path: "/notes" },
+    { name: "Daily Notes", path: "/daily-notes" },
     { name: "Tasks", path: "/tasks" },
     { name: "About", path: "/about" },
   ];
@@ -68,7 +69,7 @@ export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
                 <span
                   className={`text-sm ${isDark ? "text-slate-300" : "text-slate-700"}`}
                 >
-                  {user?.email}
+                  {user?.name || user?.email}
                 </span>
                 <button
                   onClick={logout}
@@ -82,6 +83,20 @@ export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
                   <LogOut size={20} />
                 </button>
               </div>
+            )}
+
+            {!isLoggedIn && (
+              <button
+                onClick={() => navigate('/auth')}
+                className={`px-4 py-2 rounded-lg transition-colors font-medium flex items-center gap-2 ${
+                  isDark
+                    ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700"
+                    : "bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700"
+                }`}
+              >
+                <LogIn size={18} />
+                Login
+              </button>
             )}
 
             <button
@@ -154,6 +169,10 @@ export const Navbar = ({ isDark, onToggleDarkMode }: NavbarProps) => {
           </motion.div>
         )}
       </div>
+    </motion.nav>
+  );
+};
+div>
     </motion.nav>
   );
 };

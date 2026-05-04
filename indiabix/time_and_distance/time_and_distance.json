@@ -1,0 +1,198 @@
+[
+  {
+    "topic": "time-and-distance",
+    "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?",
+    "options": [
+      "3.6",
+      "7.2",
+      "8.4",
+      "10"
+    ],
+    "correctOption": 1,
+    "explanation": "Speed =\n    \n    600\n    m/sec.\n \n \n    5 x 60\n  \n\n\n   = 2 m/sec.\nConverting m/sec to km/hr (see important formulas section)\n\n\n \n       =\n    \n    2 x\n    18\n    \n    km/hr\n \n \n    5\n  \n\n\n   = 7.2 km/hr.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "An aeroplane covers a certain distance at a speed of 240 kmph in 5 hours. To cover the same distance in 1 hours, it must travel at a speed of:",
+    "options": [
+      "300 kmph",
+      "360 kmph",
+      "600 kmph",
+      "720 kmph"
+    ],
+    "correctOption": 3,
+    "explanation": "Distance = (240 x 5) = 1200 km.\nSpeed = Distance/Time\nSpeed = 1200/(5/3) km/hr.     [We can write 1 hours as 5/3 hours]\n\n\n \n     Required speed =\n    \n    1200 x\n    3\n    km/hr\n    = 720 km/hr.\n \n \n    5",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+    "options": [
+      "50 km",
+      "56 km",
+      "70 km",
+      "80 km"
+    ],
+    "correctOption": 0,
+    "explanation": "Let the actual distance travelled be x km.\n\n\n \n    Then,\n    x\n    =\n    x + 20\n \n \n    10\n    14\n  \n\n\n 14x = 10x + 200\n 4x = 200\n x = 50 km.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:",
+    "options": [
+      "100 kmph",
+      "110 kmph",
+      "120 kmph",
+      "130 kmph"
+    ],
+    "correctOption": 2,
+    "explanation": "Let speed of the car be x kmph.\n\n\n \n    Then, speed of the train =\n    150\n    x\n    =\n    \n    3\n    x\n    kmph.\n \n \n    100\n    2\n  \n\n\n\n\n \n     \n    75\n    -\n    75\n    =\n    125\n \n \n    x\n    (3/2)x\n    10 x 60\n  \n\n\n\n\n \n     \n    75\n    -\n    50\n    =\n    5\n \n \n    x\n    x\n    24\n  \n\n\n\n\n \n     x =\n    \n    25 x24\n    \n    = 120 kmph.\n \n \n    5",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "20"
+    ],
+    "correctOption": 1,
+    "explanation": "Due to stoppages, it covers 9 km less.\n\n\n \n    Time taken to cover 9 km =\n    \n    9\n    x 60\n    min\n    = 10 min.\n \n \n    54",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",
+    "options": [
+      "23 years",
+      "24 years",
+      "25 years",
+      "None of these"
+    ],
+    "correctOption": 0,
+    "explanation": "Let the average age of the whole team by x years.\n 11x - (26 + 29) = 9(x -1)\n 11x - 9x = 46\n 2x = 46\n x = 23.\nSo, average age of the team is 23 years.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "The average monthly income of P and Q is Rs. 5050. The average monthly income of Q and R is Rs. 6250 and the average monthly income of P and R is Rs. 5200. The monthly income of P is:",
+    "options": [
+      "3500",
+      "4000",
+      "4050",
+      "5000"
+    ],
+    "correctOption": 1,
+    "explanation": "Let P, Q and R represent their respective monthly incomes. Then, we have:\nP + Q = (5050 x 2) = 10100 .... (i)\nQ + R = (6250 x 2) = 12500 .... (ii)\nP + R = (5200 x 2) = 10400 .... (iii)\nAdding (i), (ii) and (iii), we get:  2(P + Q + R) = 33000  or   P + Q + R = 16500 .... (iv)\nSubtracting (ii) from (iv), we get P = 4000.\n P's monthly income = Rs. 4000.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:",
+    "options": [
+      "35 years",
+      "40 years",
+      "50 years",
+      "None of these"
+    ],
+    "correctOption": 1,
+    "explanation": "Sum of the present ages of husband, wife and child = (27 x 3 + 3 x 3) years = 90 years.\nSum of the present ages of wife and child = (20 x 2 + 5 x 2) years = 50 years.\n Husband's present age = (90 - 50) years = 40 years.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?",
+    "options": [
+      "Rs. 7.98",
+      "Rs. 8",
+      "Rs. 8.50",
+      "Rs. 9"
+    ],
+    "correctOption": 0,
+    "explanation": "Total quantity of petrol consumed in 3 years\n  \n    \n    \n        =\n        \n        4000\n        +\n        4000\n        +\n        4000\n        \n         litres\n        \n    \n    \n         7.50\n         8\n         8.50\n     \n    \n  \n \n \n \n  \n  \n    \n    \n        = 4000\n        \n        2\n        +\n        1\n        +\n        2\n        \n         litres\n    \n    \n         15\n         8\n         17\n     \n    \n                     \n \n\n \n  \n  \n    \n    \n        =\n        \n        76700\n        \n         litres\n    \n    \n         51\n     \n    \n  \n \n\n\n\nTotal amount spent = Rs. (3 x 4000) = Rs. 12000.\n\n\n \n         Average cost = Rs.\n        \n        12000 x 51\n        \n        = Rs.\n        6120\n          = Rs. 7.98\n \n \n    76700\n    767",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother does not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all are them are correct in their estimation, what is the average of different probable weights of Arun?",
+    "options": [
+      "67 kg.",
+      "68 kg.",
+      "69 kg.",
+      "Data inadequate",
+      "None of these"
+    ],
+    "correctOption": 0,
+    "explanation": "Let Arun's weight by X kg.\nAccording to Arun, 65 < X < 72\nAccording to Arun's brother, 60 < X < 70.\nAccording to Arun's mother, X <= 68\nThe values satisfying all the above conditions are 66, 67 and 68.\n\n\n \n     Required average =\n    \n    66 + 67 + 68\n    \n    =\n    \n    201\n    \n    = 67 kg.\n \n \n    3\n    3",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "The average weight of A, B and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, then the weight of B is:",
+    "options": [
+      "17 kg",
+      "20 kg",
+      "26 kg",
+      "31 kg"
+    ],
+    "correctOption": 3,
+    "explanation": "Let A, B, C represent their respective weights. Then, we have:\nA + B + C = (45 x 3) = 135 .... (i)\nA + B = (40 x 2) = 80 .... (ii)\nB + C = (43 x 2) = 86 ....(iii)\nAdding (ii) and (iii), we get: A + 2B + C = 166 .... (iv)\nSubtracting (i) from (iv), we get : B = 31.\n B's weight = 31 kg.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.",
+    "options": [
+      "47.55 kg",
+      "48 kg",
+      "48.55 kg",
+      "49.25 kg"
+    ],
+    "correctOption": 2,
+    "explanation": "Required average\n  \n    \n    \n        =\n        \n        50.25 x 16 + 45.15 x 8\n        \n    \n    \n         16 + 8\n     \n    \n  \n \n \n \n  \n  \n    \n    \n        =\n        \n        804 + 361.20\n        \n    \n    \n         24\n     \n    \n                     \n \n\n \n  \n  \n    \n    \n        =\n        1165.20\n    \n    \n         24\n     \n    \n  \n \n \n \n  \n  = 48.55",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:",
+    "options": [
+      "250",
+      "276",
+      "280",
+      "285"
+    ],
+    "correctOption": 3,
+    "explanation": "Since the month begins with a Sunday, to there will be five Sundays in the month.\n\n\n\n \n  Required average\n  \n    \n    \n        =\n        \n        510 x 5 + 240 x 25\n        \n    \n    \n         30\n     \n    \n  \n \n \n \n  \n  \n    \n    \n        =\n        8550\n    \n    \n         30\n     \n    \n  \n \n \n \n  \n  = 285",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "If the average marks of three batches of 55, 60 and 45 students respectively is 50, 55, 60, then the average marks of all the students is:",
+    "options": [
+      "53.33",
+      "54.68",
+      "55",
+      "None of these"
+    ],
+    "correctOption": 1,
+    "explanation": "Required average\n  \n    \n    \n        =\n        \n        55 x 50 + 60 x 55 + 45 x 60\n        \n    \n    \n         55 + 60 + 45\n     \n    \n  \n \n \n \n  \n  \n    \n    \n        =\n        \n        2750 + 3300 + 2700\n        \n    \n    \n         160\n     \n    \n                     \n \n\n \n  \n  \n    \n    \n        =\n        8750\n    \n    \n         160\n     \n    \n  \n \n \n \n  \n  = 54.68",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "time-and-distance",
+    "question": "A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half (1/2). The number of pupils in the class is:",
+    "options": [
+      "10",
+      "20",
+      "40",
+      "73"
+    ],
+    "correctOption": 2,
+    "explanation": "Let there be x pupils in the class.\n\n\n \n        Total increase in marks =\n        \n        x x\n        1\n        \n        =\n        x\n \n \n    2\n    2\n  \n\n\n\n\n \n        \n        x\n        = (83 - 63)   \n        x\n        = 20      x= 40.\n \n \n    2\n    2",
+    "difficulty": "medium"
+  }
+]

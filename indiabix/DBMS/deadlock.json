@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "What is a deadlock in DBMS?",
+    "answer": "A deadlock in DBMS occurs when two or more transactions are waiting indefinitely for resources held by each other, so none of them can proceed.\n\nIn simple words, each transaction is holding one resource and waiting for another resource that is already held by another transaction.",
+    "interviewExplanation": "Use the word 'indefinite waiting' — interviewers look for it."
+  },
+  {
+    "id": 2,
+    "question": "Explain deadlock with a simple example.",
+    "answer": "Example:\nTransaction T1 locks Table A and waits for Table B.\nTransaction T2 locks Table B and waits for Table A.\n\nNow both transactions wait forever — this situation is called deadlock.",
+    "interviewExplanation": "Simple two‑transaction example is enough."
+  },
+  {
+    "id": 3,
+    "question": "What are the necessary conditions for deadlock?",
+    "answer": "Deadlock occurs only if all these four conditions hold simultaneously:\n\n1. Mutual Exclusion – Only one transaction can use a resource at a time.\n2. Hold and Wait – A transaction holds one resource and waits for another.\n3. No Preemption – Resources cannot be forcibly taken.\n4. Circular Wait – Transactions form a cycle of waiting.",
+    "interviewExplanation": "These are called Coffman conditions — VERY IMPORTANT."
+  },
+  {
+    "id": 4,
+    "question": "Why is deadlock a serious problem?",
+    "answer": "Deadlock blocks transactions permanently, wastes system resources, reduces throughput, and can freeze part of the database if not handled.",
+    "interviewExplanation": "Mention performance impact."
+  },
+  {
+    "id": 5,
+    "question": "What is deadlock prevention?",
+    "answer": "Deadlock prevention ensures that at least one of the four necessary deadlock conditions never occurs.\n\nFor example, eliminating hold and wait or circular wait prevents deadlock.",
+    "interviewExplanation": "Prevention = avoid conditions."
+  },
+  {
+    "id": 6,
+    "question": "How can deadlock be prevented in DBMS?",
+    "answer": "Deadlock can be prevented by:\n\n1. Allocating all required resources at once.\n2. Preempting resources from transactions.\n3. Enforcing resource ordering to avoid circular wait.",
+    "interviewExplanation": "Give at least one method confidently."
+  },
+  {
+    "id": 7,
+    "question": "What is deadlock avoidance?",
+    "answer": "Deadlock avoidance ensures that the system never enters an unsafe state.\nIt requires advance knowledge of resource requirements.\n\nBanker's Algorithm is used for deadlock avoidance.",
+    "interviewExplanation": "Avoidance ≠ Prevention — interview trap."
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between deadlock prevention and avoidance?",
+    "answer": "Prevention breaks deadlock conditions proactively.\nAvoidance checks system state before allocating resources to ensure safety.\n\nPrevention is simpler, avoidance is more flexible but complex.",
+    "interviewExplanation": "Comparison questions are common."
+  },
+  {
+    "id": 9,
+    "question": "What is deadlock detection?",
+    "answer": "Deadlock detection allows deadlock to occur and then identifies it using a wait‑for graph.\nOnce detected, corrective action is taken.",
+    "interviewExplanation": "Detection is common in real DBMS."
+  },
+  {
+    "id": 10,
+    "question": "How is deadlock detected?",
+    "answer": "Deadlock is detected by constructing a wait‑for graph.\nIf the graph contains a cycle, deadlock exists.",
+    "interviewExplanation": "Cycle = deadlock (key sentence)."
+  },
+  {
+    "id": 11,
+    "question": "What is deadlock recovery?",
+    "answer": "Deadlock recovery resolves deadlock by:\n\n1. Rolling back one or more transactions.\n2. Preempting resources.\n3. Killing a selected transaction.",
+    "interviewExplanation": "Say rollback is most common."
+  },
+  {
+    "id": 12,
+    "question": "How does DBMS choose which transaction to rollback?",
+    "answer": "DBMS selects a victim based on factors like transaction age, number of resources used, and cost of rollback.",
+    "interviewExplanation": "Victim selection shows depth."
+  },
+  {
+    "id": 13,
+    "question": "What is a wait‑for graph?",
+    "answer": "A wait‑for graph is a directed graph where each node represents a transaction.\nAn edge from T1 to T2 means T1 is waiting for a resource held by T2.",
+    "interviewExplanation": "Explain edge direction clearly."
+  },
+  {
+    "id": 14,
+    "question": "Difference between deadlock and starvation?",
+    "answer": "Deadlock is permanent waiting caused by circular dependency.\nStarvation is indefinite postponement where a transaction never gets resources due to priority scheduling.",
+    "interviewExplanation": "This distinction is often asked."
+  },
+  {
+    "id": 15,
+    "question": "Does isolation level affect deadlocks?",
+    "answer": "Yes.\nHigher isolation levels increase locking, which increases deadlock chances.\nLower isolation levels reduce deadlocks but may allow anomalies.",
+    "interviewExplanation": "Excellent answer for advanced interviews."
+  }
+]

@@ -1,0 +1,1653 @@
+[
+  {
+    "Direction to Solve": "Spot the error in the following sentences. If there is no error, choose 'No error'.",
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "We discussed about the problem so thoroughly",
+      "on the eve of the examination",
+      "that I found it very easy to work it out",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "We discussed the problem so thoroughly"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "An Indian ship",
+      "laden with merchandise",
+      "got drowned in the Pacific Ocean.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "sank in the Pacific Ocean"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I could not put up in a hotel",
+      "because the boarding and lodging charges",
+      "were exorbitant.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "'I could not put up at a hotel'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The Indian radio",
+      "which was previously controlled by the British rulers",
+      "is free now from the narrow vested interests.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "is now free from the narrow vested interests."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If I had known",
+      "this yesterday",
+      "I will have helped him.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "I would have helped him"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "A lot of travel delay is caused",
+      "due to the inefficiency and lack of good management",
+      "on behalf of the railways.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "on the part of the railways"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "One of the members",
+      "expressed doubt if",
+      "the Minister was an atheist.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "expressed doubt that"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["I have got", "my  M.Sc. degree", "in 1988.", "No error."],
+    "answer": "A",
+    "explanation": "I got"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Having received your letter",
+      "this morning, we are writing",
+      "to thank you for the same.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If  you lend him a book",
+      "he will lend it to some one else",
+      "and never you will get it back.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "and you will never get it back"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "According to the Bible",
+      "it is meek and humble",
+      "who shall inherit the earth.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "it is the meek and the humble"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Do the roses in your garden smell",
+      "more sweetly",
+      "than those in ours?",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "sweeter"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Block of Residential flats",
+      "are coming up",
+      "near our house.",
+      "No error"
+    ],
+    "answer": "A",
+    "explanation": "Blocks of Residential flats"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "You can get",
+      "all the information that you want",
+      "in this book.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "all the information you want"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The students were",
+      "awaiting for",
+      "the arrival of the chief guest.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "awaiting"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["Sixty miles", "are", "a good distance.", "No error."],
+    "answer": "B",
+    "explanation": "Sixty miles is a good distance."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "They have been",
+      "very close friends",
+      "until they quarrelled.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "'They had been'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "When the dentist came in",
+      "my tooth was stopped aching",
+      "out of fear that I might lose my tooth.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "my tooth stopped aching"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It is the duty of every citizen to do his utmost",
+      "to defend the hardly-won",
+      "freedom of the country.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "to defend the hard-won"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "No sooner did I open the door",
+      "when the rain, heavy and stormy, rushed in",
+      "making us shiver from head to foot",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "than the rain, heavy and stormy, rushed in"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If a man diligently seeks to come into the contact",
+      "with the best that has been thought and said in this world",
+      "he will become simple and unselfish.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "If a man diligently seeks to come into contact"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["You must", "remember me", "to post this letter.", "No error."],
+    "answer": "B",
+    "explanation": "remind me"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I shall certainly",
+      "write you",
+      "when I shall reach NewDelhi.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "when I reach New Delhi"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "On the busy Ring Road",
+      "we witnessed  a collusion",
+      "between a truck and an auto.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "we witnessed a collision"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Mr.Praful Patel",
+      "is not attending his office",
+      "for the last month.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "Mr. Praful Patel has not been attending his office for the last month."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He couldn't  but help",
+      "shedding tears at the plight of the villagers",
+      "rendered homeless by a devastating cyclone.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "He couldn't help"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He will certainly help you",
+      "if you will ask him",
+      "in a pleasant manner.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "if you ask him"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The brand propositon now therefore had to be that Keokarpin Antiseptic Cream is more effective",
+      "because it penetrates deepdown (beinglight and non-sticky) and works from within",
+      "(because of its ayurvedic ingredients) to keep skin blemish, free and helps cope with cuts nicks, burns and nappy rash.",
+      "No error"
+    ],
+    "answer": "A",
+    "explanation": "The brand proposition now therefore is"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Will you please buy",
+      "some jaggery for me",
+      "if  you go to the market?",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Most of the members at the meeting felt",
+      "that the group appointed for investigating  the case",
+      "were not competent to do the job efficiently.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "was not competent to do the job efficiently"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "In these  days of inflation,",
+      "a ten rupee's note will not buy you",
+      "even an ordinary meal.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "In these days of inflation, a ten rupee note will not buy you even an ordinary meal."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He persisted",
+      "to do it",
+      "in spite of my advice",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "in doing it"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The long-awaited moment at last came,",
+      "and we set out  for the station",
+      "as merry a band of children as I have ever seen before or since.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "as merry a band of children as I have ever seen since or before"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Our conception of",
+      "what should a science of mental life be",
+      "has changed considerably since James' time.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "what a science of mental life should be"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He is not coming tomorrow",
+      "as he is having  a pain in the chest",
+      "and has to see a doctor.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "'and he has to see a doctor'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Many times the news has been published",
+      "in the papers that the end of the world will be certain",
+      "if a nuclear war breaks out.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The reason Ram",
+      "is absent from his duty",
+      "is because he is unwell.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "The reason why Ram"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Azharuddin is one of the finest batsmen",
+      "that India have produced",
+      "over the decades.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "that India has produced"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The thief broke in the",
+      "house at the",
+      "dead of night",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "The thief broke into the"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["May I", "know who you want", "to see please", "No error."],
+    "answer": "B",
+    "explanation": "know whom you want"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He said that he",
+      "will mind if",
+      "I refused his offer.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "would mind if"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Arun's parents died when he was young and",
+      "he looked after his aunt",
+      "who had no children.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "he was looked after by his aunt"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Though child marriage",
+      "has been banned.",
+      "the custom still prevailed among some groups in India.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "The custom still prevails among some groups in India"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["My papa is", "in bad mood", "today", "No error."],
+    "answer": "B",
+    "explanation": "in a bad mood"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The warden",
+      "forbade the student",
+      "from leaving the hostel.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "In spite of several reminders,",
+      "he did not so far send",
+      "any reply to me, letters.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "he has not so far sent"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "As much as I admire him for his sterling qualities.",
+      "I cannot excuse him for",
+      "being unfair to his friends.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "Much as I admire him for his sterling qualities."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Please try to understand",
+      "that the dispute on this issue is between my brother and myself,",
+      "and concerns nobody else.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "that the dispute on this issue is between my brother and me"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "All  the furnitures have been",
+      "sent to the new house",
+      "located in a village.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "All the furniture have been"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It does not matter how you do it;",
+      "what I want is that",
+      "you should finish the work within a month.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "I want that"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Though senior in age,",
+      "his father is junior  than",
+      "my father in service.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "his father is junior to"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "While walking slowly in the park",
+      "on a quiet summer afternoon",
+      "a mad dog suddenly attacked him from behind",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "While he was walking slowly in the park"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Everyone visiting the house asked the young girl",
+      "how could she kill the wolf",
+      "single handed and without a weapon.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "'how she could kill the wolf'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Many health-conscious people",
+      "prefer  margarine",
+      "than butter.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "to butter"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The retiring principal asked his old pupils",
+      "to take the interest in the school",
+      "after he has retired.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "to take interest in his school"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "At present juncture",
+      "however, the supercomputer",
+      "would be a costly toy.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "At the present juncture"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The crew were on board,",
+      "and they soon busied themselves",
+      "in preparing to meet the storm.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "in preparing to face the storm"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Troy was taken by Greeks",
+      "this formed the basis of a story",
+      "which has become famous.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "Troy was taken by the Greeks"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I am much pleased",
+      "to know that",
+      "you have topped the list.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "I am very pleased"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He has not been attending",
+      "English classes",
+      "since one month",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "since the last one month"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It is time",
+      "we should accept all our people as equals",
+      "and as partners in the task of building a strong and united nation.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "we should accept all our people as equal"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["Twice twelve", "makes", "twenty-four", "No error."],
+    "answer": "B",
+    "explanation": "make"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Regretfully, profits earned by your company",
+      "fell by 20 per cent last year",
+      "despite higher sales.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "Regrettably, profits earned by your company"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "In a report issued by Indian Statistical Institute,",
+      "the Iron and Steel Industry is investing more than any other",
+      "Indian industry in fighting pollution.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "Indian industry on fighting pollution"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He is going everyday",
+      "for a morning walk",
+      "with his friends and neighbours",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "He goes everyday"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "My father goes",
+      "to the office",
+      "five day week.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "five days a week"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If she will be promoted",
+      "she will get",
+      "a higher salary.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "If she is promoted"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If I were him,",
+      "I would have taught",
+      "those cheats a lesson.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "If I were he, I would have taught those cheats a lesson."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Looking back, I find that among the many impressions ofthe people of India,",
+      "absorbed while I lived among them,",
+      "are their reverence for great men and women.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "I find that among the many impressions I got of the people of India"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If  you work hard,",
+      "you will get good grades",
+      "in examinations.",
+      "No error"
+    ],
+    "answer": "C",
+    "explanation": "in the examination"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He managed to make sense of the book",
+      "even though it was the first time",
+      "he read anything on the subject.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "when he read anything on the subject"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "She reluctantly said that",
+      "if nobody else was doing it",
+      "she will do it.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "she would do it"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I fail to understand",
+      "why he replied in negative",
+      "when the proposal was in his favour.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "I failed to understand"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I have",
+      "an appointment",
+      "on the 9th September on five o'clock",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "on the 9th September at five o'clock"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["They", "enjoyed  thoroughly", "at the party.", "No error."],
+    "answer": "B",
+    "explanation": "thoroughly enjoyed themselves"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The method suggested in the lecture",
+      "enables a student to learn more quickly",
+      "and to have remembered for a longer period of time.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "and to remember for a longer period of time"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "My friend asked me",
+      "if I can lend him my Parker pen",
+      "for a few days.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "If I could lend him my Parker pen"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The test will not need",
+      "more than one and half hour",
+      "to finish.",
+      "No error"
+    ],
+    "answer": "B",
+    "explanation": "more than one and a half hour"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The school is",
+      "within hundred yards",
+      "from the church.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "within a hundred yards"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "His father died of cholera",
+      "but his mother also,",
+      "though very weak, is out of danger.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "but his mother"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The police  broke upon the robbers",
+      "when they were in the lonely place",
+      "to divide their booty.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "The police came upon the robbers"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Since it was his first election campaign, the  candidate was confused;",
+      "none  could clearly understand",
+      "either the principles he stood for or the benefits he promised.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Jayesh is getting",
+      "fatter because he",
+      "does not take exercise at all",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "fat because he"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He loved",
+      "none but",
+      "his neighbour's daughter.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The criminal was",
+      "caught, convicted the hung",
+      "in a short period of time.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "within a short period of time"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I am thinking of",
+      "to go to Agra",
+      "for my cousin's marriage.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "going to Agra"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "In management, as you rise higher,",
+      "the problems you face becomemore and more unstructured and you can't just fall back on",
+      "the tools you had been",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "the problem you face become more and more unstructured and you can't afford to fall back upon"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Neeraj said",
+      "that he would rather fail than copying",
+      "in the examination",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "he would rather fail than copy"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I had hoped to have met him yesterday",
+      "to discuss the matter with him",
+      "but he was not in his house, and so I could not meet him.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "I had hoped to meet him yesterday"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "You will come",
+      "to my party tomorrow,",
+      "isn't it?",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "won't you"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": ["I wonder", "how am I", "to do it", "No error."],
+    "answer": "B",
+    "explanation": "how I am going"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "He is not to blame",
+      "for what has happened",
+      "for he is in no way connected with it.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "He is not to be blamed"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Had you not",
+      "reached in time",
+      "he would have lost allour belongings.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "we would have lost all our belongings"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The man told to her",
+      "that he had not brought his dog",
+      "out for a walk as he was afraid that it would rain.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "The man told her"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If I am you",
+      "I would have seen to it",
+      "that I won the prize.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "If I were you"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It is unfortunate that",
+      "many youngsters get",
+      "addicted to gamble.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "addicted to gambling"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Kamala's fountain-pen",
+      "is as expensive",
+      "as Shyama.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "as Shyama's"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "When we consider all the factors, which are many,",
+      "the number of school dropouts",
+      "are quite disturbing.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "is quite disturbing"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "She has never",
+      "approve of him",
+      "working as a clerk.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "approved of his"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "At the station,",
+      "I'll hire a coolie",
+      "to carry my baggages",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "to carry my baggage"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The number of marks carried by each question",
+      "are indicated",
+      "at the end of the question",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "is indicated"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "There is no question",
+      "of my failing",
+      "in the examination.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "of me failing"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "She is",
+      "no longer  popular as she has",
+      "a friends",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "few friends"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It is necessary",
+      "that everybody",
+      "must have a house.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "should have a house"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Students should  not take part",
+      "in party politics and political demonstrations",
+      "as they interfere in serious study",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "'as they interfere with serious study'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "To facilitate exports and improve sales in the domestic market",
+      "some of the improvised  fabrics and garments fabricated out  from them",
+      "are displayed in the main pavilion.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "some of the improvised fabrics and garments made from them"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Both of you two",
+      "can come with me",
+      "to the play tonight",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "Both of you"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "No sooner did the sun rise",
+      "when we took a hasty breakfast",
+      "and resumed the journey.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "than we took a hasty breakfast"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The charges in this hospital",
+      "are less than",
+      "the hospital near my house.",
+      "No error"
+    ],
+    "answer": "C",
+    "explanation": "those in the hospital near my house"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The brakes and steering failed",
+      "and  the bus ran down the hill",
+      "without anyone being able control it.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "without being controlled by anyone"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The tall three girls",
+      "had left",
+      "the day before.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "The three tall girls"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "When he was asked what is wrong with him.",
+      "he said that he was not well.",
+      "and asked for leave of absence for one day.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "When he was asked what was wrong with him."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Wherever they go",
+      "Indians easily adapt to",
+      "local circumstances.",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "Indians easily adapt themselves to"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Remember that you are part of",
+      "the team and your success depends on the support",
+      "you are able to give and get from your other team members.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "Remember that you are a part of"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It is an established fact that the transcendental American poets and philosophers.",
+      "who lived in the latter half of the nineteenth century.",
+      "were more influenced by Indian philosophy, in particular by Upanishadic Philosophy.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "Were much influenced by Indian Philosophy in particular by Upanishadic Philosophy."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "That house",
+      "is costing me",
+      "ten thousand rupees",
+      "No error."
+    ],
+    "answer": "B",
+    "explanation": "'will cost me' or 'costs me'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Firstly you should",
+      "think over the meaning of the words",
+      "and then use them.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "'First you should'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "It is true",
+      "that God helps those",
+      "who helps themselves.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "who help themselves"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Happily, zoos were",
+      "unwilling to cooperate",
+      "in a scheme that was potentially harmful to animal welfare",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "on a scheme that was potentially harmful to animal welfare"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Neither he",
+      "nor his father is interested",
+      "in joining the party.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "With little patience",
+      "you will be able to",
+      "cross this hurdle",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "with a little patience"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "She was told",
+      "to give the award to whosoever",
+      "she thought has done the most  for the downtrodden.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "she thought had done the most for the downtrodden"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "At the end of the year",
+      "every student who had done adequate work",
+      "was automatically promoted.",
+      "No error."
+    ],
+    "answer": "D",
+    "explanation": "No answer description is available.  Let's discuss."
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The reason why",
+      "he was rejected",
+      "was because he was too young.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "'was that he was too young'"
+  },
+  {
+    "category": "spotting-errors",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "Since we are friends",
+      "there should be no secret",
+      "between you and I.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "between you and me"
+  },
+  {
+    "category": "synonyms",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "We discussed about the problem so thoroughly",
+      "on the eve of the examination",
+      "that I found it very easy to work it out",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "We discussed the problem so thoroughly"
+  },
+  {
+    "category": "synonyms",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "An Indian ship",
+      "laden with merchandise",
+      "got drowned in the Pacific Ocean.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "sank in the Pacific Ocean"
+  },
+  {
+    "category": "synonyms",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "I could not put up in a hotel",
+      "because the boarding and lodging charges",
+      "were exorbitant.",
+      "No error."
+    ],
+    "answer": "A",
+    "explanation": "'I could not put up at a hotel'"
+  },
+  {
+    "category": "synonyms",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "The Indian radio",
+      "which was previously controlled by the British rulers",
+      "is free now from the narrow vested interests.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "is now free from the narrow vested interests."
+  },
+  {
+    "category": "synonyms",
+    "direction": "Follow instructions",
+    "question": "(solve as per the direction given above)",
+    "options": [
+      "If I had known",
+      "this yesterday",
+      "I will have helped him.",
+      "No error."
+    ],
+    "answer": "C",
+    "explanation": "I would have helped him"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "topic": "OSI Model and TCP/IP Model",
+  "purpose": "To explain how data moves through layers in computer networks in an interview-friendly way",
+  "models": {
+    "OSI_Model": {
+      "totalLayers": 7,
+      "mnemonic": "All People Seem To Need Data Processing",
+      "layers": [
+        {
+          "layerNumber": 7,
+          "layerName": "Application Layer",
+          "function": "Provides network services directly to the user or application",
+          "examples": ["HTTP", "HTTPS", "FTP", "SMTP", "DNS"],
+          "interviewExplanation": "This is the layer closest to the user. It allows applications like browsers and email clients to interact with the network."
+        },
+        {
+          "layerNumber": 6,
+          "layerName": "Presentation Layer",
+          "function": "Handles data format, encryption, and compression",
+          "examples": ["Encryption", "Compression", "Encoding"],
+          "interviewExplanation": "This layer makes sure data is in a readable format. It encrypts and decrypts data for secure communication."
+        },
+        {
+          "layerNumber": 5,
+          "layerName": "Session Layer",
+          "function": "Establishes, manages, and terminates communication sessions",
+          "examples": ["Session Control", "Authentication"],
+          "interviewExplanation": "This layer manages sessions between applications and ensures they stay synchronized."
+        },
+        {
+          "layerNumber": 4,
+          "layerName": "Transport Layer",
+          "function": "Provides end-to-end communication, reliability, and flow control",
+          "examples": ["TCP", "UDP"],
+          "interviewExplanation": "This layer decides whether data transfer should be reliable (TCP) or fast (UDP). It uses port numbers."
+        },
+        {
+          "layerNumber": 3,
+          "layerName": "Network Layer",
+          "function": "Handles logical addressing and routing",
+          "examples": ["IP", "ICMP", "Routing"],
+          "interviewExplanation": "This layer decides the path data takes across networks using IP addresses."
+        },
+        {
+          "layerNumber": 2,
+          "layerName": "Data Link Layer",
+          "function": "Provides MAC addressing and error detection",
+          "examples": ["MAC Address", "Switch", "ARP"],
+          "interviewExplanation": "This layer ensures data delivery within the local network using MAC addresses."
+        },
+        {
+          "layerNumber": 1,
+          "layerName": "Physical Layer",
+          "function": "Transmits raw bits over physical medium",
+          "examples": ["Cables", "Signals", "Voltage"],
+          "interviewExplanation": "This layer deals with hardware transmission of bits as electrical or optical signals."
+        }
+      ]
+    },
+    "TCP_IP_Model": {
+      "totalLayers": 4,
+      "mnemonic": "A T I N",
+      "layers": [
+        {
+          "layerName": "Application Layer",
+          "matchesOSI": ["Application", "Presentation", "Session"],
+          "role": "Provides services like web, email, file transfer",
+          "examples": ["HTTP", "HTTPS", "FTP", "SMTP", "DNS"]
+        },
+        {
+          "layerName": "Transport Layer",
+          "matchesOSI": ["Transport"],
+          "role": "Provides end-to-end communication",
+          "examples": ["TCP", "UDP"]
+        },
+        {
+          "layerName": "Internet Layer",
+          "matchesOSI": ["Network"],
+          "role": "Handles routing and logical addressing",
+          "examples": ["IP", "ICMP"]
+        },
+        {
+          "layerName": "Network Access Layer",
+          "matchesOSI": ["Data Link", "Physical"],
+          "role": "Handles MAC addressing and physical transmission",
+          "examples": ["Ethernet", "ARP", "Switch"]
+        }
+      ]
+    },
+    "TCP_Details": {
+      "fullForm": "Transmission Control Protocol",
+      "layer": "Transport Layer",
+      "type": "Connection-oriented",
+      "features": [
+        "Reliable data delivery",
+        "Three-way handshake",
+        "Sequencing and acknowledgment",
+        "Retransmission of lost packets",
+        "Flow and congestion control"
+      ],
+      "threeWayHandshake": {
+        "step1": "Client sends SYN to start connection",
+        "step2": "Server replies with SYN-ACK",
+        "step3": "Client sends ACK and connection is established"
+      },
+      "whenUsed": "File transfer, emails, web pages where accuracy matters"
+    }
+  },
+  "interviewSummary": {
+    "keyPoint1": "OSI is a reference model; TCP/IP is an implementation model",
+    "keyPoint2": "TCP works at Transport layer and ensures reliability",
+    "keyPoint3": "OSI helps in learning and troubleshooting networks"
+  }
+}

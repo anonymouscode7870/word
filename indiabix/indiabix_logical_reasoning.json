@@ -1,0 +1,4695 @@
+[
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "number-series",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "letter-and-symbol-series",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "verbal-classification",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "essential-part",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "analogies",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "artificial-language",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "matching-definitions",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "making-judgments",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "verbal-reasoning",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "logical-problems",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "logical-games",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "analyzing-arguments",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "statement-and-assumption",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "course-of-action",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "statement-and-conclusion",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "theme-detection",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "cause-and-effect",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "statement-and-argument",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+    "images": [],
+    "options": [
+      "(1/3)",
+      "(1/8)",
+      "(2/8)",
+      "(1/16)"
+    ],
+    "answer": "",
+    "explanation": "This is a simple division series; each number is one-half of the previous number.\nIn other terms to say, the number is divided by 2 successively to get the next result.\n4/2 = 2\n2/2 = 1\n1/2 = 1/2\n(1/2)/2 = 1/4\n(1/4)/2 = 1/8 and so on."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "images": [],
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "",
+    "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+    "images": [],
+    "options": [
+      "12",
+      "14",
+      "27",
+      "53"
+    ],
+    "answer": "",
+    "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+    "images": [],
+    "options": [
+      "14",
+      "15",
+      "21",
+      "23"
+    ],
+    "answer": "",
+    "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "images": [],
+    "options": [
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+    "images": [],
+    "options": [
+      "7",
+      "10",
+      "14",
+      "15"
+    ],
+    "answer": "",
+    "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "images": [],
+    "options": [
+      "9",
+      "29",
+      "32",
+      "34"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+    "images": [],
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "",
+    "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+    "images": [],
+    "options": [
+      "4.2",
+      "4.4",
+      "4.7",
+      "5.1"
+    ],
+    "answer": "",
+    "explanation": "In this simple addition series, each number increases by 0.8."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+    "images": [],
+    "options": [
+      "52",
+      "56",
+      "96",
+      "128"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating multiplication and subtracting  series: First, multiply by 2 and then subtract 8."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "images": [],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "",
+    "explanation": "This is a simple addition series. Each number increases by 2."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+    "images": [],
+    "options": [
+      "205",
+      "208",
+      "210",
+      "211"
+    ],
+    "answer": "",
+    "explanation": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "images": [],
+    "options": [
+      "404",
+      "414",
+      "420",
+      "445"
+    ],
+    "answer": "",
+    "explanation": "This is a simple subtraction series. Each number is 35 less than the previous number."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "images": [],
+    "options": [
+      "20",
+      "25",
+      "30",
+      "50"
+    ],
+    "answer": "",
+    "explanation": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "images": [],
+    "options": [
+      "108",
+      "148",
+      "162",
+      "216"
+    ],
+    "answer": "",
+    "explanation": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+    "images": [],
+    "options": [
+      "3",
+      "3.3",
+      "3.5",
+      "3.6"
+    ],
+    "answer": "",
+    "explanation": "In this simple subtraction series, each number decreases by 0.4."
+  },
+  {
+    "topic": "logical-deduction",
+    "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+    "images": [],
+    "options": [
+      "128",
+      "226",
+      "324",
+      "429"
+    ],
+    "answer": "",
+    "explanation": "8 x 1 - 2 = 6  \n6 x 2 - 3 = 9     \n9 x 3 - 4 = 23    \n23 x 4 - 5 = 87   \n87 x 5 - 6 = 429 ..."
+  }
+]
