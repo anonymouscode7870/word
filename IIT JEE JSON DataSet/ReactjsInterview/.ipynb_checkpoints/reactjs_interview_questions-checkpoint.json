@@ -1,0 +1,302 @@
+[
+  {
+    "instruction": "What is React?",
+    "context": "This is a basic question asking for a general understanding of the React library.",
+    "response": "React is an open-source JavaScript library for building user interfaces, primarily used for single-page applications where data can change without reloading the page.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What are the advantages of using React?",
+    "context": "This question seeks to assess the candidate's knowledge of the benefits and features of React.",
+    "response": "Some advantages of using React include the virtual DOM for efficient rendering, component-based architecture, one-way data binding, and a large ecosystem of tools and libraries.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the virtual DOM in React?",
+    "context": "This question tests knowledge of one of React's core optimizations.",
+    "response": "The virtual DOM is a lightweight representation of the actual DOM in memory. React uses it to optimize updates by comparing the virtual DOM with the real DOM and making updates only where necessary.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Explain the concept of JSX.",
+    "context": "This question tests the candidate's understanding of JSX syntax used in React development.",
+    "response": "JSX is a syntax extension for JavaScript that allows writing HTML elements in React components. It provides a more concise and readable way to structure UI components.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the use of the useState hook in React?",
+    "context": "This is a question about React's functional component state management using hooks.",
+    "response": "The useState hook is a React hook that allows functional components to have state. It returns an array containing the current state and a function to update it.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How does React handle component lifecycle?",
+    "context": "This question evaluates the candidate's knowledge of lifecycle management in React, either via class components or hooks.",
+    "response": "React components have lifecycle methods such as componentDidMount, componentDidUpdate, and componentWillUnmount. Functional components use hooks like useEffect to manage the lifecycle.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is prop drilling in React?",
+    "context": "This question tests understanding of the challenge of passing data through deeply nested components.",
+    "response": "Prop drilling is a process where props are passed through multiple levels of components to reach the desired component, which can sometimes make the code harder to maintain.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What are React portals?",
+    "context": "This question examines knowledge of how React can render elements outside the main DOM hierarchy.",
+    "response": "React portals allow rendering children components into a DOM node outside the DOM hierarchy of the parent component.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the difference between a controlled and an uncontrolled component in React?",
+    "context": "This is a question about handling form data in React.",
+    "response": "A controlled component is a form element where React controls the input via state, whereas an uncontrolled component manages its own state within the DOM.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is React's Context API used for?",
+    "context": "This question assesses the candidate's understanding of handling global state without prop drilling.",
+    "response": "React's Context API is used for passing data through the component tree without having to pass props manually at every level, making it easier to manage global data like themes or user info.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is the significance of keys in React and how should they be used?",
+    "context": "This question checks understanding of efficient list rendering in React.",
+    "response": "Keys in React are used to uniquely identify elements in an array so that React can efficiently update and re-render components when data changes. They should be used on list elements and must be unique among siblings.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What are React hooks, and how do they differ from class lifecycle methods?",
+    "context": "This question tests the knowledge of React hooks and how they are used in comparison to class lifecycle methods.",
+    "response": "React hooks are functions that let you use state and other React features in functional components. Unlike class lifecycle methods, hooks allow managing the component's state and side-effects in a more granular way. For example, useEffect is equivalent to componentDidMount, componentDidUpdate, and componentWillUnmount combined.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Can you explain how to optimize React performance using useMemo and useCallback?",
+    "context": "This question tests knowledge of performance optimization techniques using React hooks.",
+    "response": "useMemo and useCallback are React hooks used to optimize performance by preventing unnecessary re-computation and re-creation of functions. useMemo memoizes expensive calculations based on dependencies, while useCallback memoizes a function, ensuring that it remains the same between renders unless its dependencies change.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What are higher-order components (HOCs) in React?",
+    "context": "This question evaluates understanding of advanced React patterns.",
+    "response": "Higher-order components (HOCs) are functions in React that take a component and return a new component. They are used to enhance or modify the behavior of components by wrapping them, commonly used for cross-cutting concerns like logging, access control, or performance optimizations.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Explain the reconciliation process in React.",
+    "context": "This question examines the knowledge of how React efficiently updates the DOM.",
+    "response": "Reconciliation is the process React uses to determine which parts of the DOM need to be updated when the state of a component changes. React compares the new virtual DOM with the previous one, identifies changes, and updates only the necessary parts of the actual DOM, ensuring efficient rendering.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is the difference between useEffect and useLayoutEffect?",
+    "context": "This question tests knowledge of two commonly used React hooks for side effects.",
+    "response": "useEffect is a hook that runs asynchronously after rendering and is typically used for side effects like data fetching. useLayoutEffect, on the other hand, runs synchronously after rendering but before the browser paints the screen, making it useful for tasks that require immediate DOM manipulation.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How can you manage complex state in a large React application?",
+    "context": "This question assesses knowledge of state management strategies in large React applications.",
+    "response": "To manage complex state in a large React application, you can use external state management libraries like Redux or the Context API with useReducer. Redux helps centralize the state in a single store with actions and reducers, while Context API allows passing global state through the component tree without prop drilling.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is React Suspense, and how does it work with React.lazy()?",
+    "context": "This question tests knowledge of lazy loading and code splitting in React.",
+    "response": "React Suspense is a feature that allows components to 'wait' for something like data or code to load before rendering. It works with React.lazy() to dynamically import components and render a fallback (like a loading spinner) until the component is fully loaded.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Describe the difference between server-side rendering (SSR) and client-side rendering (CSR) in React.",
+    "context": "This question examines the knowledge of rendering strategies for React applications.",
+    "response": "In server-side rendering (SSR), the HTML is generated on the server and sent to the client, improving performance and SEO. In client-side rendering (CSR), the client downloads a minimal HTML page and the JavaScript bundle, which then dynamically renders the content in the browser. Next.js is commonly used for SSR in React.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What are React error boundaries, and how do they work?",
+    "context": "This question tests knowledge of error handling in React components.",
+    "response": "React error boundaries are components that catch JavaScript errors in their child components and prevent them from crashing the entire app. They use the componentDidCatch lifecycle method to handle errors and can display a fallback UI when an error is caught. Error boundaries do not catch errors inside event handlers or asynchronous code.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is the role of a component in React?",
+    "context": "This is a basic question on React components and their role in building UI.",
+    "response": "A component in React is a reusable piece of UI that can be defined as a class or a function. Components manage their own state and render UI based on that state.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is the difference between functional components and class components?",
+    "context": "This question checks understanding of two types of components in React.",
+    "response": "Functional components are stateless and rely on hooks like useState for state management. Class components have their own state and lifecycle methods like componentDidMount. Functional components are more concise and easier to read.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How does the useEffect hook work in React?",
+    "context": "This question examines the understanding of the useEffect hook and how it's used in functional components.",
+    "response": "The useEffect hook allows functional components to perform side effects like fetching data, subscribing to events, or manually updating the DOM. It runs after the render and can return a cleanup function to be called when the component unmounts.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "How do you pass data from a parent component to a child component?",
+    "context": "This question tests the knowledge of data flow in React components.",
+    "response": "Data is passed from a parent component to a child component in React using props. The parent component can pass values as attributes on the child component, which are then accessed using 'props' in the child component.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is the purpose of propTypes in React?",
+    "context": "This question examines the knowledge of prop validation in React.",
+    "response": "PropTypes is a mechanism in React to ensure that props passed to a component are of the correct type. It helps in validating the data passed to a component and provides warnings in the console during development if the wrong type of data is passed.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the significance of defaultProps in React?",
+    "context": "This question tests the knowledge of default property values in React components.",
+    "response": "defaultProps is used to define default values for props in case no value is passed by the parent component. This helps prevent errors or unexpected behavior when required props are missing.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Explain the role of React Router in a React application.",
+    "context": "This question tests knowledge of navigation and routing in React applications.",
+    "response": "React Router is a library that allows navigation between different views or pages in a React application. It manages the application's routing, rendering the appropriate components when the URL path changes.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is a fragment in React, and when should you use it?",
+    "context": "This question evaluates understanding of the React.Fragment feature to avoid extra DOM nodes.",
+    "response": "A fragment in React is a way to group multiple elements without adding extra nodes to the DOM. It is used when you need to return multiple elements from a component but don't want to create unnecessary wrapper elements.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How does the useReducer hook differ from useState in React?",
+    "context": "This question assesses knowledge of state management hooks in React.",
+    "response": "useReducer is an alternative to useState for managing more complex state logic in React. It uses a reducer function to update the state based on an action, which makes it more suitable for applications with complex state transitions, compared to useState which is simpler but less flexible.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the difference between state and props in React?",
+    "context": "This is a common question on React component properties and state management.",
+    "response": "State is a local data storage that is owned by a component and can be changed over time. Props, on the other hand, are read-only and are passed from parent to child components to communicate data.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is a React component?",
+    "context": "This is a basic question on React fundamentals.",
+    "response": "A React component is a reusable piece of UI that can be a function or a class. Components accept inputs called 'props' and return React elements to define what should appear on the screen.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "How do you pass data between components in React?",
+    "context": "React components often need to pass data between them, either from parent to child or child to parent.",
+    "response": "Data is passed between components using 'props' from parent to child. For passing data from child to parent, callback functions are passed down as props.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the difference between state and props in React?",
+    "context": "This is a common React question to test understanding of component state management.",
+    "response": "Props are used to pass data from parent to child components, and they are immutable. State is managed within the component and can be changed over time with 'setState' or the 'useState' hook in functional components.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What does the useEffect hook do in React?",
+    "context": "useEffect is an important React hook for managing side effects.",
+    "response": "The 'useEffect' hook allows you to perform side effects in functional components. It's a replacement for lifecycle methods like 'componentDidMount', 'componentDidUpdate', and 'componentWillUnmount'.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Can you explain JavaScript's event loop?",
+    "context": "This is a more advanced JavaScript question related to async programming.",
+    "response": "The event loop allows JavaScript to perform non-blocking operations by offloading tasks like I/O operations to the browser while JavaScript continues executing other code. Once the asynchronous operation completes, the event loop places its callback in the callback queue to be executed when the call stack is empty.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the virtual DOM in React?",
+    "context": "This question focuses on one of the key optimization concepts in React.",
+    "response": "The virtual DOM is a lightweight in-memory representation of the actual DOM. React uses the virtual DOM to efficiently update the real DOM by comparing differences and only applying the necessary changes (this process is called 'reconciliation').",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "True or False: React follows the MVC architecture.",
+    "context": "This is a true/false question to test the understanding of React's structure.",
+    "response": "False. React is a view library, not a complete MVC framework.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How would you optimize a React application for performance?",
+    "context": "This is an advanced React question that explores performance optimization techniques.",
+    "response": "Some ways to optimize a React app include: memoizing components using 'React.memo', lazy loading components using 'React.lazy', using 'useMemo' and 'useCallback' hooks to prevent unnecessary renders, splitting bundles, and avoiding unnecessary re-renders with key optimizations in state and props management.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What are higher-order components (HOCs) in React?",
+    "context": "HOCs are an advanced pattern in React used for code reuse.",
+    "response": "Higher-order components are functions that take a component and return a new component. HOCs are used to share common logic between components, such as adding extra props, handling subscriptions, or enhancing components with additional functionality.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Can you explain closures in JavaScript?",
+    "context": "This is an advanced JavaScript concept, often asked in interviews.",
+    "response": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. Closures allow inner functions to access variables defined in an outer function after the outer function has returned.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What does the 'useState' hook do in React?",
+    "context": "This is an intermediate React question about functional components.",
+    "response": "The 'useState' hook allows you to add state to functional components in React. It returns a state variable and a function to update that state.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How does JavaScript handle asynchronous operations?",
+    "context": "This is an intermediate JavaScript question on async programming.",
+    "response": "JavaScript handles asynchronous operations through callbacks, promises, and async/await. Promises represent the eventual completion or failure of an asynchronous operation, and async/await provides a more readable way to write asynchronous code.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the purpose of keys in React lists?",
+    "context": "This question checks for understanding of React's reconciliation process.",
+    "response": "Keys help React identify which items in a list have changed, been added, or removed. They should be unique among siblings and help with efficient re-rendering of lists.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What are controlled components in React?",
+    "context": "This is an intermediate question focusing on React forms.",
+    "response": "Controlled components in React are form elements where the form data is handled by the React component state. The input's value is controlled by the state, and updates to the input trigger state changes.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is a promise in JavaScript?",
+    "context": "This is a JavaScript question testing knowledge of asynchronous programming.",
+    "response": "A promise is an object representing the eventual completion or failure of an asynchronous operation. Promises provide methods like 'then', 'catch', and 'finally' to handle success, failure, and cleanup.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "context": "This is a common JavaScript question about data types.",
+    "response": "'undefined' means a variable has been declared but not assigned a value, while 'null' is an assignment value that represents no value or an intentional absence of any object.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "How can you prevent re-renders in React?",
+    "context": "This is an advanced React question about optimization.",
+    "response": "You can prevent unnecessary re-renders in React by using 'React.memo' for functional components, 'shouldComponentUpdate' for class components, and hooks like 'useMemo' and 'useCallback' to memoize values and functions.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the purpose of the 'useRef' hook in React?",
+    "context": "This is a React hook question for intermediate-level developers.",
+    "response": "The 'useRef' hook allows you to create a mutable reference that persists between renders. It is often used to reference DOM elements directly or to store any mutable value without causing re-renders.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is the difference between 'var', 'let', and 'const' in JavaScript?",
+    "context": "This is a fundamental JavaScript question about variable declaration.",
+    "response": "'var' has function scope, while 'let' and 'const' have block scope. 'const' is used for constants, and its value cannot be reassigned. 'let' allows reassignment, but 'var' and 'let' differ in scope and hoisting behavior.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Explain the use of async/await in JavaScript.",
+    "context": "This is an intermediate JavaScript question on async programming.",
+    "response": "'async' and 'await' are used to work with promises more easily. 'async' marks a function as asynchronous, and 'await' pauses the execution of the function until the promise is resolved or rejected.",
+    "category": "open_qa"
+  }
+]

@@ -1,0 +1,1742 @@
+[
+  {
+    "question": "The number of non-empty equivalence relations on the set {1,2,3} is:",
+    "options": [
+      {
+        "content": "6",
+        "identifier": "A"
+      },
+      {
+        "content": "7",
+        "identifier": "B"
+      },
+      {
+        "content": "5",
+        "identifier": "C"
+      },
+      {
+        "content": "4",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let the triangle PQR be the image of the triangle with vertices (1,3), (3,1) and (2, 4) in the line $x+2y=2$. If the centroid of $\\triangle PQR$ is the point (α, β), then $15(\\alpha-\\beta)$ is equal to:",
+    "options": [
+      {
+        "content": "24",
+        "identifier": "A"
+      },
+      {
+        "content": "19",
+        "identifier": "B"
+      },
+      {
+        "content": "21",
+        "identifier": "C"
+      },
+      {
+        "content": "22",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $f:R\\rightarrow R$ be a twice differentiable function such that $f(x+y)=f(x)f(y)$ for all x, $y\\in R$ If $f^{\\prime}(0)=4a$ and f staisfies $f^{\\prime\\prime}(x)-3a~f^{\\prime}(x)-f(x)=0,$ $a>0$ then the area of the region $\\chi=\\{(x,y)|0\\le y\\le f(ax),0\\le x\\le2\\}$ is:",
+    "options": [
+      {
+        "content": "$e^{2}-1$",
+        "identifier": "A"
+      },
+      {
+        "content": "$e^{4}+1$",
+        "identifier": "B"
+      },
+      {
+        "content": "$e^{4}-1$",
+        "identifier": "C"
+      },
+      {
+        "content": "$e^{2}+1$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $Z_{1},$ $Z_{2}$ and $Z_{3}$ be three complex numbers on the circle z $|=1~with~arg(z_{1})=\\frac{-\\pi}{4},arg(z_{3})=0~and~arg(z_{3})=\\frac{\\pi}{4}$. If $|z_{1}\\overline{z}_{2}+z_{2}\\overline{z}_{3}+z_{3}\\overline{z_{1}}|^{2}=\\alpha+\\beta\\sqrt{2},$ α, $\\beta\\in Z,$ then the value of $\\alpha^{2}+\\beta^{2}$ is:",
+    "options": [
+      {
+        "content": "24",
+        "identifier": "A"
+      },
+      {
+        "content": "41",
+        "identifier": "B"
+      },
+      {
+        "content": "31",
+        "identifier": "C"
+      },
+      {
+        "content": "29",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Using the principal values of the inverse trigonometric functions the sum of the maximum and the minimum values of $16(sec^{-1}x)^{2}+(cosec^{-1}x)^{2}$ is:",
+    "options": [
+      {
+        "content": "$24\\pi^{2}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$18\\pi^{2}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$31\\pi^{2}$",
+        "identifier": "C"
+      },
+      {
+        "content": "$22\\pi^{2}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "A coin is tossed three times. Let X denote the number of times a tail follows a head. If  and $\\sigma^{2}$ denote the mean and variance of X, then the value of $64(\\mu+\\sigma^{2})$ is :",
+    "options": [
+      {
+        "content": "51",
+        "identifier": "A"
+      },
+      {
+        "content": "48",
+        "identifier": "B"
+      },
+      {
+        "content": "32",
+        "identifier": "C"
+      },
+      {
+        "content": "64",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $a_{1}$, $a_{2},$ $a_{3}...$ be a G.P. of increasing positive terms. If $n_{1}a_{5}=28$ and $a_{2}+a_{4}=29$, the $a_{6}$ is equal to",
+    "options": [
+      {
+        "content": "628",
+        "identifier": "A"
+      },
+      {
+        "content": "526",
+        "identifier": "B"
+      },
+      {
+        "content": "784",
+        "identifier": "C"
+      },
+      {
+        "content": "812",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $L_{1}:\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $L_{2}:\\frac{x-2}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}$ be two lines. Then which of the following points lies on the line of the shortest distance between $L_{1}$ and $L_{2}$ ?",
+    "options": [
+      {
+        "content": "$(-\\frac{5}{3},-7,1)$",
+        "identifier": "A"
+      },
+      {
+        "content": "$(2,3,\\frac{1}{3})$",
+        "identifier": "B"
+      },
+      {
+        "content": "$(\\frac{8}{3},-1,\\frac{1}{3})$",
+        "identifier": "C"
+      },
+      {
+        "content": "$(\\frac{14}{3},-3,\\frac{22}{3})$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "If $\\sum_{r=1}^{n}T_{r}=\\frac{(2n-1)(2n+1)(2n+3)(2n+5)}{64}.$ , then $lim_{n\\rightarrow\\infty}\\sum_{r=1}^{n}(\\frac{1}{T_{r}})$ is equal to",
+    "options": [
+      {
+        "content": "1",
+        "identifier": "A"
+      },
+      {
+        "content": "0",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\frac{2}{3}$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\frac{1}{3}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "The product of all solutions of the equation $e^{5(log_{e}x)^{2}+3}=x^{8},$ $x>0$, is:",
+    "options": [
+      {
+        "content": "$e^{8/5}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$e^{6/5}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$e^{2}$",
+        "identifier": "C"
+      },
+      {
+        "content": "e",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "From all the English alphabets, five letters are chosen and are arranged in alphabetical order. The total number of ways, in which the middle letter is 'M', is:",
+    "options": [
+      {
+        "content": "14950",
+        "identifier": "A"
+      },
+      {
+        "content": "6084",
+        "identifier": "B"
+      },
+      {
+        "content": "4356",
+        "identifier": "C"
+      },
+      {
+        "content": "5148",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $x=x(y)$ be the solution of the differential equation $y^{2}dx+(x-\\frac{1}{y})dy=0.$ If $x(1)=1,$ then $x(\\frac{1}{2})$:",
+    "options": [
+      {
+        "content": "$\\frac{1}{2}+e$",
+        "identifier": "A"
+      },
+      {
+        "content": "$\\frac{3}{2}+e$",
+        "identifier": "B"
+      },
+      {
+        "content": "$3-e$",
+        "identifier": "C"
+      },
+      {
+        "content": "$3+e$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let the parabola $y=x^{2}+px-3,$ meet the coordinate axes at the points P, Q and R. If the circle C with centre at (-1, -1) passes through the points P, Q and R, then the area of APQR is:",
+    "options": [
+      {
+        "content": "4",
+        "identifier": "A"
+      },
+      {
+        "content": "6",
+        "identifier": "B"
+      },
+      {
+        "content": "7",
+        "identifier": "C"
+      },
+      {
+        "content": "5",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "A circle C of radius 2 lies in the second quadrant and touches both the coordinate axes. Let r be the radius of a circle that has centre at the point (2, 5) and intersects the circle C at exactly two points. If the set of all possible values of r is the interval (α, β), then 3B-2a is equal to:",
+    "options": [
+      {
+        "content": "15",
+        "identifier": "A"
+      },
+      {
+        "content": "14",
+        "identifier": "B"
+      },
+      {
+        "content": "12",
+        "identifier": "C"
+      },
+      {
+        "content": "10",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let for $f(x)=7tan^{8}x+7tan^{6}x-3~tan^{4}x-3~tan^{2}x$ $I_{i}=\\int_{0}^{\\pi/4}f(x)dx~and~I_{2}=\\int_{0}^{\\pi/4}xf(x)dx$ . Then $7I_{1}+12I_{2}$ is equal to:",
+    "options": [
+      {
+        "content": "$2\\pi$",
+        "identifier": "A"
+      },
+      {
+        "content": "π",
+        "identifier": "B"
+      },
+      {
+        "content": "1",
+        "identifier": "C"
+      },
+      {
+        "content": "2",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $f(x)$ be a real differentiable function such that $f(0)=1$ and $f(x+y)=f(x)f^{\\prime}(y)+f^{\\prime}(x)f(y)$ for all x, $y\\in R$ Then $\\sum_{n=1}^{100}log_{e}f(n)$ is equal to:",
+    "options": [
+      {
+        "content": "2384",
+        "identifier": "A"
+      },
+      {
+        "content": "2525",
+        "identifier": "B"
+      },
+      {
+        "content": "5220",
+        "identifier": "C"
+      },
+      {
+        "content": "2406",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $A=\\{1,2,3,......,10\\}$ and $B=\\{\\frac{m}{n}:m,n\\in A,m<n~and~gcd(m,n)=1\\}.$ Then $n(B)$ is equal to:",
+    "options": [
+      {
+        "content": "31",
+        "identifier": "A"
+      },
+      {
+        "content": "36",
+        "identifier": "B"
+      },
+      {
+        "content": "37",
+        "identifier": "C"
+      },
+      {
+        "content": "29",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "The area of the region, inside the circle $(x-2\\sqrt{3})^{2}+y^{2}=12$ and outside the parabola $y^{2}=2\\sqrt{3}xis$",
+    "options": [
+      {
+        "content": "$6\\pi-8$",
+        "identifier": "A"
+      },
+      {
+        "content": "$3\\pi-8$",
+        "identifier": "B"
+      },
+      {
+        "content": "$6\\pi-16$",
+        "identifier": "C"
+      },
+      {
+        "content": "$3\\pi+8$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Two balls are selected at random one by one without replacement from a bag containing 4 white and 6 black balls. If the probability that the first selected ball is black, given that the second selected ball is also black, is $\\frac{m}{n}$ where $gcd(m,n)=1,$ then $m+n$ is equal to:",
+    "options": [
+      {
+        "content": "14",
+        "identifier": "A"
+      },
+      {
+        "content": "4",
+        "identifier": "B"
+      },
+      {
+        "content": "11",
+        "identifier": "C"
+      },
+      {
+        "content": "13",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let the foci of a hyperbola be (1, 14) and (1, -12). If it passes through the point (1, 6), then the length of its latus-rectum is:",
+    "options": [
+      {
+        "content": "$\\frac{24}{5}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$\\frac{144}{5}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\frac{288}{5}$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\frac{25}{6}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "maths"
+  },
+  {
+    "question": "Let the function, $f(x)=\\begin{cases}-3ax^{2}-2,&x<1\\\\ a^{2}+bx,&x\\ge1\\end{cases}$ Be differentiable for all $x\\in R$ where $a>1$, $b\\in R$. If the area of the region enclosed by $y=f(x)$ and the line $y=-20$ is $\\alpha+\\beta\\sqrt{3}$, α, $\\beta,\\in Z$ then the value of $\\alpha+\\beta$ is.",
+    "options": null,
+    "correct_option": null,
+    "answer": "34",
+    "question_type": "answer",
+    "subject": "maths"
+  },
+  {
+    "question": "If $\\sum_{r=0}^{5}\\frac{11}C_{2r+1}}{2r+2}=\\frac{m}{n}$ $gcd(m,n)=1,$ then $m-n$ is equal to",
+    "options": null,
+    "correct_option": null,
+    "answer": "2035",
+    "question_type": "answer",
+    "subject": "maths"
+  },
+  {
+    "question": "Let A be a square matrix of order 3 such that $det(A)=-2$ and $det(3adj(-6adj(3A)))=2^{m+n}.3^{mm},$ $m>n$ Then $4m+\\underline{2n}$ is equal to",
+    "options": null,
+    "correct_option": null,
+    "answer": "34",
+    "question_type": "answer",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $L_{1}:\\frac{x-1}{3}=\\frac{y-1}{-1}=\\frac{z+1}{0}$ and $L_{2}:\\frac{x-2}{2}=\\frac{y}{0}=\\frac{z+4}{\\alpha}$ $\\alpha\\in R$, be two lines, which intersect at the point B. If P is the foot of perpendicular from the point $A(1,1,-1)$ on $L_{2},$ then the value of 26 $\\alpha(PB)^{2}$ is",
+    "options": null,
+    "correct_option": null,
+    "answer": "216",
+    "question_type": "answer",
+    "subject": "maths"
+  },
+  {
+    "question": "Let $\\vec{c}$ be the projection vector of $\\vec{b}=\\lambda\\hat{i}+4\\hat{k}$, $\\lambda>0,$ on the vector $\\vec{a}=\\hat{i}+2\\hat{j}+2\\hat{k}$. If | $|\\vec{a}+\\vec{c}|=7$ then the area of the parallelogram formed by the vectors b and $\\overline{c}$ is",
+    "options": null,
+    "correct_option": null,
+    "answer": "16",
+    "question_type": "answer",
+    "subject": "maths"
+  },
+  {
+    "question": "Given below are two statements: Statement I: In a vernier callipers, one vernier scale division is always smaller than one main scale division. Statement II: The vernier constant is given by one main scale division multiplied by the number of vernier scale division. In the light of the above statements, choose the correct answer from the options given below.",
+    "options": [
+      {
+        "content": "Both Statement I and Statement II are false.",
+        "identifier": "A"
+      },
+      {
+        "content": "Statement I is true but Statement II is false.",
+        "identifier": "B"
+      },
+      {
+        "content": "Both Statement I and Statement II are true.",
+        "identifier": "C"
+      },
+      {
+        "content": "Statement I is false but Statement II is true.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "A line charge of length $\\frac{a^{\\prime}}{2}$ is kept at the center of an edge BC of a cube ABCDEFGH having edge length 'a' as shown in the figure. If the density of line is AC per unit length, then the total electric flux through all the faces of the cube will be (Take, $\\epsilon_{0}$ as the free space permittivity)",
+    "options": [
+      {
+        "content": "$\\frac{\\lambda a}{8~\\epsilon_{0}}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$\\frac{\\lambda a}{16~\\epsilon_{0}}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\frac{\\lambda a}{2~\\epsilon_{0}}$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\frac{\\lambda a}{4~\\epsilon_{0}}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Sliding contact of a potentiometer is in the middle of the potentiometer wire having resistance $R_{p}=$ 12 as shown in the figure. An external resistance of $R_{\\epsilon}=2\\Omega$ is connected via the sliding contact.",
+    "options": [
+      {
+        "content": "0.3 A",
+        "identifier": "A"
+      },
+      {
+        "content": "1.35 A",
+        "identifier": "B"
+      },
+      {
+        "content": "1.0 A",
+        "identifier": "C"
+      },
+      {
+        "content": "0.9 A",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): If Young's double slit experiment is performed in an optically denser medium than air, then the consecutive fringes come closer. Reason (R): The speed of light reduces in an optically denser medium than air while its frequency does not change. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      {
+        "content": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "identifier": "A"
+      },
+      {
+        "content": "(A) is false but (R) is true.",
+        "identifier": "B"
+      },
+      {
+        "content": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "identifier": "C"
+      },
+      {
+        "content": "(A) is true but (R) is false.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Two spherical bodies of same materials having radii 0.2 m and 0.8 m are placed in same atmosphere. The temperature of the smaller body is 800 K and temperature of bigger body is 400 K. If the energy radiate from the smaller body is E, the energy radiated from the bigger body is (assume, effect of the surrounding to be negligible)",
+    "options": [
+      {
+        "content": "256 E",
+        "identifier": "A"
+      },
+      {
+        "content": "E",
+        "identifier": "B"
+      },
+      {
+        "content": "64 E",
+        "identifier": "C"
+      },
+      {
+        "content": "16 E",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "An amount of ice of mass $10^{-3}$ kg and temperature $-10^{\\circ}C$ is transformed to vapour of temperature $110^{\\circ}$ by applying heat. The total amount of work required for this conversion is, (Take, specific heat of $ice=2100~Jkg^{-1}K^{-1}$, specific heat of $ater=4180~Jkg^{-1}K^{-1}$, specific heat of $steam=1920~Jkg^{-1}K^{-1}$, Latent heat of $ice=3.35\\times10^{5}Jkg^{-1}$ and Latent heat of steam $=2.25\\times10^{6}Jkg^{-1})$",
+    "options": [
+      {
+        "content": "3022 J",
+        "identifier": "A"
+      },
+      {
+        "content": "3043 J",
+        "identifier": "B"
+      },
+      {
+        "content": "3003 J",
+        "identifier": "C"
+      },
+      {
+        "content": "3024 J",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "An electron in the ground state of the hydrogen atom has the orbital radius of $5.3\\times10^{-11}$ m while that for the electron in third excited state is $8.48\\times10^{-10}$ m. The ratio of the de Broglie wavelengths of electron in the ground state to that in excited state is",
+    "options": [
+      {
+        "content": "4",
+        "identifier": "A"
+      },
+      {
+        "content": "9",
+        "identifier": "B"
+      },
+      {
+        "content": "3",
+        "identifier": "C"
+      },
+      {
+        "content": "16",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "In the diagram given below, there are three lenses formed. Considering negligible thickness of each of them as compared to $[R_{i}]$ and $[R_{2}],$ i.e., the radii of curvature for upper and lower surfaces of the glass lens, the power of the combination is",
+    "options": [
+      {
+        "content": "$-\\frac{1}{6}(\\frac{1}{|R_{1}|}+\\frac{1}{|R_{2}|})$",
+        "identifier": "A"
+      },
+      {
+        "content": "$-\\frac{1}{6}(\\frac{1}{|R_{1}|}-\\frac{1}{|R_{2}|})$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\frac{1}{6}(\\frac{1}{|R_{1}|}+\\frac{1}{|R_{2}|})$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\frac{1}{6}(\\frac{1}{|R_{1}|}-\\frac{1}{|R_{2}|})$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "An electron is made to enters symmetrically between two parallel and equally but oppositely charged metal plates, each of 10 cm length. The electron emerges out of the field region with a horizontal component of velocity $10^{6}m/s.$ If the magnitude of the electric between the plates is 9.1 V/cm, then the vertical component of velocity of electron is (mass of electron $=9.1\\times10^{-31}$ kg and charge of electron $=1.6\\times10^{-19}C)$",
+    "options": [
+      {
+        "content": "$1\\times10^{6}m/s$",
+        "identifier": "A"
+      },
+      {
+        "content": "0",
+        "identifier": "B"
+      },
+      {
+        "content": "$16\\times10^{6}m/s$",
+        "identifier": "C"
+      },
+      {
+        "content": "$16\\times10^{4}m/s$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Which of the following resistivity (p) v/s temperature (T) curves is most suitable to be used in wire bound standard resistors?",
+    "options": [
+      {
+        "content": "",
+        "identifier": "A"
+      },
+      {
+        "content": "",
+        "identifier": "B"
+      },
+      {
+        "content": "",
+        "identifier": "C"
+      },
+      {
+        "content": "",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "A closed organ and an open organ tube filled by two different gases having same bulk modulus but different densities $\\rho_{1}$ and $\\rho_{2}$ respectively. The frequency of $9^{th}$ harmonic of closed tube is identical with $4^{\\prime h}$ harmonic of open tube. If the length of the closed tube is 10 cm and the density ratio of the gases is $\\rho_{1}:\\rho_{2}=1:16$, then the length of the open tube is:",
+    "options": [
+      {
+        "content": "$\\frac{20}{7}cm$",
+        "identifier": "A"
+      },
+      {
+        "content": "$\\frac{15}{7}cm$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\frac{20}{9}cm$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\frac{15}{9}cm$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "A uniform circular disc of radius ${}^{4}R^{\\prime}$ and mass ' $M^{\\prime}$ is rotating about an axis perpendicular to its plane and passing through its centre. A small circular part of radius $R/2$ is removed from the original disc as shown in the figure. Find the moment of inertia of the remaining part of the original disc about the axis as given above.",
+    "options": [
+      {
+        "content": "$\\frac{7}{32}MR^{2}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$\\frac{9}{32}MR^{2}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\frac{17}{32}MR^{2}$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\frac{13}{32}MR^{2}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "A small point of mass m is placed at a distance 2R from the centre 'O' of a big uniform solid sphere of mass M and radius R. The gravitational force on 'm' due to M is $F_{i}$ A spherical part of radius $R/3$ is removed from the big sphere as shown in the figure and the gravitational force on m due to remaining part of M is found to be $F_{2}$ The value of ratio $F_{1}:F_{2}$ is",
+    "options": [
+      {
+        "content": "16:9",
+        "identifier": "A"
+      },
+      {
+        "content": "11:10",
+        "identifier": "B"
+      },
+      {
+        "content": "12:11",
+        "identifier": "C"
+      },
+      {
+        "content": "12:9",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "The work functions of cesium (Cs) and lithium (Li) metals are 1.9 eV and 2.5 eV, respectively. If we incident a light of wavelength 550 nm on these two metal surface, then photo-electric effect is possible for the case of",
+    "options": [
+      {
+        "content": "Li only",
+        "identifier": "A"
+      },
+      {
+        "content": "Cs only",
+        "identifier": "B"
+      },
+      {
+        "content": "Neither Cs nor Li",
+        "identifier": "C"
+      },
+      {
+        "content": "Both Cs and Li",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "If B is magnetic field and $\\mu_{0}$ is permeability of free space, then the dimensions of $(B/\\mu_{0})$ is",
+    "options": [
+      {
+        "content": "$MT^{-2}A^{-1}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$L^{-1}A$",
+        "identifier": "B"
+      },
+      {
+        "content": "$LT^{-2}A^{-1}$",
+        "identifier": "C"
+      },
+      {
+        "content": "$ML^{2}T^{-2}A^{-1}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "A bob of mass m is suspended at a point O by a light string of length / and left to perform vertical motion (circular) as shown in figure. Initially, by applying horizontal velocity $v_{0}$ at the point ' $`A^{\\prime}$. the string becomes slack when, the bob reaches at the point ${}D^{\\prime}$. The ratio of the kinetic energy of the bob at the points B and C is",
+    "options": [
+      {
+        "content": "2",
+        "identifier": "A"
+      },
+      {
+        "content": "1",
+        "identifier": "B"
+      },
+      {
+        "content": "4",
+        "identifier": "C"
+      },
+      {
+        "content": "3",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Given below are two statements: Statement-I: The equivalent emf of two nonideal batteries connected in parallel is smaller than either of the two emfs. Statement-II: The equivalent internal resistance of two nonideal batteries connected in parallel is smaller than the internal resistance of either of the two batteries. In the light of the above statements, choose the correct answer from the options given below.",
+    "options": [
+      {
+        "content": "Statement-I is true but Statement-II is false",
+        "identifier": "A"
+      },
+      {
+        "content": "Both Statement-I and Statement-II are false",
+        "identifier": "B"
+      },
+      {
+        "content": "Both Statement-I and Statement-II are true",
+        "identifier": "C"
+      },
+      {
+        "content": "Statement-I is false but Statement-II is true",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Which of the following circuits represents a forward biased diode ?",
+    "options": [
+      {
+        "content": "(B), (D) and (E) only",
+        "identifier": "A"
+      },
+      {
+        "content": "(A) and (D) only",
+        "identifier": "B"
+      },
+      {
+        "content": "(B), (C) and (E) only",
+        "identifier": "C"
+      },
+      {
+        "content": "(C) and (E) only",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "A parallel-plate capacitor of capacitance 40µF is connected to a 100 V power supply. Now the intermediate space between the plates is filled with a dielectric material of dielectric constant $K=2.$ Due to the introduction of dielectric material, the extra charge and the change in the electrostatic energy in the capacitor, respectively, are -",
+    "options": [
+      {
+        "content": "2 mC and 0.2 J",
+        "identifier": "A"
+      },
+      {
+        "content": "8 mC and 2.0 J",
+        "identifier": "B"
+      },
+      {
+        "content": "4 mC and 0.2 J",
+        "identifier": "C"
+      },
+      {
+        "content": "2 mC and 0.4 J",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Given is a thin convex lens of glass (refractive index µ) and each side having radius of curvature R. One side is polished for complete reflection. At what distance from the lens, an object be placed on the optic axis so that the image gets formed on the object itself.",
+    "options": [
+      {
+        "content": "$R/\\mu$",
+        "identifier": "A"
+      },
+      {
+        "content": "$R/(2\\mu-3)$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\mu R$",
+        "identifier": "C"
+      },
+      {
+        "content": "$R/(2\\mu-1)$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "physics"
+  },
+  {
+    "question": "Two soap bubbles of radius 2 cm and 4 cm, respectively, are in contact with each other. The radius of curvature of the common surface, in cm, is",
+    "options": null,
+    "correct_option": null,
+    "answer": "4",
+    "question_type": "answer",
+    "subject": "physics"
+  },
+  {
+    "question": "The driver sitting inside a parked car is watching vehicles approaching from behind with the help of his side view mirror, which is a convex mirror with radius of curvature $R=2$ m. Another car approaches him from behind with a uniform speed of $90~km/hr$. When the car is at a distance of 24 m from him, the magnitude of the acceleration of the image of the side view mirror is 'a'. The value of 100a is $m/s^{2}$.",
+    "options": null,
+    "correct_option": null,
+    "answer": "8",
+    "question_type": "answer",
+    "subject": "physics"
+  },
+  {
+    "question": "Three conductions of same length having thermal conductivity $k_{1}$ $k_{2}$ and k, are connected as shown in figure. 100°C 0°C 1. $k_{1}$ 2. k, $0^{\\circ}C$ $3.k_{3}$ Area of cross sections of $1^{\\pi}$ and $2^{nd}$ conductor are same and for $3^{rd}$ conductor it is double of the $1^{*}$ conductor. The temperatures are given in the figure. In steady state condition, the value of $\\theta$ is ${}^{\\circ}C$ (Given: $k_{1}=60~Js^{-1}m^{-1}K^{-1}$, $k_{2}=120~Js^{-1}m^{-1}K^{-1}$, $k_{3}=$ $135~Js^{-1}m^{-1}K^{-1})$",
+    "options": null,
+    "correct_option": null,
+    "answer": "40",
+    "question_type": "answer",
+    "subject": "physics"
+  },
+  {
+    "question": "The position vectors of two 1 kg particles, (A) and (B), are given by $\\vec{r}_{A}=(\\alpha_{1}t^{2}\\hat{i}+\\alpha_{2}\\hat{tj}+\\alpha_{3}t\\hat{k})m$ and $\\vec{r}_{B}=(\\beta_{1}\\hat{ti}+\\beta_{2}t^{2}\\hat{j}+\\beta_{3}\\hat{t})m$ respectively; $(\\alpha_{1}=1~m/s^{2}$ $\\alpha_{2}=3n~m/s$, $\\alpha_{3}=2~m/s$, $\\beta_{1}=2~m/s$, $\\beta_{2}=-1~m/s^{2}$ $\\beta_{3}=4p~m/s)$ where t is time, n and p are constants, $At~t=Is$, $|\\vec{V}_{A}|=|\\vec{V}_{B}|$ and velocities $\\vec{V}_{A}$ and $\\tilde{V}_{B}$ of the particles are orthogonal to each other. Att $t=1$ s, the magnitude of angular momentum of particle (A) with respect to the position of particle (B) is $\\sqrt{L}kgm^{2}s^{-1}$. The value of L is",
+    "options": null,
+    "correct_option": null,
+    "answer": "90",
+    "question_type": "answer",
+    "subject": "physics"
+  },
+  {
+    "question": "A particle is projected at an angle of $30^{\\circ}$ from horizontal at a speed of 60 $m/s.$ The height traversed by the particle in the first second is $h_{0}$ and height traversed in the last second, before it reaches the maximum height, is h,. The ratio $h_{0}:h_{t}$ is [Take, $g=10~m/s^{2}]$",
+    "options": null,
+    "correct_option": null,
+    "answer": "5",
+    "question_type": "answer",
+    "subject": "physics"
+  },
+  {
+    "question": "A solution of aluminium chloride is electrolysed for 30 minutes using a current of 2A. The amount of the aluminium deposited at the cathode is [Given: molar mass of aluminium and chlorine are $27~g~mol^{-1}$ and $35.5~g~mol^{-1}$ respectively, Faraday $constant=96500~C~mol^{-1}].$",
+    "options": [
+      {
+        "content": "1.660 g",
+        "identifier": "A"
+      },
+      {
+        "content": "1.007 g",
+        "identifier": "B"
+      },
+      {
+        "content": "0.336 g",
+        "identifier": "C"
+      },
+      {
+        "content": "0.441 g",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Which of the following statement is not true for radioactive decay ?",
+    "options": [
+      {
+        "content": "Amount of radioactive substance remained after three half lives is $\\frac{1}{8}t$ th of original amount.",
+        "identifier": "A"
+      },
+      {
+        "content": "Decay constant does not depend upon temperature.",
+        "identifier": "B"
+      },
+      {
+        "content": "Decay constant increases with increase in temperature.",
+        "identifier": "C"
+      },
+      {
+        "content": "Half life is In 2 times of rate constant",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "How many different stereoisomers are possible for the given molecule ? CH3 ${}_{3}-CH-CH=CH-CH_{3}$ OH",
+    "options": [
+      {
+        "content": "3",
+        "identifier": "A"
+      },
+      {
+        "content": "1",
+        "identifier": "B"
+      },
+      {
+        "content": "2",
+        "identifier": "C"
+      },
+      {
+        "content": "4",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Which of the following electronegativity order incorrect?",
+    "options": [
+      {
+        "content": "$Al<Mg<B<N$",
+        "identifier": "A"
+      },
+      {
+        "content": "$Al<Si<C<N$",
+        "identifier": "B"
+      },
+      {
+        "content": "$Mg<Be<B<N$",
+        "identifier": "C"
+      },
+      {
+        "content": "$S<Cl<0<F$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Lanthanoid ions with $4f^{7}$ configuration are: (A) $Eu^{2+}$ (B) $Gd^{3+}$ (C) $Eu^{3+}$ (D) $Tb^{3+}$ (E) $Sm^{2+}$ Choose the correct answer from the options given below:",
+    "options": [
+      {
+        "content": "(A) and (B) only",
+        "identifier": "A"
+      },
+      {
+        "content": "(A) and (D) only",
+        "identifier": "B"
+      },
+      {
+        "content": "(B) and (E) only",
+        "identifier": "C"
+      },
+      {
+        "content": "(B) and (C) only",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Match List-I with List-II List-1 List-II (A) $Al^{3+}<Mg^{2+}<Na^{+}<F^{-}$ (I) Ionisation Enthalpy (B) $B<C<0<N$ (II) Metallic character (C) $B<Al<Mg<K$ (III) Electronegativity (D) $S_{1}<P<S<Cl$ (IV) Ionic radii Choose the correct answer from the options given below:",
+    "options": [
+      {
+        "content": "A-IV, B-I, C-III, D-II",
+        "identifier": "A"
+      },
+      {
+        "content": "A-II, B-III, C-IV, D-I",
+        "identifier": "B"
+      },
+      {
+        "content": "A-IV, B-I, C-II, D-III",
+        "identifier": "C"
+      },
+      {
+        "content": "A-III, B-IV, C-II, D-I",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Which of the following acids is a vitamin?",
+    "options": [
+      {
+        "content": "Adipic acid",
+        "identifier": "A"
+      },
+      {
+        "content": "Aspartic acid",
+        "identifier": "B"
+      },
+      {
+        "content": "Ascorbic acid",
+        "identifier": "C"
+      },
+      {
+        "content": "Saccharic acid",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "A liquid when kept inside a thermally insulated closed vessel at $25^{\\circ}C$ was mechanically stirred from outside. What will be the correct option for the following thermodynamic parameters ?",
+    "options": [
+      {
+        "content": "$\\Delta U>0,$ $q=0,$ $w>0$",
+        "identifier": "A"
+      },
+      {
+        "content": "$\\Delta U=0,$ $q=0$, $w=0$",
+        "identifier": "B"
+      },
+      {
+        "content": "$\\Delta U<0,$ $q=0,$ $w>0$",
+        "identifier": "C"
+      },
+      {
+        "content": "$\\Delta U=0,$ $q<0$, $w>0$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Radius of the first excited state of Helium ion is given as: $a_{o}$ radius of first stationary state of hydrogen atom.",
+    "options": [
+      {
+        "content": "$r=\\frac{a_{o}}{2}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$r=\\frac{a_{0}}{4}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$r=4a,$",
+        "identifier": "C"
+      },
+      {
+        "content": "$r=2a_{0}$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Given below are two statements: Statement $I:CH_{3}-O-CH_{2}-Cl$ will undergo $S_{N}1$ reaction though it is a primary halide. Statement II CH-C-CH2-Cl will not undergo $S_{N}2$ reaction very easily though it is a primary halide. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      {
+        "content": "Statement I is incorrect but Statement II is correct.",
+        "identifier": "A"
+      },
+      {
+        "content": "Both Statement I and Statement II are incorrect",
+        "identifier": "B"
+      },
+      {
+        "content": "Statement I is correct but Statement II is incorrect",
+        "identifier": "C"
+      },
+      {
+        "content": "Both Statement I and Statement II are correct.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Given below are two statements: Statement I: One mole of propyne reacts with excess of sodium to liberate half a mole of $H_{2}$ gas. Statement II: Four g of propyne reacts with $NaNH_{2}$ to liberate $NH_{3}$ gas which occupies 224 mL at STP. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      {
+        "content": "Statement I is correct but Statement II is incorrect.",
+        "identifier": "A"
+      },
+      {
+        "content": "Both Statement I and Statement II are incorrect",
+        "identifier": "B"
+      },
+      {
+        "content": "Statement I is incorrect but Statement II is correct",
+        "identifier": "C"
+      },
+      {
+        "content": "Both Statement I and Statement II are correct.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "A vessel at 1000 K contains $CO_{2}$ with a pressure of 0.5 atm. Some of $CO_{2}$ is converted into CO on addition of graphite. If total pressure at equilibrium is 0.8 atm, then $K_{P}$ is:",
+    "options": [
+      {
+        "content": "0.18 atm",
+        "identifier": "A"
+      },
+      {
+        "content": "1.8 atm",
+        "identifier": "B"
+      },
+      {
+        "content": "0.3 atm",
+        "identifier": "C"
+      },
+      {
+        "content": "3 atm.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "The IUPAC name of the following compound is: COOH COOCH3 CH3-CH-CH2-CH2-CH-CH3",
+    "options": [
+      {
+        "content": "2-Carboxy-5-methoxycarbonylhexane.",
+        "identifier": "A"
+      },
+      {
+        "content": "Methyl-6-carboxy-2,5-dimethylhexanoate.",
+        "identifier": "B"
+      },
+      {
+        "content": "Methyl-5-carboxy-2-methylhexanoate.",
+        "identifier": "C"
+      },
+      {
+        "content": "6-Methoxycarbonyl-2,5-dimethylhexanoic acid.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Which of the following electrolyte can be sued to obtain $H_{2}S_{2}O_{8}$ by the process of electrolysis?",
+    "options": [
+      {
+        "content": "Dilute solution of sodium sulphate",
+        "identifier": "A"
+      },
+      {
+        "content": "Dilute solution of sulphuric acid",
+        "identifier": "B"
+      },
+      {
+        "content": "Concentrated solution of sulphuric acid",
+        "identifier": "C"
+      },
+      {
+        "content": "Acidified dilute solution of sodium sulphate.",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "The compounds which give positive Fehling's test are: (A) CHO CH3 (B) (C) $HOCH_{2}-CO-(CHOH)_{3}-CH_{2}-OH$ Ο CH3-CH (D) CH3-C-H CHO (E) Choose the CORRECT answer from the options given below:",
+    "options": [
+      {
+        "content": "(A),(C) and (D) Only",
+        "identifier": "A"
+      },
+      {
+        "content": "(A),(D) and (E) Only",
+        "identifier": "B"
+      },
+      {
+        "content": "(C), (D) and (E) Only",
+        "identifier": "C"
+      },
+      {
+        "content": "(A), (B) and (C) Only",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "In which of the following complexes the CFSE, $\\Delta_{0}$ will be equal to zero?",
+    "options": [
+      {
+        "content": "$[Fe(NH_{3})_{6}]Br_{2}$",
+        "identifier": "A"
+      },
+      {
+        "content": "$[Fe(en)_{3}]Cl_{3}$",
+        "identifier": "B"
+      },
+      {
+        "content": "$K_{4}[Fe(CN)_{6}]$",
+        "identifier": "C"
+      },
+      {
+        "content": "$K_{3}[Fe(SCN)_{6}]$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "D"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Arrange the following solutions in order of their increasing boiling points. (i) $10^{-4}M~NaCl$ (ii) $10^{-4}$ M Urea (iii) $10^{-3}M~NaCl$ (iv) $10^{-2}$ M NaCl",
+    "options": [
+      {
+        "content": "$(ii)<(i)<(iii)<(iv)$",
+        "identifier": "A"
+      },
+      {
+        "content": "$(ii)<(i)\\cong(iii)<(iv)$",
+        "identifier": "B"
+      },
+      {
+        "content": "$(i)<(ii)<(iiii)<(iv)$",
+        "identifier": "C"
+      },
+      {
+        "content": "$(iv)<(iii)<(i)<(ii)$",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "The products formed in the following reaction sequence are: $NO_{2}$ (i) $Br_{2}$ AcOH (ii) Sn, HCl (iii) $NaNO_{2}.$ HCI, 273 K (iv) C2H5OH → $A+B$",
+    "options": [
+      {
+        "content": "$NO_{2}$ Br Br + CH3-COOH",
+        "identifier": "A"
+      },
+      {
+        "content": "NH2 Br Br + EtOH",
+        "identifier": "B"
+      },
+      {
+        "content": "Ο Br + CH3-CHO",
+        "identifier": "C"
+      },
+      {
+        "content": "OEt Br + CH3-CHO",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "C"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "From the magnetic behaviour of $[NiCl_{4}]^{2}$ (paramagnetic) and $[Ni(CO)_{4}]$ (diamagnetic), choose the correct geometry and oxidation state.",
+    "options": [
+      {
+        "content": "$[NiCl_{4}]^{2-}:Ni^{11}$ square planar $[Ni(CO)_{4}]$: $Ni(0)$ square planar",
+        "identifier": "A"
+      },
+      {
+        "content": "$[NiCl_{4}]^{2-}:Ni^{II}$ tetrahedral $[Ni(CO)_{4}]:Ni(0)$, tetrahedral",
+        "identifier": "B"
+      },
+      {
+        "content": "$[NiCl_{4}]^{2-}:Ni^{11}$ tetrahedral $[Ni(CO)_{4}]:Ni^{II},$ square planar",
+        "identifier": "C"
+      },
+      {
+        "content": "$[NiCl_{4}]^{2-}$: $Ni(0)$, tetrahedral $[Ni(CO)_{4}]$: $Ni(0)$, square planar",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "B"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "The incorrect statements regarding geometrical isomerism are: (A) Propene shows geometrical isomerism. (B) Trans isomer has identical atoms/groups on the opposite sides of the double bond. (C) Cis-but-2-ene has higher dipole moment than trans-but-2-ene. (D) 2-methylbut-2-ene shows two geometrical isomers. (E) Trans-isomer has lower melting point that cis isomer. Choose the CORRECT answer from the options given below:",
+    "options": [
+      {
+        "content": "(A), (D) and (E) only",
+        "identifier": "A"
+      },
+      {
+        "content": "(C), (D) and (E) only",
+        "identifier": "B"
+      },
+      {
+        "content": "(B) and (C) only",
+        "identifier": "C"
+      },
+      {
+        "content": "(A) and (E) only",
+        "identifier": "D"
+      }
+    ],
+    "correct_option": [
+      "A"
+    ],
+    "answer": null,
+    "question_type": "mcq",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Some $CO_{2}$ gas was kept in a sealed container at a pressure of 1 atm and at 273 K. This entire amount of $CO_{2}$ gas was later passed through an aqueous solution of $Ca(OH)_{2}$ The excess unreacted $Ca(OH)_{2}$ was later neutralized with 0.1 M of 40 mL HCl. If the volume of the sealed container of $CO_{2}$ was x, then x is $cm^{3}$ (nearest integer). [Given: The entire amount of $CO_{2}(g)$ reacted with exactly half the initial amount of $Ca(OH)_{2}$ present in the aqueous solution.]",
+    "options": null,
+    "correct_option": null,
+    "answer": "45",
+    "question_type": "answer",
+    "subject": "chemistry"
+  },
+  {
+    "question": "In Carius method for estimation of halogens, 180 mg of an organic compound produced 143.5 mg of AgCl. The percentage composition of chlorine in the compound is %. [Given: molar mass in g $nol^{-1}$ of $Ag:108$ $Cl=35.5]$",
+    "options": null,
+    "correct_option": null,
+    "answer": "20",
+    "question_type": "answer",
+    "subject": "chemistry"
+  },
+  {
+    "question": "The number of molecules/ions that show linear geometry among the following is $SO_{2}$ $BeCl_{2}$, $CO_{2}$, ${N_{3}}^{-}$, $NO_{2}$, $0,7$ $XeF_{2}$, ${NO_{2}}^{+}$ $I_{3}$, $O_{3}$",
+    "options": null,
+    "correct_option": null,
+    "answer": "6",
+    "question_type": "answer",
+    "subject": "chemistry"
+  },
+  {
+    "question": "$A\\rightarrow B$ The molecule A changes into its isomeric form B by following a first order kinetics at a temperature of 1000 K. If the energy barrier with respect to reactant energy for such isomeric transformation is $191.48~kJ~mol^{-1}$ and the frequency factor is $10^{20},$ the time required for 50%, molecules of A to become B is picoseconds (nearest integer). $[R=8.314J~K^{-1}mol^{-1}]$",
+    "options": null,
+    "correct_option": null,
+    "answer": "69",
+    "question_type": "answer",
+    "subject": "chemistry"
+  },
+  {
+    "question": "Consider the following sequence of reactions: $NO2$ (i) $Sn+HCl$ (ii) NaNO2, HCI 0°C (iii) $Cu_{2}Cl_{2}$ A Product (iv) Na, Ether Molar mass of the product formed (A) is g mol¹.",
+    "options": null,
+    "correct_option": null,
+    "answer": "154",
+    "question_type": "answer",
+    "subject": "chemistry"
+  }
+]
