@@ -1,0 +1,12 @@
+face_recognition @ git+https://github.com/lovnishverma/face_recognition.git
+opencv-python-headless
+flask
+pillow
+pathlib
+numpy
+dill
+gunicorn
+deepface
+tf-keras
+pymongo
+dnspython
